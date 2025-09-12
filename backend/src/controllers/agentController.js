@@ -55,10 +55,11 @@ const generateStudyGuide = asyncHandle(async (req, res) => {
         ${textContent}
         ---
 
-        Instructions:
+       Instructions:
         - The summary should have a maximum of 12 bullet points.
         - The study plan should be broken into actionable blocks.
-        - The MCQs must have the correct answer clearly labeled with "ANS:".
+        - For the MCQs, ensure each option (e.g., a), b), c), d)) is on a new, separate line.
+        - The answer for each MCQ MUST be on its own new line after all the options, formatted exactly as: "Answer: [correct letter]".
         - The entire output MUST be tailored to the USER'S SPECIFIC REQUEST above.
         - Format the final output using clear headings for each section (e.g., "## Summary", "## Study Plan", "## Revision Questions").
     `;
@@ -67,7 +68,7 @@ const generateStudyGuide = asyncHandle(async (req, res) => {
     const response= await result.response;
     const aiResponse= response.text();
 
-    const logFilePath=path.join(process.cwd(),'interaction_logs', 'agent_interaction_logs.md');
+    const logFilePath=path.join(process.cwd(),'..','interaction_logs', 'agent_interaction_logs.md');
     
     const logContent = `
         ## Agent Interaction on ${new Date().toISOString()}
