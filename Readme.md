@@ -1,92 +1,100 @@
-# AI Notes Agent: Lecture Summarizer & Study Planner
+# 🚀 Syllanapse AI: Your Personal Academic Assistant
 
-This project is a submission for the Software Engineer intern task. It is an AI-powered agent designed to help students automate their study workflow by processing lecture notes.
-
----
-
-### **Core Information**
-
--   **Author:** Rohit Guleria
--   **University:** IIT (ISM) Dhanbad
--   **Department:** Chemical Engineering
+This project is a submission for the Software Engineer intern task. Syllanapse AI is an intelligent agent designed to automate the student workflow, transforming dense lecture notes into actionable and personalized study materials.
 
 ---
 
-## What It Does
+### **✨ Key Features**
 
-This agent takes lecture notes (in `.txt` or `.pdf` format) and performs three key actions:
-
-1.  **Reasoning:** It analyzes the content to understand the core concepts.
-2.  **Planning:** It generates a structured 3-hour study plan based on the material.
-3.  **Execution:** It creates a concise summary and a set of multiple-choice questions (MCQs) for revision.
-
-## Tech Stack
-
--   **Frontend:** React, TailwindCSS
--   **Backend:** Node.js, Express
--   **AI Model:** Google Gemini API (`gemini-1.5-flash-latest`)
--   **File Handling:** Multer, pdf-parse
+* **Multi-Format Input:** Upload your notes as either `.pdf` or `.txt` files.
+* **Intelligent Text Extraction:** A robust backend pipeline extracts clean, usable text from your documents.
+* **Collaborative AI Engine:** Don't just get a static summary. You can co-pilot the AI by:
+    * Choosing a specific **Output Mode** (Full Study Guide, Summary Only, Detailed Plan, or Quiz Mode).
+    * Providing a **Custom Prompt** for a completely tailored response.
+* **Server-Side PDF Generation:** Download your AI-generated study guide as a clean, portable PDF to study anywhere, anytime.
+* **Polished & Responsive UI:** A modern, dark-themed UI built with React and Tailwind CSS for a seamless experience on any device.
 
 ---
 
-## How to Run This Project
+### **🎬 Demo Video**
 
-### Prerequisites
+A short, 2-minute demonstration of the application in action can be found here:
 
--   Node.js and npm installed
--   A Google Gemini API Key
+**(Your Unlisted YouTube Link Will Go Here)**
 
-### Setup & Installation
+---
 
-1.  **Clone the repository:**
-    ```bash
-    git clone <your-repository-url>
-    cd notes-agent
-    ```
+### **🛠️ Tech Stack**
 
-2.  **Setup Backend:**
+| Area    | Technologies                                       |
+| ------- | -------------------------------------------------- |
+| **Frontend** | React, Vite, Tailwind CSS, Axios, `react-markdown` |
+| **Backend** | Node.js, Express, `multer`, `pdf-parse`, `PDFKit`    |
+| **AI Core** | Google Gemini API (`gemini-1.5-flash-latest`)        |
+
+---
+
+### **🚀 How to Run This Project Locally**
+
+#### **Prerequisites**
+* Node.js (v18 or higher) and npm installed.
+* A Google Gemini API Key.
+
+#### **1. Clone the Repository**
+```bash
+git clone <your-repository-url>
+cd syllanapse-ai
+```
+#### **2. Setup the Backend**
+```bash
+cd backend
+npm install
+
+# Create the environment file
+cp .env.example .env
+Now, open the new .env file and add your Google Gemini API key:
+GEMINI_API_KEY="YOUR_API_KEY_HERE"
+
+```
+
+#### **3. Setup the Frontend**
+```bash
+cd ../frontend
+npm install
+```
+#### **4. Run the Application**
+You will need **two separate terminals** to run the application.
+
+* **Terminal 1 (Backend):**
     ```bash
     cd backend
-    npm install
-    cp .env.example .env
+    npm run dev
     ```
-    -   Now, open the `.env` file and add your Google Gemini API key:
-        `GEMINI_API_KEY="YOUR_API_KEY_HERE"`
+    *The server will be running on `http://localhost:4000`*
 
-3.  **Setup Frontend:**
-    ```bash
-    cd ../frontend
-    npm install
-    ```
-
-### Running the Application
-
-You will need two separate terminals to run both the backend and frontend servers.
-
-1.  **Run Backend Server:** (In your first terminal)
-    ```bash
-    cd backend
-    npm start
-    ```
-    _The server will be running on `http://localhost:8000`_
-
-2.  **Run Frontend Client:** (In your second terminal)
+* **Terminal 2 (Frontend):**
     ```bash
     cd frontend
-    npm start
+    npm run dev
     ```
-    _The application will open automatically in your browser at `http://localhost:3000`_
+    *The application will open automatically in your browser, likely at `http://localhost:5173`*
 
 ---
 
-## Deliverables Checklist
+### 📂 Project Deliverables
 
 All required deliverables for this task can be found within this repository:
 
--   [x] **Source Code:** The `frontend/` and `backend/` directories.
--   [ ] **System Design Document:** `design/system_design.md`
--   [ ] **Interaction Logs:**
-    -   `interaction_logs/dev_interactions.md` (Logs of AI-assisted development)
-    -   `interaction_logs/agent_interaction_logs.md` (Logs of the agent's usage)
--   [ ] **(Optional) Demo:**
-    _Screenshots or a video link will be added here upon completion._
+- [x] **Source Code:** The `frontend/` and `backend/` directories.
+- [x] **System Design Document:** A comprehensive document in `design/system_design.md`.
+- [x] **Architecture Diagram:** A detailed PNG diagram in `design/architecture.png`.
+- [x] **Interaction Logs:**
+  - `interaction_logs/agent_interaction_logs.md` (Logs of the agent's usage).
+  - `interaction_logs/dev_interactions.md` (Curated logs of my development process with an LLM).
+
+---
+
+### 📜 License & Copyright
+
+&copy; 2025, Rohit Guleria. All rights reserved.
+
