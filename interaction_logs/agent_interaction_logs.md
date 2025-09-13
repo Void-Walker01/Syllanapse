@@ -2573,3 +2573,595 @@ d)  The application of Fault Tree Analysis.
         
 
     
+        ## Agent Interaction on 2025-09-13T11:59:23.056Z
+        ---
+        **Model:** gemini-1.5-flash-latest
+        **User's Custom Prompt:** 
+        **Full Prompt Sent to API:**
+        ```
+        
+                From the following notes, create a complete study guide with:  
+
+                1. **A concise bullet-point summary** (max 12 points).  
+                2. **A prioritized 3-hour study plan**, broken into time blocks.  
+                3. **At least 5 multiple-choice questions with answers**.  
+
+                Formatting rules:  
+                - Use clear headings and subheadings.  
+                - Keep all points on new lines (no long paragraphs).  
+                - Bold important terms for emphasis.  
+                - Maintain spacing for readability in UI.  
+
+                NOTES:  
+                ---  
+                
+
+Course: CHC303 Process Design and Economics
+Module: Process Economics
+5
+th
+Semester 
+BTech
+(Chemical 
+Engg
+.)
+Time Value of Money
+Instructor: Dr. D. Krishna Sandilya
+5
+th
+Semester 
+BTech
+(Chemical 
+Engg
+.)
+IIT (ISM), Dhanbad
+Monsoon Semester (2025 – 2026)
+1
+Slides courtesy: www.msubbu.in
+
+Time Value of Money
+Money
+2
+
+Time Value of Money
+Which would you rather have ?? 
+$1,000 today $1,000 today 
+or 
+$1,000 in $1,000 in 
+5 years?5 years?
+Obviously, 
+$1,000 today$1,000 today
+.
+Money received sooner rather than later allows 
+one to use the funds for investment or 
+3
+one to use the funds for investment or consumption purposes.  This concept is referred to as the  
+TIME VALUE OF TIME VALUE OF 
+MONEYMONEY
+!!
+Money + Time = more MoneyRemember, one CANNOT compare numbers in 
+different time periods
+without first adjusting 
+them using an interest rate.
+
+Interest
+Interest  is  a  charge  for  borrowing  money,  usuallystated as a percentage of the amount borrowed overa specific period of time.A
+large
+part
+of
+business
+activity
+is
+based
+on
+the
+fact
+4
+A
+large
+part
+of
+business
+activity
+is
+based
+on
+the
+fact
+that  money  can  be  borrowed  or  loaned.  Whenmoney is loaned there is always a risk that it may notbe returned. Interest is the inducement offered tomake the risk acceptable.
+
+Interest
+“When money is lent on a contract to receive not only theprincipal  sum  again,  but  also  an  increase  by  way  ofcompensation for the use, the increase is called
+interest
+by
+those who think it lawful, and
+usury
+by those who do not."
+(
+Blackstone's  Commentaries  on  the  Laws  of  England
+,
+pp
+.
+1336
+,
+1769
+)
+.
+5
+pp
+.
+1336
+,
+1769
+)
+.
+In economics, interest is considered the price of credit.Interest is often compounded, which means that interest isearned on prior interest in addition to the principal. Thetotal amount of debt grows exponentially.
+
+Interest Rate
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12
+
+13
+
+14
+
+15
+
+16
+
+17
+
+18
+
+19
+
+20
+
+21
+
+22
+
+23
+
+24
+
+25
+
+26
+
+27
+
+28
+
+29
+
+30
+
+31
+
+32
+
+33
+
+34
+
+35
+
+36
+
+37
+
+38
+
+39
+
+40
+
+References
+Time Value of Money
+1.
+Peters, M. S., K. D. Timmerhaus, R. E. West, Plant Design an
+d Economics for Chemical
+Engineers, 5
+th
+Edition, McGraw-Hill Education (India) Provate Limited, N
+ew Delhi,
+2011.
+2.
+Towler, G., R. Sinnott, Chemical Engineering Design – Pri
+nciples, Practice, Economics
+of Plant and Process Design, Butterworth-Heinemann, Burli
+ngton, 2008.
+41
+3.
+Silla, H., Chemical Process Engineering Design and Econo
+mics, Marcel Dekker, Inc.,
+New York, 2003.
+4.
+Simpson , R., S. K. Sastry, Chemical and Bioprocess Engine
+ering, Springer, New York,
+2013.
+5.
+James R. Couper, Process Engineering Economics, Marcel D
+ekker, Inc., New York,
+2003.  
+                ---  
+            
+        ```
+        **Response Received from API:**
+        ```
+        ## CHC303 Process Design and Economics: Process Economics Study Guide
+
+**1. Concise Bullet-Point Summary:**
+
+* **Time Value of Money (TVM):** Money received today is worth more than the same amount received in the future due to its potential earning capacity.
+* **Interest:** A charge for borrowing money, representing the cost of credit.
+* **Compounding:** Interest earned on both principal and accumulated interest.  This leads to exponential growth of debt or investment.
+* **Risk and Return:**  Higher risk investments generally offer a higher potential return (interest).
+* **Present Worth:** The current value of a future sum of money.
+* **Future Worth:** The value of an investment at a specified date in the future.
+* **Interest Rate:** The percentage charged on borrowed money or earned on invested money.  A crucial factor in TVM calculations.
+* **Comparing Values Across Time:**  Requires adjusting values using an appropriate interest rate.
+* **Investment Decisions:**  TVM is fundamental for evaluating the financial viability of projects.
+* **Economic Analysis:** TVM aids in comparing different investment options with varying timelines.
+* **Usury:** Historically, the term for charging excessive interest (ethically problematic).
+* **Price of Credit:** In economics, interest is viewed as the price paid for borrowing funds.
+
+
+**2. Prioritized 3-Hour Study Plan:**
+
+**Hour 1: Understanding Core Concepts (60 minutes)**
+
+* (15 minutes) Review the bullet-point summary, focusing on definitions of key terms like **Time Value of Money**, **Interest**, and **Compounding**.
+* (30 minutes) Carefully read sections of the textbook (Peters et al., Towler & Sinnott, etc.) explaining the fundamentals of TVM and the concept of the **price of credit**.  Take notes and highlight key formulas.
+* (15 minutes)  Work through examples illustrating how to calculate simple interest.
+
+**Hour 2:  Applying Concepts & Problem Solving (60 minutes)**
+
+* (30 minutes) Solve problems involving the calculation of simple and compound interest.  Practice different scenarios (e.g., calculating future value, present value).
+* (30 minutes) Focus on understanding the impact of different interest rates and time periods on investment outcomes.
+
+
+**Hour 3:  Review and Practice Questions (60 minutes)**
+
+* (15 minutes) Review your notes and highlight areas where you feel less confident.
+* (30 minutes) Complete the multiple-choice questions below and review the answers.
+* (15 minutes)  Review relevant sections in your textbook to clarify any remaining doubts.
+
+
+**3. Multiple-Choice Questions:**
+
+**1. Which of the following best describes the Time Value of Money (TVM)?**
+a) Money has the same value regardless of when it's received.
+b) Money received in the future is worth more than money received today.
+c) **Money received today is worth more than the same amount received in the future.**
+d) The value of money is independent of interest rates.
+
+**2.  Interest is best defined as:**
+a) A penalty for late payments.
+b) A reward for saving money.
+c) **A charge for borrowing money.**
+d) A tax on financial transactions.
+
+**3. What is compounding?**
+a) A method of calculating simple interest.
+b) The process of reducing the principal amount of a loan.
+c) **The process of earning interest on both principal and accumulated interest.**
+d) A type of investment with low risk.
+
+**4.  Why is it important to consider the time value of money in investment decisions?**
+a) It makes financial statements look more complex.
+b) It is a regulatory requirement.
+c) **It allows for accurate comparison of investments with different time horizons.**
+d) It simplifies the investment process.
+
+**5.  What does "usury" historically refer to?**
+a)  The practice of investing in stocks.
+b)  The fair market rate for borrowing money.
+c)  **The practice of lending money at excessively high interest rates.**
+d) The process of calculating compound interest.
+
+
+
+        ```
+        
+
+    
+        ## Agent Interaction on 2025-09-13T12:01:23.159Z
+        ---
+        **Model:** gemini-1.5-flash-latest
+        **User's Custom Prompt:** as an professor of college give me important questions and concepts for my exam and make it perfectly formatted and easy to read
+        **Full Prompt Sent to API:**
+        ```
+        
+            SYSTEM: You are an expert academic assistant.  
+
+            USER REQUEST: "as an professor of college give me important questions and concepts for my exam and make it perfectly formatted and easy to read"  
+
+            TASK: Generate study notes based on the user's request.  
+            - Use clean formatting with proper spacing, line breaks, and indentation.  
+            - Use headings, subheadings, and bullet points where relevant.  
+            - Ensure the response is easy to read and visually neat in UI.  
+
+            NOTES:  
+            ---  
+            
+
+Course: CHC303 Process Design and Economics
+Module: Process Economics
+5
+th
+Semester 
+BTech
+(Chemical 
+Engg
+.)
+Time Value of Money
+Instructor: Dr. D. Krishna Sandilya
+5
+th
+Semester 
+BTech
+(Chemical 
+Engg
+.)
+IIT (ISM), Dhanbad
+Monsoon Semester (2025 – 2026)
+1
+Slides courtesy: www.msubbu.in
+
+Time Value of Money
+Money
+2
+
+Time Value of Money
+Which would you rather have ?? 
+$1,000 today $1,000 today 
+or 
+$1,000 in $1,000 in 
+5 years?5 years?
+Obviously, 
+$1,000 today$1,000 today
+.
+Money received sooner rather than later allows 
+one to use the funds for investment or 
+3
+one to use the funds for investment or consumption purposes.  This concept is referred to as the  
+TIME VALUE OF TIME VALUE OF 
+MONEYMONEY
+!!
+Money + Time = more MoneyRemember, one CANNOT compare numbers in 
+different time periods
+without first adjusting 
+them using an interest rate.
+
+Interest
+Interest  is  a  charge  for  borrowing  money,  usuallystated as a percentage of the amount borrowed overa specific period of time.A
+large
+part
+of
+business
+activity
+is
+based
+on
+the
+fact
+4
+A
+large
+part
+of
+business
+activity
+is
+based
+on
+the
+fact
+that  money  can  be  borrowed  or  loaned.  Whenmoney is loaned there is always a risk that it may notbe returned. Interest is the inducement offered tomake the risk acceptable.
+
+Interest
+“When money is lent on a contract to receive not only theprincipal  sum  again,  but  also  an  increase  by  way  ofcompensation for the use, the increase is called
+interest
+by
+those who think it lawful, and
+usury
+by those who do not."
+(
+Blackstone's  Commentaries  on  the  Laws  of  England
+,
+pp
+.
+1336
+,
+1769
+)
+.
+5
+pp
+.
+1336
+,
+1769
+)
+.
+In economics, interest is considered the price of credit.Interest is often compounded, which means that interest isearned on prior interest in addition to the principal. Thetotal amount of debt grows exponentially.
+
+Interest Rate
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12
+
+13
+
+14
+
+15
+
+16
+
+17
+
+18
+
+19
+
+20
+
+21
+
+22
+
+23
+
+24
+
+25
+
+26
+
+27
+
+28
+
+29
+
+30
+
+31
+
+32
+
+33
+
+34
+
+35
+
+36
+
+37
+
+38
+
+39
+
+40
+
+References
+Time Value of Money
+1.
+Peters, M. S., K. D. Timmerhaus, R. E. West, Plant Design an
+d Economics for Chemical
+Engineers, 5
+th
+Edition, McGraw-Hill Education (India) Provate Limited, N
+ew Delhi,
+2011.
+2.
+Towler, G., R. Sinnott, Chemical Engineering Design – Pri
+nciples, Practice, Economics
+of Plant and Process Design, Butterworth-Heinemann, Burli
+ngton, 2008.
+41
+3.
+Silla, H., Chemical Process Engineering Design and Econo
+mics, Marcel Dekker, Inc.,
+New York, 2003.
+4.
+Simpson , R., S. K. Sastry, Chemical and Bioprocess Engine
+ering, Springer, New York,
+2013.
+5.
+James R. Couper, Process Engineering Economics, Marcel D
+ekker, Inc., New York,
+2003.  
+            ---  
+            
+        ```
+        **Response Received from API:**
+        ```
+        ## CHC303 Process Design and Economics: Process Economics Exam Study Notes
+
+**Module:** Process Economics
+**Semester:** 5th Semester BTech (Chemical Engg.)
+**Instructor:** Dr. D. Krishna Sandilya
+**IIT (ISM), Dhanbad**
+
+
+**I. Core Concepts:**
+
+* **Time Value of Money (TVM):** This is the central concept of this module.  Understanding why money available today is worth more than the same amount in the future is crucial. This is due to its potential earning capacity through investment.
+
+* **Interest:**  The cost of borrowing money or the return on lending it.  A deep understanding of simple and compound interest calculations is essential.
+
+    * **Simple Interest:**  Interest calculated only on the principal amount.
+    * **Compound Interest:** Interest calculated on the principal amount plus accumulated interest. This leads to exponential growth of the investment or debt.
+
+* **Interest Rate:** The percentage charged or earned on a loan or investment over a specific period.  Factors influencing interest rates (risk, inflation, market conditions) should be understood.
+
+* **Present Worth (PW):**  The current value of a future sum of money or a series of future cash flows, discounted at a specific interest rate.
+
+* **Future Worth (FW):** The value of a sum of money or a series of cash flows at a specified future date, compounded at a given interest rate.
+
+* **Annual Worth (AW):** The equivalent uniform annual cost or benefit over a specified period.  Useful for comparing projects with different lifespans.
+
+* **Rate of Return (ROR):** The percentage return on an investment over a specific period.  Internal Rate of Return (IRR) is a key metric for project evaluation.
+
+
+**II. Important Questions for the Exam:**
+
+1.  **Explain the concept of Time Value of Money and its importance in process economics.**  Provide real-world examples illustrating its significance.
+
+2.  **Differentiate between simple interest and compound interest.  Calculate the future value of an investment using both methods.**  Show your workings.
+
+3.  **Describe the factors that influence interest rates.** How do these factors affect investment decisions?
+
+4.  **Solve problems involving present worth, future worth, and annual worth calculations.**  Include scenarios with different interest rates and time horizons.
+
+5.  **Explain the concept of the Internal Rate of Return (IRR) and its application in project evaluation.**  Compare and contrast IRR with other methods like Net Present Value (NPV).
+
+6.  **Discuss the role of risk and uncertainty in process economic analysis.** How are these factors incorporated into project evaluations?
+
+7.  **Analyze a case study involving a capital investment decision.**  Use relevant economic evaluation techniques to determine the feasibility of the project.
+
+8.  **Compare and contrast different methods for economic analysis of chemical engineering projects.**  Discuss their strengths and weaknesses.  Examples include Payback Period, Discounted Payback Period,  NPV, IRR, and AW.
+
+
+**III. Recommended Study Resources:**
+
+*   Peters, M. S., K. D. Timmerhaus, R. E. West, *Plant Design and Economics for Chemical Engineers*, 5th Edition, McGraw-Hill.
+*   Towler, G., R. Sinnott, *Chemical Engineering Design – Principles, Practice, Economics of Plant and Process Design*, Butterworth-Heinemann.
+*   Silla, H., *Chemical Process Engineering Design and Economics*, Marcel Dekker, Inc.
+*   Simpson, R., S. K. Sastry, *Chemical and Bioprocess Engineering*, Springer.
+*   James R. Couper, *Process Engineering Economics*, Marcel Dekker, Inc.
+
+
+This structured format should aid in your exam preparation. Remember to practice solving numerical problems to solidify your understanding of the concepts.  Good luck!
+
+        ```
+        
+
+    

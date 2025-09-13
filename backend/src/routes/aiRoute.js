@@ -1,11 +1,12 @@
 import { Router } from "express";
 import upload from "../middlewares/multer.js";
-import { ExtractText, generateStudyGuide } from "../controllers/agentController.js";
+import { ExtractText, generateStudyGuide, downloadPdf } from "../controllers/agentController.js";
 
 const router = Router();
 
 router.post("/upload", upload.single("file"), ExtractText);
 router.post("/generate-study-guide", generateStudyGuide);
+router.post("/download-pdf", downloadPdf);
 
 // const GEMINI_KEY = process.env.GEMINI_API_KEY;
 // //console.log("🔑 GEMINI_KEY in aiRoutes:", GEMINI_KEY ? "Exists" : "Missing");

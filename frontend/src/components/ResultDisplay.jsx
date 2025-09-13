@@ -1,5 +1,6 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
+import axios from "axios";
 
 const ResultsDisplay = ({ studyGuide, isLoading }) => {
   if (isLoading && !studyGuide) {
@@ -15,6 +16,27 @@ const ResultsDisplay = ({ studyGuide, isLoading }) => {
   if (!studyGuide) {
     return null;
   }
+
+  const handleDownloadPdf = async () => {
+    try {
+      const response = await axios.post(
+        "/api/v1/ai/download-pdf",
+        { studyGuide: studyGuide },
+        { responseType: "blob" }
+      );
+
+      const url = window.URL.createObjectURL(new Blob([response.data]));
+      const link = document.createElement("a");
+      link.href = url;
+      link.setAttribute("download", "study_guide.pdf");
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+    } catch (err) {
+      console.error("Error downloading PDF:", err);
+      alert("Failed to download PDF. Please try again.");
+    }
+  };
 
   return (
     <div className="mt-10">
@@ -61,6 +83,16 @@ const ResultsDisplay = ({ studyGuide, isLoading }) => {
         >
           {studyGuide}
         </ReactMarkdown>
+      </div>
+
+      {/* 🔹 Download Button */}
+      <div className="flex justify-center mt-6">
+        <button
+          onClick={handleDownloadPdf}
+          className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-lg shadow-md transition-colors duration-300"
+        >
+          Download as PDF
+        </button>
       </div>
     </div>
   );

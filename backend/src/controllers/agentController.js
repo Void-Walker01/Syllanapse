@@ -4,6 +4,8 @@ import ApiResponse from '../utils/apiRes.js';
 import { createRequire } from 'module';
 import { GoogleGenerativeAI } from '@google/generative-ai'
 import fs from 'fs/promises';
+import fsSync from 'fs';
+import PDFDocument from 'pdfkit';
 import path from 'path';
 const require = createRequire(import.meta.url);
 const pdf = require('pdf-parse');
@@ -166,7 +168,30 @@ const generateStudyGuide = asyncHandle(async (req, res) => {
 
 });
 
+const downloadPdf=asyncHandle(async(req,res)=>{
+    const { studyGuide } = req.body;
+    if(!studyGuide){
+        throw new ApiError(400,"No study guide provided");
+    }
+
+    const filePath = path.join(process.cwd(), `study_guide_${Date.now()}.pdf`);
+
+    const doc = new PDFDocument();
+    const stream = fsSync.createWriteStream(filePath);
+    doc.pipe(stream);
+
+    doc.fontSize(12).text(studyGuide);
+    doc.end();
+
+    stream.on('finish', () => {
+        res.download(filePath,()=>{
+            fsSync.unlinkSync(filePath);
+        });
+    });
+});
+
 export {
     ExtractText,
-    generateStudyGuide
+    generateStudyGuide,
+    downloadPdf
 }
