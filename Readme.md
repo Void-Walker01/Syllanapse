@@ -1,6 +1,14 @@
 # 🚀 Syllanapse AI: Your Personal Academic Assistant
 
-This project is a submission for the Software Engineer intern task. Syllanapse AI is an intelligent agent designed to automate the student workflow, transforming dense lecture notes into actionable and personalized study materials.
+This project is a submission for the Software Engineer Intern Task at **I'm Beside You**. Syllanapse AI is an intelligent agent designed to automate the student workflow, transforming dense lecture notes into actionable and personalized study materials.
+
+---
+
+### **Submission Details**
+
+-   **Author:** Rohit Guleria
+-   **University:** IIT Dhanbad
+-   **Department:** Chemical Engineering
 
 ---
 
@@ -28,7 +36,7 @@ A short, 2-minute demonstration of the application in action can be found here:
 
 | Area    | Technologies                                       |
 | ------- | -------------------------------------------------- |
-| **Frontend** | React, Vite, Tailwind CSS, Axios, `react-markdown` |
+| **Frontend** | React, Vite, Tailwind CSS, Axios |
 | **Backend** | Node.js, Express, `multer`, `pdf-parse`, `PDFKit`    |
 | **AI Core** | Google Gemini API (`gemini-1.5-flash-latest`)        |
 
