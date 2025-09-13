@@ -52,10 +52,9 @@ npm install
 
 # Create the environment file
 cp .env.example .env
-Now, open the new .env file and add your Google Gemini API key:
-GEMINI_API_KEY="YOUR_API_KEY_HERE"
-
 ```
+*Now, open the new .env file and add your Google Gemini API key:
+GEMINI_API_KEY="YOUR_API_KEY_HERE"*
 
 #### **3. Setup the Frontend**
 ```bash
@@ -85,16 +84,16 @@ You will need **two separate terminals** to run the application.
 
 All required deliverables for this task can be found within this repository:
 
-- [x] **Source Code:** The `frontend/` and `backend/` directories.
-- [x] **System Design Document:** A comprehensive document in `design/system_design.md`.
-- [x] **Architecture Diagram:** A detailed PNG diagram in `design/architecture.png`.
-- [x] **Interaction Logs:**
-  - `interaction_logs/agent_interaction_logs.md` (Logs of the agent's usage).
-  - `interaction_logs/dev_interactions.md` (Curated logs of my development process with an LLM).
+* [x] **Source Code:** The `frontend/` and `backend/` directories.
+* [x] **System Design Document:** A comprehensive document in `design/system_design.md`.
+* [x] **Architecture Diagram:** A detailed PNG diagram in `design/architecture.png`.
+* [x] **Interaction Logs:**
+    * `interaction_logs/agent_interaction_logs.md` (Logs of the agent's usage).
+    * `interaction_logs/dev_interactions.md` (Curated logs of my development process with an LLM).
 
 ---
 
-### 📜 License & Copyright
+### **📜 License & Copyright**
 
 &copy; 2025, Rohit Guleria. All rights reserved.
 
