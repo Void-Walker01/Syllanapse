@@ -3,7 +3,7 @@ import axios from "axios";
 import Header from "../components/Header";
 import ControlPanel from "../components/ControlPanel";
 import ResultsDisplay from "../components/ResultDisplay";
-
+import Footer from "../components/Footer";
 const HomePage = () =>{
     const [selectedFile, setSelectedFile]= useState(null);
     const [extractedText, setExtractedText] = useState("");
@@ -94,7 +94,7 @@ const HomePage = () =>{
                     error={error}
                 />
                 <ResultsDisplay studyGuide={studyGuide} isLoading={isLoading} />
-                
+                <Footer />
             </div>
         </div>
     );
