@@ -2,7 +2,7 @@ import asyncHandle from '../utils/asyncHandle.js';
 import ApiError from '../utils/apiError.js';
 import ApiResponse from '../utils/apiRes.js';
 import { createRequire } from 'module';
-import {GoogleGenerativeAI} from '@google/generative-ai'
+import { GoogleGenerativeAI } from '@google/generative-ai'
 import fs from 'fs/promises';
 import path from 'path';
 const require = createRequire(import.meta.url);
@@ -15,7 +15,7 @@ const ExtractText = asyncHandle(async (req, res) => {
     if (!req.file) {
         throw new ApiError(400, "No file provided");
     }
-    
+
 
     let extractedText = "";
 
@@ -36,40 +36,107 @@ const ExtractText = asyncHandle(async (req, res) => {
 });
 
 const generateStudyGuide = asyncHandle(async (req, res) => {
-    const { textContent, userPrompt } = req.body;
+    const { textContent, userPrompt, mode } = req.body;
 
     if (!textContent) {
         throw new ApiError(400, "No text content provided");
     }
 
-    const genAI= new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-    const model= genAI.getGenerativeModel({model: "gemini-1.5-flash-latest"});
+    const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
+    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash-latest" });
 
-    const prompt = `
-        SYSTEM: You are an expert academic assistant. Your task is to analyze the following lecture notes and fulfill the user's specific request. You MUST produce three things in a clean, readable format: a concise bullet-point summary, a prioritized study plan, and a set of 5 or more (based on notes) multiple-choice questions (MCQs) for revision.
+    let prompt = "";
 
-        USER'S SPECIFIC REQUEST: "${userPrompt || 'Create a standard 3-hour study plan.'}"
+    if (userPrompt && userPrompt.trim() !== '') {
+        prompt = `
+            SYSTEM: You are an expert academic assistant.  
 
-        LECTURE NOTES:
-        ---
-        ${textContent}
-        ---
+            USER REQUEST: "${userPrompt}"  
 
-       Instructions:
-        - The summary should have a maximum of 12 bullet points.
-        - The study plan should be broken into actionable blocks.
-        - For the MCQs, ensure each option (e.g., a), b), c), d)) is on a new, separate line.
-        - The answer for each MCQ MUST be on its own new line after all the options, formatted exactly as: "Answer: [correct letter]".
-        - The entire output MUST be tailored to the USER'S SPECIFIC REQUEST above.
-        - Format the final output using clear headings for each section (e.g., "## Summary", "## Study Plan", "## Revision Questions").
-    `;
+            TASK: Generate study notes based on the user's request.  
+            - Use clean formatting with proper spacing, line breaks, and indentation.  
+            - Use headings, subheadings, and bullet points where relevant.  
+            - Ensure the response is easy to read and visually neat in UI.  
 
-    const result= await model.generateContent(prompt);
-    const response= await result.response;
-    const aiResponse= response.text();
+            NOTES:  
+            ---  
+            ${textContent}  
+            ---  
+            `;
+    } else {
+        if (mode === "summary") {
+            prompt = `
+                Summarize the following lecture notes into a maximum of 10 bullet points.  
+                - Focus only on the most important concepts.  
+                - Each point must be on a new line.  
+                - Make formatting clear, structured, and easy to read in UI.  
 
-    const logFilePath=path.join(process.cwd(),'..','interaction_logs', 'agent_interaction_logs.md');
-    
+                NOTES:  
+                ---  
+                ${textContent}  
+                ---  
+             `;
+        } else if (mode === "detailed") {
+            prompt = `
+                Generate detailed study notes from the following text.  
+                - Organize with clear **sections and headings**.  
+                - Add short explanations for each major concept.  
+                - Use bullet points for clarity.  
+                - Make formatting structured and neat for UI readability.  
+
+                NOTES:  
+                ---  
+                ${textContent}  
+                ---  
+            `;
+        } else if (mode === "quiz") {
+            prompt = `
+                Create **at least 8 multiple-choice questions** from the following lecture notes.  
+
+                Formatting rules:  
+                - Each question should be numbered (Q1, Q2, …).  
+                - Provide exactly 4 options (a, b, c, d), each option on its own line.  
+                - Show the correct answer on a separate line in the format:  
+                  **Answer: [letter]**  
+                - Each question block must be self-contained and separated by a blank line.  
+                - Make formatting clean, structured, and easy to read in UI.  
+
+                NOTES:  
+                ---  
+                ${textContent}  
+                ---  
+            `;
+        } else {
+            prompt = `
+                From the following notes, create a complete study guide with:  
+
+                1. **A concise bullet-point summary** (max 12 points).  
+                2. **A prioritized 3-hour study plan**, broken into time blocks.  
+                3. **At least 5 multiple-choice questions with answers**.  
+
+                Formatting rules:  
+                - Use clear headings and subheadings.  
+                - Keep all points on new lines (no long paragraphs).  
+                - Bold important terms for emphasis.  
+                - Maintain spacing for readability in UI.  
+
+                NOTES:  
+                ---  
+                ${textContent}  
+                ---  
+            `;
+        }
+    }
+
+
+
+
+    const result = await model.generateContent(prompt);
+    const response = await result.response;
+    const aiResponse = response.text();
+
+    const logFilePath = path.join(process.cwd(), '..', 'interaction_logs', 'agent_interaction_logs.md');
+
     const logContent = `
         ## Agent Interaction on ${new Date().toISOString()}
         ---

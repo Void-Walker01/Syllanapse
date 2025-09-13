@@ -9,6 +9,7 @@ const HomePage = () =>{
     const [extractedText, setExtractedText] = useState("");
     const [userPrompt, setUserPrompt] = useState("");
     const [studyGuide, setStudyGuide] = useState("");
+    const [mode, setMode] = useState("all");
     const [isLoading, setIsLoading] = useState(false);
     const [statusMessage, setStatusMessage] = useState("Upload your notes to get started.");
     const [error, setError] = useState("");
@@ -51,7 +52,8 @@ const HomePage = () =>{
         try{
             const response= await axios.post("/api/v1/ai/generate-study-guide", {
                 textContent: extractedText,
-                userPrompt: userPrompt
+                userPrompt: userPrompt,
+                mode:mode
             });
             setStudyGuide(response.data.data.studyGuide);
             setStatusMessage("Your study guide is ready!");
@@ -83,6 +85,8 @@ const HomePage = () =>{
                     onPromptChange={(e) => setUserPrompt(e.target.value)}
 
                     userPrompt={userPrompt}
+                    mode={mode}
+                    onModeChange={(e) => setMode(e.target.value)}
                     isLoading={isLoading}
                     selectedFile={selectedFile}
                     extractedText={extractedText}
