@@ -1,6 +1,6 @@
 # 🚀 Syllanapse AI: Your Personal Academic Assistant
 
-This project is a submission for the Software Engineer Intern Task at **I'm Beside You**. Syllanapse AI is an intelligent agent designed to automate the student workflow, transforming dense lecture notes into actionable and personalized study materials.
+Syllanapse AI is an intelligent agent designed to automate the student workflow, transforming dense lecture notes into actionable and personalized study materials.
 
 ---
 
