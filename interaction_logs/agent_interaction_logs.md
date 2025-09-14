@@ -5312,3 +5312,11032 @@ Edition, Wiley India Private Limited, New Delhi, 2014.
         
 
     
+        ## Agent Interaction on 2025-09-14T04:31:46.918Z
+        ---
+        **Model:** gemini-1.5-flash-latest
+        **User's Custom Prompt:** 
+        **Full Prompt Sent to API:**
+        ```
+        
+                From the following notes, create a complete study guide with:  
+
+                1. **A concise bullet-point summary** (max 12 points).  
+                2. **A prioritized 3-hour study plan**, broken into time blocks.  
+                3. **At least 5 multiple-choice questions with answers**.  
+
+                Formatting rules:  
+                - Use clear headings and subheadings.  
+                - Keep all points on new lines (no long paragraphs).  
+                - Bold important terms for emphasis.  
+                - Maintain spacing for readability in UI.  
+
+                NOTES:  
+                ---  
+                
+
+Course: CHC303 Process Design and Economics
+Module: Process Economics
+5
+th
+Semester 
+BTech
+(Chemical 
+Engg
+.)
+Compounding and Discounting 
+Factors
+Instructor: Dr. D. Krishna Sandilya
+5
+th
+Semester 
+BTech
+(Chemical 
+Engg
+.)
+IIT (ISM), Dhanbad
+Monsoon Semester (2025 – 2026)
+1
+Slides courtesy: www.msubbu.in
+
+Compounding and Discounting Factors
+The standard notation in the general format:
+(
+X
+/
+Y
+, 
+i
+%, 
+n
+)
+X
+represents what you want to find
+Y
+represents what is given
+2
+e.g.,
+(
+F
+/
+P
+,
+6
+%,
+20
+) represents the factor that is used
+to calculate the future amount
+F
+accumulated in 20
+periods if the interest rate is 6% per period, for thegiven
+P
+.
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+3
+notation
+format,
+as
+F
+= 
+P
+(
+F
+/
+P
+, 
+i
+%, 
+n
+)
+The factor
+(
+F
+/
+P
+,
+i
+%,
+n
+)
+is known as the
+future–worth factor 
+(or) 
+single payment future–worth factor
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+4
+notation
+format,
+as
+P
+= 
+F
+(
+P
+/
+F
+, 
+i
+%, 
+n
+)
+The factor
+(
+P
+/
+F
+,
+i
+%,
+n
+)
+is known as the
+present–worth factor 
+(or) 
+single payment present–worth factor
+
+Compounding and Discounting Factors
+Present
+–
+worth factor:
+Future–worth factor:
+5
+Present
+–
+worth factor:
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+6
+notation
+format,
+as
+P
+= 
+A
+(
+P
+/
+A
+, 
+i
+%, 
+n
+)
+The factor
+(
+P
+/
+A
+,
+i
+%,
+n
+)
+is known as the
+present–worth annuity factor 
+(or) 
+uniform series present–worth factor
+
+Compounding and Discounting Factors
+Present–worth annuity factor
+7
+
+Compounding and Discounting Factors
+The inverse of the above, has the standard notationof
+A
+= 
+P
+(
+A
+/
+P
+, 
+i
+%, 
+n
+)
+The
+factor
+(
+A
+/
+P
+,
+i
+%
+,
+n
+)
+is
+known
+as
+the
+8
+The
+factor
+(
+A
+/
+P
+,
+i
+%
+,
+n
+)
+is
+known
+as
+the
+Capital recovery factor 
+The factor
+(
+A
+/
+F
+,
+i
+%,
+n
+)
+is called the
+Sinking fund factor
+
+Compounding and Discounting Factors
+Capital recovery factor
+9
+
+Compounding and Discounting Factors
+Sinking fund factor
+10
+
+Compounding and Discounting Factors
+Future worth annuity factor
+11
+
+Perpetuity
+A
+perpetuity
+is an annuity in which the periodic payments
+continue indefinitely.This type of annuity is of particular interest to engineers,
+for
+12
+in some cases they may desire to determine a total cost fora piece of equipment or other asset under conditions whichpermit  the  asset  to  be  replaced  perpetually  withoutconsidering inflation or deflation.
+
+Perpetuity –
+example
+Consider  the  example  in  which  the  originalcost  of  a  certain  piece  of  equipment  is$12,000.
+13
+The useful-life period is 10 years.The scrap value at the end of the useful life is$2000.
+
+Perpetuity –
+example
+The engineer reasons that this piece of equipment,or its replacement, will be in use for an indefinitelylong
+period
+of
+time,
+and
+it
+will
+be
+necessary
+to
+14
+long
+period
+of
+time,
+and
+it
+will
+be
+necessary
+to
+supply $10,000 every 10 years in order to replacethe equipment.
+
+Perpetuity –
+example
+He therefore wishes to provide a fund of sufficientsize so that it will earn enough interest to pay for theperiodic
+replacement
+.
+15
+periodic
+replacement
+.
+If the discrete annual interest rate is 6 percent, thisfund would need to be $12,650.
+
+Perpetuity –
+example
+At 6 percent interest compounded annually, the fundwould amount to ($12,650)(1 + 0.06)
+10
+= $22,650 after
+10 years.
+16
+Thus,  at the end  of  10  years,  the equipment can  bereplaced  for  $10,000  and  $12,650  will  remain  in  thefund.
+
+Perpetuity –
+example
+This cycle could now be repeated indefinitely.If
+the
+equipment
+is
+to
+perpetuate
+itself,
+the
+17
+If
+the
+equipment
+is
+to
+perpetuate
+itself,
+the
+theoretical amount of total capital necessary at thestart  would  be  $12,000  for  the  equipment  plus$12,650 for the replacement fund.
+
+Capitalized Cost
+The total capital determined in this manner iscalled the
+capitalized cost
+.
+18
+Engineers use capitalized costs principally forcomparing alternative choices.
+
+Capitalized Cost
+The
+capitalized  cost
+(
+C
+K
+)  is  related  with  the
+initial investment cost (
+C
+I
+) as:
+(
+C
+K
+– C
+I
+)(1+
+i
+)
+n
+= 
+C
+K
+– C
+S
+19
+K
+I
+K
+S
+wherei
+= interest rate
+n
+= service life of the asset in years
+C
+S
+= salvage value of the asset
+
+Capitalized Cost
+The amount
+(
+C
+K
+– C
+I
+)
+is invested in a bank account at an
+interest rate of
+i
+per year, would generate
+C
+K
+– C
+S
+at the end
+of
+n
+years.
+(
+C
+K
+– C
+I
+)(1+
+i
+)
+n
+= 
+C
+K
+– C
+S
+By
+algebraic
+reduction,
+the
+above
+equation
+can
+be
+20
+By
+algebraic
+reduction,
+the
+above
+equation
+can
+be
+re-written as
+Note that,
+C
+I
+– C
+S
+=
+C
+R
+, is the cost of
+replacement
+.
+
+Salvage and scrap values
+Salvage value
+is the net amount of money obtainable from the sale of used
+property over and above any charges involved in removal and sale.If a property is capable of further service, its
+salvage value
+may be high.
+The term
+salvage value
+implies that the asset can give some type of further
+service
+and
+is
+worth
+more
+than
+merely
+its
+scrap
+or
+junk
+value
+.
+21
+service
+and
+is
+worth
+more
+than
+merely
+its
+scrap
+or
+junk
+value
+.
+If  the  property  cannot  be  disposed  of  as  a  useful  unit,  it  can  ofte
+n  be
+dismantled  and  sold  as
+junk
+to  be  used  again  as  a  manufacturing  raw
+material.The profit obtainable from this type of disposal is known as the
+scrap
+, or
+junk
+,
+value
+.
+
+Inflation
+The
+buying power
+of money changes with time.
+A
+decline
+in
+buying power
+is experienced as a general
+increase in the prices and is called
+inflation
+.
+Borrowing
+becomes
+more
+attractive
+if
+inflation
+is
+22
+Borrowing
+becomes
+more
+attractive
+if
+inflation
+is
+expected  since  the  debt  will  be  paid  with  the  lessvaluable cash of the future.Interest rate should be higher than the inflation rate.Only then, there is a real earning for the lender.
+
+Inflation
+Inflation
+is  the  increase  in  the  amount  of  money
+necessary to purchase the same amount of a productor service over time.It  occurs  because  the
+value  of  the  currency  has
+decreased
+,
+so
+it
+takes
+more
+money
+to
+obtain
+the
+same
+23
+decreased
+,
+so
+it
+takes
+more
+money
+to
+obtain
+the
+same
+amount of goods or services.Associated with inflation is an increase in the
+money
+supply
+,  i.e.,  the  government  prints  more  currency
+(rupees), while the supply of goods does not increase.
+
+Inflation
+Future amount = Constant value (1 + 
+f
+)
+n
+where,
+24
+f
+= inflation rate (fraction)
+n
+= number of years
+
+Inflation
+The real interest rate
+r
+, corresponding to
+a nominal interest rate of
+i
+, and inflation
+rate of
+f
+are related as
+25
+As an approximation, we can consider
+
+References
+Compounding and Discounting Factors
+1.
+Peters, M. S., K. D. Timmerhaus, R. E. West, Plant Design an
+d Economics for Chemical
+Engineers, 5
+th
+Edition, McGraw-Hill Education (India) Provate Limited, N
+ew Delhi,
+2011.
+2.
+Towler, G., R. Sinnott, Chemical Engineering Design – Pri
+nciples, Practice, Economics
+of Plant and Process Design, Butterworth-Heinemann, Burli
+ngton, 2008.
+26
+3.
+M  Subbu,  S.  Siddarth,  GATEway  to  Chemical  Engineering  (Vo
+lume  –  5),  Rishal
+Publications, 2018.
+4.
+Simpson , R., S. K. Sastry, Chemical and Bioprocess Engine
+ering, Springer, New York,
+2013.
+5.
+James R. Couper, Process Engineering Economics, Marcel D
+ekker, Inc., New York,
+2003.  
+                ---  
+            
+        ```
+        **Response Received from API:**
+        ```
+        # CHC303 Process Design and Economics: Process Economics Study Guide
+
+## 1. Concise Bullet-Point Summary
+
+* **Compounding:** Calculates future value (**F**) from present value (**P**) using interest rate (**i**) and number of periods (**n**).  Formula: F = P(F/P, i%, n)
+* **Discounting:** Calculates present value (**P**) from future value (**F**) using interest rate (**i**) and number of periods (**n**). Formula: P = F(P/F, i%, n)
+* **Future-Worth Factor (F/P):**  Used to determine future value from a present sum.
+* **Present-Worth Factor (P/F):** Used to determine present value from a future sum.
+* **Present-Worth Annuity Factor (P/A):** Used to determine present value of a uniform series of payments (annuity). Formula: P = A(P/A, i%, n)
+* **Capital Recovery Factor (A/P):** Used to calculate the equivalent uniform annual payment for a present sum. Formula: A = P(A/P, i%, n)
+* **Sinking Fund Factor (A/F):** Used to determine the uniform annual deposit required to accumulate a future sum.
+* **Perpetuity:** An annuity with payments continuing indefinitely.  Useful for calculating capitalized costs.
+* **Capitalized Cost (CK):** Total capital required to perpetually replace an asset, considering initial investment, salvage value, and interest.
+* **Salvage Value:** Value of an asset at the end of its useful life.
+* **Scrap Value:** Value of an asset when disposed of as junk.
+* **Inflation:** Decrease in the buying power of money over time. Affects interest rates and cost calculations.
+
+
+## 2. Prioritized 3-Hour Study Plan
+
+**Hour 1: Core Concepts (60 minutes)**
+
+* **(15 min):** Review basic definitions: compounding, discounting,  future and present worth factors.  Practice simple calculations.
+* **(15 min):**  Focus on annuity factors (P/A, A/P, A/F). Work through example problems.
+* **(15 min):** Understand perpetuity and its application in capitalized cost calculations. Solve a simple perpetuity problem.
+* **(15 min):**  Define salvage and scrap values; explain the difference.
+
+
+**Hour 2: Advanced Applications (60 minutes)**
+
+* **(20 min):**  Deep dive into capitalized cost calculations. Work through a detailed problem involving initial investment, salvage value, and replacement costs.
+* **(20 min):**  Study the effect of inflation on cost analysis. Practice calculating real interest rates.
+* **(20 min):** Review formulas and their applications.  Create flashcards for important formulas and definitions.
+
+
+**Hour 3: Practice & Review (60 minutes)**
+
+* **(30 min):**  Solve multiple-choice questions and review answers.  Identify areas needing further attention.
+* **(30 min):**  Review the entire module's key concepts. Summarize the material in your own words to test your understanding.
+
+
+## 3. Multiple-Choice Questions
+
+**1.  What is the present worth factor used for?**
+    a) Calculating future value from a present sum.
+    b) Calculating present value from a future sum.
+    c) Calculating uniform annual payments from a present sum.
+    d) Calculating a future sum from a uniform series of payments.
+    **Answer: b)**
+
+**2. Which factor helps determine the uniform annual deposit needed to accumulate a future sum?**
+    a) Present-worth factor
+    b) Capital recovery factor
+    c) Sinking fund factor
+    d) Future-worth factor
+    **Answer: c)**
+
+**3. What is a perpetuity?**
+    a) A short-term investment
+    b) An annuity with payments for a fixed period
+    c) An annuity with payments continuing indefinitely
+    d) A type of bond
+    **Answer: c)**
+
+**4.  What does the capitalized cost represent?**
+    a) The initial investment cost of an asset.
+    b) The total cost of owning an asset for a specific period.
+    c) The total capital required to perpetually replace an asset.
+    d) The salvage value of an asset.
+    **Answer: c)**
+
+**5. How does inflation affect interest rates?**
+    a) It decreases interest rates.
+    b) It has no effect on interest rates.
+    c) It generally increases interest rates.
+    d) It causes interest rates to fluctuate randomly.
+    **Answer: c)**
+
+
+
+        ```
+        
+
+    
+        ## Agent Interaction on 2025-09-14T04:32:28.361Z
+        ---
+        **Model:** gemini-1.5-flash-latest
+        **User's Custom Prompt:** 
+        **Full Prompt Sent to API:**
+        ```
+        
+                Summarize the following lecture notes into a maximum of 10 bullet points.  
+                - Focus only on the most important concepts.  
+                - Each point must be on a new line.  
+                - Make formatting clear, structured, and easy to read in UI.  
+
+                NOTES:  
+                ---  
+                
+
+Course: CHC303 Process Design and Economics
+Module: Process Economics
+5
+th
+Semester 
+BTech
+(Chemical 
+Engg
+.)
+Compounding and Discounting 
+Factors
+Instructor: Dr. D. Krishna Sandilya
+5
+th
+Semester 
+BTech
+(Chemical 
+Engg
+.)
+IIT (ISM), Dhanbad
+Monsoon Semester (2025 – 2026)
+1
+Slides courtesy: www.msubbu.in
+
+Compounding and Discounting Factors
+The standard notation in the general format:
+(
+X
+/
+Y
+, 
+i
+%, 
+n
+)
+X
+represents what you want to find
+Y
+represents what is given
+2
+e.g.,
+(
+F
+/
+P
+,
+6
+%,
+20
+) represents the factor that is used
+to calculate the future amount
+F
+accumulated in 20
+periods if the interest rate is 6% per period, for thegiven
+P
+.
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+3
+notation
+format,
+as
+F
+= 
+P
+(
+F
+/
+P
+, 
+i
+%, 
+n
+)
+The factor
+(
+F
+/
+P
+,
+i
+%,
+n
+)
+is known as the
+future–worth factor 
+(or) 
+single payment future–worth factor
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+4
+notation
+format,
+as
+P
+= 
+F
+(
+P
+/
+F
+, 
+i
+%, 
+n
+)
+The factor
+(
+P
+/
+F
+,
+i
+%,
+n
+)
+is known as the
+present–worth factor 
+(or) 
+single payment present–worth factor
+
+Compounding and Discounting Factors
+Present
+–
+worth factor:
+Future–worth factor:
+5
+Present
+–
+worth factor:
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+6
+notation
+format,
+as
+P
+= 
+A
+(
+P
+/
+A
+, 
+i
+%, 
+n
+)
+The factor
+(
+P
+/
+A
+,
+i
+%,
+n
+)
+is known as the
+present–worth annuity factor 
+(or) 
+uniform series present–worth factor
+
+Compounding and Discounting Factors
+Present–worth annuity factor
+7
+
+Compounding and Discounting Factors
+The inverse of the above, has the standard notationof
+A
+= 
+P
+(
+A
+/
+P
+, 
+i
+%, 
+n
+)
+The
+factor
+(
+A
+/
+P
+,
+i
+%
+,
+n
+)
+is
+known
+as
+the
+8
+The
+factor
+(
+A
+/
+P
+,
+i
+%
+,
+n
+)
+is
+known
+as
+the
+Capital recovery factor 
+The factor
+(
+A
+/
+F
+,
+i
+%,
+n
+)
+is called the
+Sinking fund factor
+
+Compounding and Discounting Factors
+Capital recovery factor
+9
+
+Compounding and Discounting Factors
+Sinking fund factor
+10
+
+Compounding and Discounting Factors
+Future worth annuity factor
+11
+
+Perpetuity
+A
+perpetuity
+is an annuity in which the periodic payments
+continue indefinitely.This type of annuity is of particular interest to engineers,
+for
+12
+in some cases they may desire to determine a total cost fora piece of equipment or other asset under conditions whichpermit  the  asset  to  be  replaced  perpetually  withoutconsidering inflation or deflation.
+
+Perpetuity –
+example
+Consider  the  example  in  which  the  originalcost  of  a  certain  piece  of  equipment  is$12,000.
+13
+The useful-life period is 10 years.The scrap value at the end of the useful life is$2000.
+
+Perpetuity –
+example
+The engineer reasons that this piece of equipment,or its replacement, will be in use for an indefinitelylong
+period
+of
+time,
+and
+it
+will
+be
+necessary
+to
+14
+long
+period
+of
+time,
+and
+it
+will
+be
+necessary
+to
+supply $10,000 every 10 years in order to replacethe equipment.
+
+Perpetuity –
+example
+He therefore wishes to provide a fund of sufficientsize so that it will earn enough interest to pay for theperiodic
+replacement
+.
+15
+periodic
+replacement
+.
+If the discrete annual interest rate is 6 percent, thisfund would need to be $12,650.
+
+Perpetuity –
+example
+At 6 percent interest compounded annually, the fundwould amount to ($12,650)(1 + 0.06)
+10
+= $22,650 after
+10 years.
+16
+Thus,  at the end  of  10  years,  the equipment can  bereplaced  for  $10,000  and  $12,650  will  remain  in  thefund.
+
+Perpetuity –
+example
+This cycle could now be repeated indefinitely.If
+the
+equipment
+is
+to
+perpetuate
+itself,
+the
+17
+If
+the
+equipment
+is
+to
+perpetuate
+itself,
+the
+theoretical amount of total capital necessary at thestart  would  be  $12,000  for  the  equipment  plus$12,650 for the replacement fund.
+
+Capitalized Cost
+The total capital determined in this manner iscalled the
+capitalized cost
+.
+18
+Engineers use capitalized costs principally forcomparing alternative choices.
+
+Capitalized Cost
+The
+capitalized  cost
+(
+C
+K
+)  is  related  with  the
+initial investment cost (
+C
+I
+) as:
+(
+C
+K
+– C
+I
+)(1+
+i
+)
+n
+= 
+C
+K
+– C
+S
+19
+K
+I
+K
+S
+wherei
+= interest rate
+n
+= service life of the asset in years
+C
+S
+= salvage value of the asset
+
+Capitalized Cost
+The amount
+(
+C
+K
+– C
+I
+)
+is invested in a bank account at an
+interest rate of
+i
+per year, would generate
+C
+K
+– C
+S
+at the end
+of
+n
+years.
+(
+C
+K
+– C
+I
+)(1+
+i
+)
+n
+= 
+C
+K
+– C
+S
+By
+algebraic
+reduction,
+the
+above
+equation
+can
+be
+20
+By
+algebraic
+reduction,
+the
+above
+equation
+can
+be
+re-written as
+Note that,
+C
+I
+– C
+S
+=
+C
+R
+, is the cost of
+replacement
+.
+
+Salvage and scrap values
+Salvage value
+is the net amount of money obtainable from the sale of used
+property over and above any charges involved in removal and sale.If a property is capable of further service, its
+salvage value
+may be high.
+The term
+salvage value
+implies that the asset can give some type of further
+service
+and
+is
+worth
+more
+than
+merely
+its
+scrap
+or
+junk
+value
+.
+21
+service
+and
+is
+worth
+more
+than
+merely
+its
+scrap
+or
+junk
+value
+.
+If  the  property  cannot  be  disposed  of  as  a  useful  unit,  it  can  ofte
+n  be
+dismantled  and  sold  as
+junk
+to  be  used  again  as  a  manufacturing  raw
+material.The profit obtainable from this type of disposal is known as the
+scrap
+, or
+junk
+,
+value
+.
+
+Inflation
+The
+buying power
+of money changes with time.
+A
+decline
+in
+buying power
+is experienced as a general
+increase in the prices and is called
+inflation
+.
+Borrowing
+becomes
+more
+attractive
+if
+inflation
+is
+22
+Borrowing
+becomes
+more
+attractive
+if
+inflation
+is
+expected  since  the  debt  will  be  paid  with  the  lessvaluable cash of the future.Interest rate should be higher than the inflation rate.Only then, there is a real earning for the lender.
+
+Inflation
+Inflation
+is  the  increase  in  the  amount  of  money
+necessary to purchase the same amount of a productor service over time.It  occurs  because  the
+value  of  the  currency  has
+decreased
+,
+so
+it
+takes
+more
+money
+to
+obtain
+the
+same
+23
+decreased
+,
+so
+it
+takes
+more
+money
+to
+obtain
+the
+same
+amount of goods or services.Associated with inflation is an increase in the
+money
+supply
+,  i.e.,  the  government  prints  more  currency
+(rupees), while the supply of goods does not increase.
+
+Inflation
+Future amount = Constant value (1 + 
+f
+)
+n
+where,
+24
+f
+= inflation rate (fraction)
+n
+= number of years
+
+Inflation
+The real interest rate
+r
+, corresponding to
+a nominal interest rate of
+i
+, and inflation
+rate of
+f
+are related as
+25
+As an approximation, we can consider
+
+References
+Compounding and Discounting Factors
+1.
+Peters, M. S., K. D. Timmerhaus, R. E. West, Plant Design an
+d Economics for Chemical
+Engineers, 5
+th
+Edition, McGraw-Hill Education (India) Provate Limited, N
+ew Delhi,
+2011.
+2.
+Towler, G., R. Sinnott, Chemical Engineering Design – Pri
+nciples, Practice, Economics
+of Plant and Process Design, Butterworth-Heinemann, Burli
+ngton, 2008.
+26
+3.
+M  Subbu,  S.  Siddarth,  GATEway  to  Chemical  Engineering  (Vo
+lume  –  5),  Rishal
+Publications, 2018.
+4.
+Simpson , R., S. K. Sastry, Chemical and Bioprocess Engine
+ering, Springer, New York,
+2013.
+5.
+James R. Couper, Process Engineering Economics, Marcel D
+ekker, Inc., New York,
+2003.  
+                ---  
+             
+        ```
+        **Response Received from API:**
+        ```
+        * **Compounding and Discounting Factors:**  These factors are used to calculate future (F) and present (P) values of money, considering interest rates (i) and time periods (n).  Standard notations like (F/P, i%, n) represent these calculations.
+
+* **Future Worth Factor (F/P):**  Calculates the future value (F) of a present amount (P) given interest and time.
+
+* **Present Worth Factor (P/F):** Calculates the present value (P) of a future amount (F) given interest and time.
+
+* **Present Worth Annuity Factor (P/A):** Calculates the present value (P) of a uniform series of payments (A) over time.
+
+* **Capital Recovery Factor (A/P):** Calculates the uniform annual payment (A) needed to recover a present investment (P) over time.
+
+* **Sinking Fund Factor (A/F):**  Calculates the uniform annual payment (A) needed to accumulate a future amount (F) over time.
+
+* **Perpetuity:** An annuity with payments continuing indefinitely; used in calculating capitalized cost.
+
+* **Capitalized Cost (CK):** The total capital required for an asset, considering its initial cost, replacement costs, and interest over its infinite lifespan.
+
+* **Inflation:** The decrease in the purchasing power of money over time, impacting interest rates and financial calculations.
+
+* **Real Interest Rate:** The interest rate adjusted for inflation, reflecting the actual return on investment.
+
+        ```
+        
+
+    
+        ## Agent Interaction on 2025-09-14T04:35:25.212Z
+        ---
+        **Model:** gemini-1.5-flash-latest
+        **User's Custom Prompt:** 
+        **Full Prompt Sent to API:**
+        ```
+        
+                From the following notes, create a complete study guide with:  
+
+                1. **A concise bullet-point summary** (max 12 points).  
+                2. **A prioritized 3-hour study plan**, broken into time blocks.  
+                3. **At least 5 multiple-choice questions with answers**.  
+
+                Formatting rules:  
+                - Use clear headings and subheadings.  
+                - Keep all points on new lines (no long paragraphs).  
+                - Bold important terms for emphasis.  
+                - Maintain spacing for readability in UI.  
+
+                NOTES:  
+                ---  
+                
+
+Course: CHC303 Process Design and Economics
+Module: Process Economics
+5
+th
+Semester 
+BTech
+(Chemical 
+Engg
+.)
+Compounding and Discounting 
+Factors
+Instructor: Dr. D. Krishna Sandilya
+5
+th
+Semester 
+BTech
+(Chemical 
+Engg
+.)
+IIT (ISM), Dhanbad
+Monsoon Semester (2025 – 2026)
+1
+Slides courtesy: www.msubbu.in
+
+Compounding and Discounting Factors
+The standard notation in the general format:
+(
+X
+/
+Y
+, 
+i
+%, 
+n
+)
+X
+represents what you want to find
+Y
+represents what is given
+2
+e.g.,
+(
+F
+/
+P
+,
+6
+%,
+20
+) represents the factor that is used
+to calculate the future amount
+F
+accumulated in 20
+periods if the interest rate is 6% per period, for thegiven
+P
+.
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+3
+notation
+format,
+as
+F
+= 
+P
+(
+F
+/
+P
+, 
+i
+%, 
+n
+)
+The factor
+(
+F
+/
+P
+,
+i
+%,
+n
+)
+is known as the
+future–worth factor 
+(or) 
+single payment future–worth factor
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+4
+notation
+format,
+as
+P
+= 
+F
+(
+P
+/
+F
+, 
+i
+%, 
+n
+)
+The factor
+(
+P
+/
+F
+,
+i
+%,
+n
+)
+is known as the
+present–worth factor 
+(or) 
+single payment present–worth factor
+
+Compounding and Discounting Factors
+Present
+–
+worth factor:
+Future–worth factor:
+5
+Present
+–
+worth factor:
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+6
+notation
+format,
+as
+P
+= 
+A
+(
+P
+/
+A
+, 
+i
+%, 
+n
+)
+The factor
+(
+P
+/
+A
+,
+i
+%,
+n
+)
+is known as the
+present–worth annuity factor 
+(or) 
+uniform series present–worth factor
+
+Compounding and Discounting Factors
+Present–worth annuity factor
+7
+
+Compounding and Discounting Factors
+The inverse of the above, has the standard notationof
+A
+= 
+P
+(
+A
+/
+P
+, 
+i
+%, 
+n
+)
+The
+factor
+(
+A
+/
+P
+,
+i
+%
+,
+n
+)
+is
+known
+as
+the
+8
+The
+factor
+(
+A
+/
+P
+,
+i
+%
+,
+n
+)
+is
+known
+as
+the
+Capital recovery factor 
+The factor
+(
+A
+/
+F
+,
+i
+%,
+n
+)
+is called the
+Sinking fund factor
+
+Compounding and Discounting Factors
+Capital recovery factor
+9
+
+Compounding and Discounting Factors
+Sinking fund factor
+10
+
+Compounding and Discounting Factors
+Future worth annuity factor
+11
+
+Perpetuity
+A
+perpetuity
+is an annuity in which the periodic payments
+continue indefinitely.This type of annuity is of particular interest to engineers,
+for
+12
+in some cases they may desire to determine a total cost fora piece of equipment or other asset under conditions whichpermit  the  asset  to  be  replaced  perpetually  withoutconsidering inflation or deflation.
+
+Perpetuity –
+example
+Consider  the  example  in  which  the  originalcost  of  a  certain  piece  of  equipment  is$12,000.
+13
+The useful-life period is 10 years.The scrap value at the end of the useful life is$2000.
+
+Perpetuity –
+example
+The engineer reasons that this piece of equipment,or its replacement, will be in use for an indefinitelylong
+period
+of
+time,
+and
+it
+will
+be
+necessary
+to
+14
+long
+period
+of
+time,
+and
+it
+will
+be
+necessary
+to
+supply $10,000 every 10 years in order to replacethe equipment.
+
+Perpetuity –
+example
+He therefore wishes to provide a fund of sufficientsize so that it will earn enough interest to pay for theperiodic
+replacement
+.
+15
+periodic
+replacement
+.
+If the discrete annual interest rate is 6 percent, thisfund would need to be $12,650.
+
+Perpetuity –
+example
+At 6 percent interest compounded annually, the fundwould amount to ($12,650)(1 + 0.06)
+10
+= $22,650 after
+10 years.
+16
+Thus,  at the end  of  10  years,  the equipment can  bereplaced  for  $10,000  and  $12,650  will  remain  in  thefund.
+
+Perpetuity –
+example
+This cycle could now be repeated indefinitely.If
+the
+equipment
+is
+to
+perpetuate
+itself,
+the
+17
+If
+the
+equipment
+is
+to
+perpetuate
+itself,
+the
+theoretical amount of total capital necessary at thestart  would  be  $12,000  for  the  equipment  plus$12,650 for the replacement fund.
+
+Capitalized Cost
+The total capital determined in this manner iscalled the
+capitalized cost
+.
+18
+Engineers use capitalized costs principally forcomparing alternative choices.
+
+Capitalized Cost
+The
+capitalized  cost
+(
+C
+K
+)  is  related  with  the
+initial investment cost (
+C
+I
+) as:
+(
+C
+K
+– C
+I
+)(1+
+i
+)
+n
+= 
+C
+K
+– C
+S
+19
+K
+I
+K
+S
+wherei
+= interest rate
+n
+= service life of the asset in years
+C
+S
+= salvage value of the asset
+
+Capitalized Cost
+The amount
+(
+C
+K
+– C
+I
+)
+is invested in a bank account at an
+interest rate of
+i
+per year, would generate
+C
+K
+– C
+S
+at the end
+of
+n
+years.
+(
+C
+K
+– C
+I
+)(1+
+i
+)
+n
+= 
+C
+K
+– C
+S
+By
+algebraic
+reduction,
+the
+above
+equation
+can
+be
+20
+By
+algebraic
+reduction,
+the
+above
+equation
+can
+be
+re-written as
+Note that,
+C
+I
+– C
+S
+=
+C
+R
+, is the cost of
+replacement
+.
+
+Salvage and scrap values
+Salvage value
+is the net amount of money obtainable from the sale of used
+property over and above any charges involved in removal and sale.If a property is capable of further service, its
+salvage value
+may be high.
+The term
+salvage value
+implies that the asset can give some type of further
+service
+and
+is
+worth
+more
+than
+merely
+its
+scrap
+or
+junk
+value
+.
+21
+service
+and
+is
+worth
+more
+than
+merely
+its
+scrap
+or
+junk
+value
+.
+If  the  property  cannot  be  disposed  of  as  a  useful  unit,  it  can  ofte
+n  be
+dismantled  and  sold  as
+junk
+to  be  used  again  as  a  manufacturing  raw
+material.The profit obtainable from this type of disposal is known as the
+scrap
+, or
+junk
+,
+value
+.
+
+Inflation
+The
+buying power
+of money changes with time.
+A
+decline
+in
+buying power
+is experienced as a general
+increase in the prices and is called
+inflation
+.
+Borrowing
+becomes
+more
+attractive
+if
+inflation
+is
+22
+Borrowing
+becomes
+more
+attractive
+if
+inflation
+is
+expected  since  the  debt  will  be  paid  with  the  lessvaluable cash of the future.Interest rate should be higher than the inflation rate.Only then, there is a real earning for the lender.
+
+Inflation
+Inflation
+is  the  increase  in  the  amount  of  money
+necessary to purchase the same amount of a productor service over time.It  occurs  because  the
+value  of  the  currency  has
+decreased
+,
+so
+it
+takes
+more
+money
+to
+obtain
+the
+same
+23
+decreased
+,
+so
+it
+takes
+more
+money
+to
+obtain
+the
+same
+amount of goods or services.Associated with inflation is an increase in the
+money
+supply
+,  i.e.,  the  government  prints  more  currency
+(rupees), while the supply of goods does not increase.
+
+Inflation
+Future amount = Constant value (1 + 
+f
+)
+n
+where,
+24
+f
+= inflation rate (fraction)
+n
+= number of years
+
+Inflation
+The real interest rate
+r
+, corresponding to
+a nominal interest rate of
+i
+, and inflation
+rate of
+f
+are related as
+25
+As an approximation, we can consider
+
+References
+Compounding and Discounting Factors
+1.
+Peters, M. S., K. D. Timmerhaus, R. E. West, Plant Design an
+d Economics for Chemical
+Engineers, 5
+th
+Edition, McGraw-Hill Education (India) Provate Limited, N
+ew Delhi,
+2011.
+2.
+Towler, G., R. Sinnott, Chemical Engineering Design – Pri
+nciples, Practice, Economics
+of Plant and Process Design, Butterworth-Heinemann, Burli
+ngton, 2008.
+26
+3.
+M  Subbu,  S.  Siddarth,  GATEway  to  Chemical  Engineering  (Vo
+lume  –  5),  Rishal
+Publications, 2018.
+4.
+Simpson , R., S. K. Sastry, Chemical and Bioprocess Engine
+ering, Springer, New York,
+2013.
+5.
+James R. Couper, Process Engineering Economics, Marcel D
+ekker, Inc., New York,
+2003.  
+                ---  
+            
+        ```
+        **Response Received from API:**
+        ```
+        # CHC303 Process Design and Economics: Process Economics Study Guide
+
+## 1. Concise Bullet-Point Summary
+
+* **Compounding:**  Calculates future value (F) from present value (P) using interest rate (i) and time period (n).  Uses **future-worth factor (F/P, i%, n)**.
+* **Discounting:** Calculates present value (P) from future value (F) using interest rate (i) and time period (n). Uses **present-worth factor (P/F, i%, n)**.
+* **Present-Worth Annuity Factor (P/A, i%, n):** Determines present value of a series of equal payments (annuity).
+* **Capital Recovery Factor (A/P, i%, n):** Determines equal annual payments needed to recover a present investment.
+* **Sinking Fund Factor (A/F, i%, n):** Determines equal annual payments required to accumulate a future sum.
+* **Future-Worth Annuity Factor (F/A, i%, n):**  Determines future value of a series of equal payments.
+* **Perpetuity:** Annuity with payments continuing indefinitely.  Useful for calculating capitalized cost.
+* **Capitalized Cost (CK):** Total capital required to perpetually maintain an asset, considering initial investment, replacement costs, and interest.
+* **Salvage Value:** Value of an asset at the end of its useful life.
+* **Scrap Value:** Value of an asset when it can only be sold as junk.
+* **Inflation:** Increase in prices over time, reducing the buying power of money. Affects interest rates and calculations.
+* **Real Interest Rate:** Nominal interest rate adjusted for inflation.
+
+
+## 2. Prioritized 3-Hour Study Plan
+
+**Hour 1: Foundational Concepts (60 minutes)**
+
+* **(15 minutes):** Review definitions of compounding and discounting.  Practice calculating future and present values using basic formulas.
+* **(15 minutes):** Understand and apply the different factors: (F/P), (P/F), (P/A), (A/P), (A/F), (F/A).  Work through example problems.
+* **(30 minutes):** Master the concept of perpetuity and its application in capitalized cost calculations.
+
+
+**Hour 2: Advanced Applications (60 minutes)**
+
+* **(20 minutes):** Deep dive into capitalized cost calculations. Practice problems with varying initial costs, salvage values, and interest rates.
+* **(20 minutes):**  Understand the difference between salvage and scrap value and their impact on calculations.
+* **(20 minutes):** Thoroughly grasp the concept of inflation and its influence on interest rates and economic analysis.
+
+
+**Hour 3:  Problem Solving & Review (60 minutes)**
+
+* **(30 minutes):** Solve a variety of mixed problems involving compounding, discounting, perpetuity, capitalized cost, and inflation.
+* **(30 minutes):** Review all concepts and formulas. Identify areas needing further clarification and revisit relevant sections.
+
+
+## 3. Multiple-Choice Questions
+
+**1.  What factor is used to calculate the future value of a single present investment?**
+    a) Present-worth factor
+    b) **Future-worth factor**
+    c) Present-worth annuity factor
+    d) Capital recovery factor
+
+**2.  An annuity is:**
+    a) A single lump-sum payment.
+    b) A series of unequal payments over time.
+    c) **A series of equal payments over time.**
+    d) An investment that generates no return.
+
+**3. The capitalized cost represents:**
+    a) The initial investment cost only.
+    b) The present worth of all future replacement costs.
+    c) **The total cost of owning and replacing an asset perpetually.**
+    d) The salvage value of an asset.
+
+**4. Inflation leads to:**
+    a) A decrease in the real value of money.
+    b) **A decrease in the buying power of money.**
+    c) An increase in the real interest rate.
+    d) Both a) and c).
+
+**5.  Which of the following best describes the relationship between the nominal interest rate (i), the real interest rate (r), and the inflation rate (f)?**
+    a) i = r + f
+    b) i = r - f
+    c) i = r * f
+    d) **Approximately, i = r + f** (This is the approximation mentioned in the notes)
+
+
+
+        ```
+        
+
+    
+        ## Agent Interaction on 2025-09-14T04:35:45.479Z
+        ---
+        **Model:** gemini-1.5-flash-latest
+        **User's Custom Prompt:** 
+        **Full Prompt Sent to API:**
+        ```
+        
+                Summarize the following lecture notes into a maximum of 10 bullet points.  
+                - Focus only on the most important concepts.  
+                - Each point must be on a new line.  
+                - Make formatting clear, structured, and easy to read in UI.  
+
+                NOTES:  
+                ---  
+                
+
+Course: CHC303 Process Design and Economics
+Module: Process Economics
+5
+th
+Semester 
+BTech
+(Chemical 
+Engg
+.)
+Compounding and Discounting 
+Factors
+Instructor: Dr. D. Krishna Sandilya
+5
+th
+Semester 
+BTech
+(Chemical 
+Engg
+.)
+IIT (ISM), Dhanbad
+Monsoon Semester (2025 – 2026)
+1
+Slides courtesy: www.msubbu.in
+
+Compounding and Discounting Factors
+The standard notation in the general format:
+(
+X
+/
+Y
+, 
+i
+%, 
+n
+)
+X
+represents what you want to find
+Y
+represents what is given
+2
+e.g.,
+(
+F
+/
+P
+,
+6
+%,
+20
+) represents the factor that is used
+to calculate the future amount
+F
+accumulated in 20
+periods if the interest rate is 6% per period, for thegiven
+P
+.
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+3
+notation
+format,
+as
+F
+= 
+P
+(
+F
+/
+P
+, 
+i
+%, 
+n
+)
+The factor
+(
+F
+/
+P
+,
+i
+%,
+n
+)
+is known as the
+future–worth factor 
+(or) 
+single payment future–worth factor
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+4
+notation
+format,
+as
+P
+= 
+F
+(
+P
+/
+F
+, 
+i
+%, 
+n
+)
+The factor
+(
+P
+/
+F
+,
+i
+%,
+n
+)
+is known as the
+present–worth factor 
+(or) 
+single payment present–worth factor
+
+Compounding and Discounting Factors
+Present
+–
+worth factor:
+Future–worth factor:
+5
+Present
+–
+worth factor:
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+6
+notation
+format,
+as
+P
+= 
+A
+(
+P
+/
+A
+, 
+i
+%, 
+n
+)
+The factor
+(
+P
+/
+A
+,
+i
+%,
+n
+)
+is known as the
+present–worth annuity factor 
+(or) 
+uniform series present–worth factor
+
+Compounding and Discounting Factors
+Present–worth annuity factor
+7
+
+Compounding and Discounting Factors
+The inverse of the above, has the standard notationof
+A
+= 
+P
+(
+A
+/
+P
+, 
+i
+%, 
+n
+)
+The
+factor
+(
+A
+/
+P
+,
+i
+%
+,
+n
+)
+is
+known
+as
+the
+8
+The
+factor
+(
+A
+/
+P
+,
+i
+%
+,
+n
+)
+is
+known
+as
+the
+Capital recovery factor 
+The factor
+(
+A
+/
+F
+,
+i
+%,
+n
+)
+is called the
+Sinking fund factor
+
+Compounding and Discounting Factors
+Capital recovery factor
+9
+
+Compounding and Discounting Factors
+Sinking fund factor
+10
+
+Compounding and Discounting Factors
+Future worth annuity factor
+11
+
+Perpetuity
+A
+perpetuity
+is an annuity in which the periodic payments
+continue indefinitely.This type of annuity is of particular interest to engineers,
+for
+12
+in some cases they may desire to determine a total cost fora piece of equipment or other asset under conditions whichpermit  the  asset  to  be  replaced  perpetually  withoutconsidering inflation or deflation.
+
+Perpetuity –
+example
+Consider  the  example  in  which  the  originalcost  of  a  certain  piece  of  equipment  is$12,000.
+13
+The useful-life period is 10 years.The scrap value at the end of the useful life is$2000.
+
+Perpetuity –
+example
+The engineer reasons that this piece of equipment,or its replacement, will be in use for an indefinitelylong
+period
+of
+time,
+and
+it
+will
+be
+necessary
+to
+14
+long
+period
+of
+time,
+and
+it
+will
+be
+necessary
+to
+supply $10,000 every 10 years in order to replacethe equipment.
+
+Perpetuity –
+example
+He therefore wishes to provide a fund of sufficientsize so that it will earn enough interest to pay for theperiodic
+replacement
+.
+15
+periodic
+replacement
+.
+If the discrete annual interest rate is 6 percent, thisfund would need to be $12,650.
+
+Perpetuity –
+example
+At 6 percent interest compounded annually, the fundwould amount to ($12,650)(1 + 0.06)
+10
+= $22,650 after
+10 years.
+16
+Thus,  at the end  of  10  years,  the equipment can  bereplaced  for  $10,000  and  $12,650  will  remain  in  thefund.
+
+Perpetuity –
+example
+This cycle could now be repeated indefinitely.If
+the
+equipment
+is
+to
+perpetuate
+itself,
+the
+17
+If
+the
+equipment
+is
+to
+perpetuate
+itself,
+the
+theoretical amount of total capital necessary at thestart  would  be  $12,000  for  the  equipment  plus$12,650 for the replacement fund.
+
+Capitalized Cost
+The total capital determined in this manner iscalled the
+capitalized cost
+.
+18
+Engineers use capitalized costs principally forcomparing alternative choices.
+
+Capitalized Cost
+The
+capitalized  cost
+(
+C
+K
+)  is  related  with  the
+initial investment cost (
+C
+I
+) as:
+(
+C
+K
+– C
+I
+)(1+
+i
+)
+n
+= 
+C
+K
+– C
+S
+19
+K
+I
+K
+S
+wherei
+= interest rate
+n
+= service life of the asset in years
+C
+S
+= salvage value of the asset
+
+Capitalized Cost
+The amount
+(
+C
+K
+– C
+I
+)
+is invested in a bank account at an
+interest rate of
+i
+per year, would generate
+C
+K
+– C
+S
+at the end
+of
+n
+years.
+(
+C
+K
+– C
+I
+)(1+
+i
+)
+n
+= 
+C
+K
+– C
+S
+By
+algebraic
+reduction,
+the
+above
+equation
+can
+be
+20
+By
+algebraic
+reduction,
+the
+above
+equation
+can
+be
+re-written as
+Note that,
+C
+I
+– C
+S
+=
+C
+R
+, is the cost of
+replacement
+.
+
+Salvage and scrap values
+Salvage value
+is the net amount of money obtainable from the sale of used
+property over and above any charges involved in removal and sale.If a property is capable of further service, its
+salvage value
+may be high.
+The term
+salvage value
+implies that the asset can give some type of further
+service
+and
+is
+worth
+more
+than
+merely
+its
+scrap
+or
+junk
+value
+.
+21
+service
+and
+is
+worth
+more
+than
+merely
+its
+scrap
+or
+junk
+value
+.
+If  the  property  cannot  be  disposed  of  as  a  useful  unit,  it  can  ofte
+n  be
+dismantled  and  sold  as
+junk
+to  be  used  again  as  a  manufacturing  raw
+material.The profit obtainable from this type of disposal is known as the
+scrap
+, or
+junk
+,
+value
+.
+
+Inflation
+The
+buying power
+of money changes with time.
+A
+decline
+in
+buying power
+is experienced as a general
+increase in the prices and is called
+inflation
+.
+Borrowing
+becomes
+more
+attractive
+if
+inflation
+is
+22
+Borrowing
+becomes
+more
+attractive
+if
+inflation
+is
+expected  since  the  debt  will  be  paid  with  the  lessvaluable cash of the future.Interest rate should be higher than the inflation rate.Only then, there is a real earning for the lender.
+
+Inflation
+Inflation
+is  the  increase  in  the  amount  of  money
+necessary to purchase the same amount of a productor service over time.It  occurs  because  the
+value  of  the  currency  has
+decreased
+,
+so
+it
+takes
+more
+money
+to
+obtain
+the
+same
+23
+decreased
+,
+so
+it
+takes
+more
+money
+to
+obtain
+the
+same
+amount of goods or services.Associated with inflation is an increase in the
+money
+supply
+,  i.e.,  the  government  prints  more  currency
+(rupees), while the supply of goods does not increase.
+
+Inflation
+Future amount = Constant value (1 + 
+f
+)
+n
+where,
+24
+f
+= inflation rate (fraction)
+n
+= number of years
+
+Inflation
+The real interest rate
+r
+, corresponding to
+a nominal interest rate of
+i
+, and inflation
+rate of
+f
+are related as
+25
+As an approximation, we can consider
+
+References
+Compounding and Discounting Factors
+1.
+Peters, M. S., K. D. Timmerhaus, R. E. West, Plant Design an
+d Economics for Chemical
+Engineers, 5
+th
+Edition, McGraw-Hill Education (India) Provate Limited, N
+ew Delhi,
+2011.
+2.
+Towler, G., R. Sinnott, Chemical Engineering Design – Pri
+nciples, Practice, Economics
+of Plant and Process Design, Butterworth-Heinemann, Burli
+ngton, 2008.
+26
+3.
+M  Subbu,  S.  Siddarth,  GATEway  to  Chemical  Engineering  (Vo
+lume  –  5),  Rishal
+Publications, 2018.
+4.
+Simpson , R., S. K. Sastry, Chemical and Bioprocess Engine
+ering, Springer, New York,
+2013.
+5.
+James R. Couper, Process Engineering Economics, Marcel D
+ekker, Inc., New York,
+2003.  
+                ---  
+             
+        ```
+        **Response Received from API:**
+        ```
+        * **Compounding and Discounting Factors:**  These factors are used to calculate future and present values of money, considering interest rates and time periods.  Standard notations (F/P, P/F, P/A, A/P, A/F) represent these calculations.
+
+* **Future Worth Factor (F/P):** Calculates the future value (F) of a present amount (P) at a given interest rate (i) over a specified number of periods (n).
+
+* **Present Worth Factor (P/F):** Calculates the present value (P) of a future amount (F) at a given interest rate (i) over a specified number of periods (n).
+
+* **Present Worth Annuity Factor (P/A):** Calculates the present value (P) of a series of equal payments (annuity A) over a given number of periods (n) at a given interest rate (i).
+
+* **Capital Recovery Factor (A/P):** Determines the equivalent uniform annual payment (A) required to recover a present investment (P) over a given period (n) at a given interest rate (i).
+
+* **Sinking Fund Factor (A/F):**  Calculates the uniform annual payment (A) needed to accumulate a specific future amount (F) at a given interest rate (i) over a specified number of periods (n).
+
+* **Perpetuity:**  An annuity with payments continuing indefinitely, useful for calculating the capitalized cost of perpetually replaceable assets.
+
+* **Capitalized Cost:** The total capital investment required for an asset considering its initial cost, replacement cost, and interest earned.  It's used for comparing different investment options.
+
+* **Salvage and Scrap Values:**  Salvage value is the resale value of an asset after use, while scrap value is the value obtained from its disposal as junk.
+
+* **Inflation:**  The decrease in the purchasing power of money over time, affecting interest rates and future value calculations.  Real interest rates account for inflation.
+
+        ```
+        
+
+    
+        ## Agent Interaction on 2025-09-14T04:36:27.974Z
+        ---
+        **Model:** gemini-1.5-flash-latest
+        **User's Custom Prompt:** 
+        **Full Prompt Sent to API:**
+        ```
+        
+                Generate detailed study notes from the following text.  
+                - Organize with clear **sections and headings**.  
+                - Add short explanations for each major concept.  
+                - Use bullet points for clarity.  
+                - Make formatting structured and neat for UI readability.  
+
+                NOTES:  
+                ---  
+                
+
+Course: CHC303 Process Design and Economics
+Module: Process Economics
+5
+th
+Semester 
+BTech
+(Chemical 
+Engg
+.)
+Compounding and Discounting 
+Factors
+Instructor: Dr. D. Krishna Sandilya
+5
+th
+Semester 
+BTech
+(Chemical 
+Engg
+.)
+IIT (ISM), Dhanbad
+Monsoon Semester (2025 – 2026)
+1
+Slides courtesy: www.msubbu.in
+
+Compounding and Discounting Factors
+The standard notation in the general format:
+(
+X
+/
+Y
+, 
+i
+%, 
+n
+)
+X
+represents what you want to find
+Y
+represents what is given
+2
+e.g.,
+(
+F
+/
+P
+,
+6
+%,
+20
+) represents the factor that is used
+to calculate the future amount
+F
+accumulated in 20
+periods if the interest rate is 6% per period, for thegiven
+P
+.
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+3
+notation
+format,
+as
+F
+= 
+P
+(
+F
+/
+P
+, 
+i
+%, 
+n
+)
+The factor
+(
+F
+/
+P
+,
+i
+%,
+n
+)
+is known as the
+future–worth factor 
+(or) 
+single payment future–worth factor
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+4
+notation
+format,
+as
+P
+= 
+F
+(
+P
+/
+F
+, 
+i
+%, 
+n
+)
+The factor
+(
+P
+/
+F
+,
+i
+%,
+n
+)
+is known as the
+present–worth factor 
+(or) 
+single payment present–worth factor
+
+Compounding and Discounting Factors
+Present
+–
+worth factor:
+Future–worth factor:
+5
+Present
+–
+worth factor:
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+6
+notation
+format,
+as
+P
+= 
+A
+(
+P
+/
+A
+, 
+i
+%, 
+n
+)
+The factor
+(
+P
+/
+A
+,
+i
+%,
+n
+)
+is known as the
+present–worth annuity factor 
+(or) 
+uniform series present–worth factor
+
+Compounding and Discounting Factors
+Present–worth annuity factor
+7
+
+Compounding and Discounting Factors
+The inverse of the above, has the standard notationof
+A
+= 
+P
+(
+A
+/
+P
+, 
+i
+%, 
+n
+)
+The
+factor
+(
+A
+/
+P
+,
+i
+%
+,
+n
+)
+is
+known
+as
+the
+8
+The
+factor
+(
+A
+/
+P
+,
+i
+%
+,
+n
+)
+is
+known
+as
+the
+Capital recovery factor 
+The factor
+(
+A
+/
+F
+,
+i
+%,
+n
+)
+is called the
+Sinking fund factor
+
+Compounding and Discounting Factors
+Capital recovery factor
+9
+
+Compounding and Discounting Factors
+Sinking fund factor
+10
+
+Compounding and Discounting Factors
+Future worth annuity factor
+11
+
+Perpetuity
+A
+perpetuity
+is an annuity in which the periodic payments
+continue indefinitely.This type of annuity is of particular interest to engineers,
+for
+12
+in some cases they may desire to determine a total cost fora piece of equipment or other asset under conditions whichpermit  the  asset  to  be  replaced  perpetually  withoutconsidering inflation or deflation.
+
+Perpetuity –
+example
+Consider  the  example  in  which  the  originalcost  of  a  certain  piece  of  equipment  is$12,000.
+13
+The useful-life period is 10 years.The scrap value at the end of the useful life is$2000.
+
+Perpetuity –
+example
+The engineer reasons that this piece of equipment,or its replacement, will be in use for an indefinitelylong
+period
+of
+time,
+and
+it
+will
+be
+necessary
+to
+14
+long
+period
+of
+time,
+and
+it
+will
+be
+necessary
+to
+supply $10,000 every 10 years in order to replacethe equipment.
+
+Perpetuity –
+example
+He therefore wishes to provide a fund of sufficientsize so that it will earn enough interest to pay for theperiodic
+replacement
+.
+15
+periodic
+replacement
+.
+If the discrete annual interest rate is 6 percent, thisfund would need to be $12,650.
+
+Perpetuity –
+example
+At 6 percent interest compounded annually, the fundwould amount to ($12,650)(1 + 0.06)
+10
+= $22,650 after
+10 years.
+16
+Thus,  at the end  of  10  years,  the equipment can  bereplaced  for  $10,000  and  $12,650  will  remain  in  thefund.
+
+Perpetuity –
+example
+This cycle could now be repeated indefinitely.If
+the
+equipment
+is
+to
+perpetuate
+itself,
+the
+17
+If
+the
+equipment
+is
+to
+perpetuate
+itself,
+the
+theoretical amount of total capital necessary at thestart  would  be  $12,000  for  the  equipment  plus$12,650 for the replacement fund.
+
+Capitalized Cost
+The total capital determined in this manner iscalled the
+capitalized cost
+.
+18
+Engineers use capitalized costs principally forcomparing alternative choices.
+
+Capitalized Cost
+The
+capitalized  cost
+(
+C
+K
+)  is  related  with  the
+initial investment cost (
+C
+I
+) as:
+(
+C
+K
+– C
+I
+)(1+
+i
+)
+n
+= 
+C
+K
+– C
+S
+19
+K
+I
+K
+S
+wherei
+= interest rate
+n
+= service life of the asset in years
+C
+S
+= salvage value of the asset
+
+Capitalized Cost
+The amount
+(
+C
+K
+– C
+I
+)
+is invested in a bank account at an
+interest rate of
+i
+per year, would generate
+C
+K
+– C
+S
+at the end
+of
+n
+years.
+(
+C
+K
+– C
+I
+)(1+
+i
+)
+n
+= 
+C
+K
+– C
+S
+By
+algebraic
+reduction,
+the
+above
+equation
+can
+be
+20
+By
+algebraic
+reduction,
+the
+above
+equation
+can
+be
+re-written as
+Note that,
+C
+I
+– C
+S
+=
+C
+R
+, is the cost of
+replacement
+.
+
+Salvage and scrap values
+Salvage value
+is the net amount of money obtainable from the sale of used
+property over and above any charges involved in removal and sale.If a property is capable of further service, its
+salvage value
+may be high.
+The term
+salvage value
+implies that the asset can give some type of further
+service
+and
+is
+worth
+more
+than
+merely
+its
+scrap
+or
+junk
+value
+.
+21
+service
+and
+is
+worth
+more
+than
+merely
+its
+scrap
+or
+junk
+value
+.
+If  the  property  cannot  be  disposed  of  as  a  useful  unit,  it  can  ofte
+n  be
+dismantled  and  sold  as
+junk
+to  be  used  again  as  a  manufacturing  raw
+material.The profit obtainable from this type of disposal is known as the
+scrap
+, or
+junk
+,
+value
+.
+
+Inflation
+The
+buying power
+of money changes with time.
+A
+decline
+in
+buying power
+is experienced as a general
+increase in the prices and is called
+inflation
+.
+Borrowing
+becomes
+more
+attractive
+if
+inflation
+is
+22
+Borrowing
+becomes
+more
+attractive
+if
+inflation
+is
+expected  since  the  debt  will  be  paid  with  the  lessvaluable cash of the future.Interest rate should be higher than the inflation rate.Only then, there is a real earning for the lender.
+
+Inflation
+Inflation
+is  the  increase  in  the  amount  of  money
+necessary to purchase the same amount of a productor service over time.It  occurs  because  the
+value  of  the  currency  has
+decreased
+,
+so
+it
+takes
+more
+money
+to
+obtain
+the
+same
+23
+decreased
+,
+so
+it
+takes
+more
+money
+to
+obtain
+the
+same
+amount of goods or services.Associated with inflation is an increase in the
+money
+supply
+,  i.e.,  the  government  prints  more  currency
+(rupees), while the supply of goods does not increase.
+
+Inflation
+Future amount = Constant value (1 + 
+f
+)
+n
+where,
+24
+f
+= inflation rate (fraction)
+n
+= number of years
+
+Inflation
+The real interest rate
+r
+, corresponding to
+a nominal interest rate of
+i
+, and inflation
+rate of
+f
+are related as
+25
+As an approximation, we can consider
+
+References
+Compounding and Discounting Factors
+1.
+Peters, M. S., K. D. Timmerhaus, R. E. West, Plant Design an
+d Economics for Chemical
+Engineers, 5
+th
+Edition, McGraw-Hill Education (India) Provate Limited, N
+ew Delhi,
+2011.
+2.
+Towler, G., R. Sinnott, Chemical Engineering Design – Pri
+nciples, Practice, Economics
+of Plant and Process Design, Butterworth-Heinemann, Burli
+ngton, 2008.
+26
+3.
+M  Subbu,  S.  Siddarth,  GATEway  to  Chemical  Engineering  (Vo
+lume  –  5),  Rishal
+Publications, 2018.
+4.
+Simpson , R., S. K. Sastry, Chemical and Bioprocess Engine
+ering, Springer, New York,
+2013.
+5.
+James R. Couper, Process Engineering Economics, Marcel D
+ekker, Inc., New York,
+2003.  
+                ---  
+            
+        ```
+        **Response Received from API:**
+        ```
+        # CHC303 Process Design and Economics: Process Economics - Compounding and Discounting Factors
+
+**Module:** Process Economics
+**Semester:** 5th Semester BTech (Chemical Engg.)
+**Instructor:** Dr. D. Krishna Sandilya
+**Institution:** IIT (ISM), Dhanbad
+**Semester:** Monsoon Semester (2025-2026)
+
+
+## I. Compounding and Discounting Factors
+
+This section introduces the fundamental concepts of compounding and discounting, crucial for evaluating the economic viability of chemical engineering projects.
+
+**A. Standard Notation:**
+
+* The general format is represented as (X/Y, i%, n), where:
+    * X represents the unknown variable you want to find.
+    * Y represents the known variable given.
+    * i represents the interest rate per period (expressed as a percentage).
+    * n represents the number of periods.
+
+
+**B. Future Worth Factor (F/P):**
+
+* This factor calculates the future value (F) of a present investment (P) after 'n' periods at an interest rate of 'i'.
+* Formula:  F = P(F/P, i%, n)
+* (F/P, i%, n) is the future worth factor or single payment future worth factor.  This is a multiplier obtained from financial tables or calculated using the formula: (1+i)^n
+
+
+**C. Present Worth Factor (P/F):**
+
+* This factor calculates the present value (P) of a future amount (F) discounted back over 'n' periods at an interest rate of 'i'.
+* Formula: P = F(P/F, i%, n)
+* (P/F, i%, n) is the present worth factor or single payment present worth factor. This is a multiplier obtained from financial tables or calculated using the formula: 1/(1+i)^n
+
+
+**D. Present Worth Annuity Factor (P/A):**
+
+* This factor calculates the present value (P) of a series of equal payments (A) made over 'n' periods at an interest rate of 'i'. This is commonly used for evaluating projects with recurring costs or revenues.
+* Formula: P = A(P/A, i%, n)
+* (P/A, i%, n) is the present worth annuity factor or uniform series present worth factor.
+
+
+**E. Capital Recovery Factor (A/P):**
+
+* The inverse of the present worth annuity factor.  It determines the equivalent uniform annual payment (A) required to recover the initial investment (P) over 'n' periods at interest rate 'i'.  Useful for loan amortization calculations.
+* Formula: A = P(A/P, i%, n)
+* (A/P, i%, n) is the capital recovery factor.
+
+
+**F. Sinking Fund Factor (A/F):**
+
+* This factor calculates the equivalent uniform annual payment (A) required to accumulate a future amount (F) after 'n' periods at interest rate 'i'.  Used for situations needing to set aside money for future expenses (e.g., equipment replacement).
+* Formula: A = F(A/F, i%, n)
+* (A/F, i%, n) is the sinking fund factor.
+
+
+**G. Future Worth Annuity Factor (F/A):**
+
+* This factor determines the future value (F) of a series of equal payments (A) made over 'n' periods at interest rate 'i'.
+* Formula: F = A(F/A, i%, n)
+* (F/A, i%, n) is the future worth annuity factor.
+
+
+## II. Perpetuity
+
+* A perpetuity is an annuity with payments continuing indefinitely.  It is useful for modeling situations where an asset is replaced perpetually, such as equipment replacement with a constant cost.
+* The capitalized cost is the total capital needed to fund a perpetuity.
+
+## III. Capitalized Cost (CK)
+
+* The total capital investment required to perpetually maintain an asset, considering initial investment, replacement costs, and interest.
+* The relationship between capitalized cost (CK), initial investment cost (CI), salvage value (CS), interest rate (i), and service life (n) is given by: (CK - CI)(1+i)^n = CK - CS
+* This equation can be solved for CK to determine the capitalized cost.
+* Note: CR = CI - CS represents the cost of replacement.
+
+
+## IV. Salvage and Scrap Values
+
+* **Salvage value:** The net amount obtained from selling used property, considering removal and sale costs. Implies further service potential.
+* **Scrap value:** The profit from selling unusable property as raw material (junk value).
+
+
+## V. Inflation
+
+* Inflation represents the decrease in the buying power of money over time, leading to increased prices.
+* It affects economic evaluations because future cash flows have a lower real value than present cash flows.
+* **Future amount (considering inflation):** Future amount = Constant value (1 + f)^n, where 'f' is the inflation rate, and 'n' is the number of years.
+* The relationship between nominal interest rate (i), real interest rate (r), and inflation rate (f) is approximately: r ≈ i - f
+
+
+## VI. References
+
+The provided notes cite several textbooks commonly used in chemical engineering for process design and economics.  These provide further details and examples.
+
+
+This structured format facilitates better understanding and memorization of the concepts related to compounding and discounting factors, crucial for effective process economic analysis in chemical engineering.
+
+        ```
+        
+
+    
+        ## Agent Interaction on 2025-09-14T04:39:31.272Z
+        ---
+        **Model:** gemini-1.5-flash-latest
+        **User's Custom Prompt:** 
+        **Full Prompt Sent to API:**
+        ```
+        
+                From the following notes, create a complete study guide with:  
+
+                1. **A concise bullet-point summary** (max 12 points).  
+                2. **A prioritized 3-hour study plan**, broken into time blocks.  
+                3. **At least 5 multiple-choice questions with answers**.  
+
+                Formatting rules:  
+                - Use clear headings and subheadings.  
+                - Keep all points on new lines (no long paragraphs).  
+                - Bold important terms for emphasis.  
+                - Maintain spacing for readability in UI.  
+
+                NOTES:  
+                ---  
+                
+
+Course: CHC303 Process Design and Economics
+Module: Process Economics
+5
+th
+Semester 
+BTech
+(Chemical 
+Engg
+.)
+Compounding and Discounting 
+Factors
+Instructor: Dr. D. Krishna Sandilya
+5
+th
+Semester 
+BTech
+(Chemical 
+Engg
+.)
+IIT (ISM), Dhanbad
+Monsoon Semester (2025 – 2026)
+1
+Slides courtesy: www.msubbu.in
+
+Compounding and Discounting Factors
+The standard notation in the general format:
+(
+X
+/
+Y
+, 
+i
+%, 
+n
+)
+X
+represents what you want to find
+Y
+represents what is given
+2
+e.g.,
+(
+F
+/
+P
+,
+6
+%,
+20
+) represents the factor that is used
+to calculate the future amount
+F
+accumulated in 20
+periods if the interest rate is 6% per period, for thegiven
+P
+.
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+3
+notation
+format,
+as
+F
+= 
+P
+(
+F
+/
+P
+, 
+i
+%, 
+n
+)
+The factor
+(
+F
+/
+P
+,
+i
+%,
+n
+)
+is known as the
+future–worth factor 
+(or) 
+single payment future–worth factor
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+4
+notation
+format,
+as
+P
+= 
+F
+(
+P
+/
+F
+, 
+i
+%, 
+n
+)
+The factor
+(
+P
+/
+F
+,
+i
+%,
+n
+)
+is known as the
+present–worth factor 
+(or) 
+single payment present–worth factor
+
+Compounding and Discounting Factors
+Present
+–
+worth factor:
+Future–worth factor:
+5
+Present
+–
+worth factor:
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+6
+notation
+format,
+as
+P
+= 
+A
+(
+P
+/
+A
+, 
+i
+%, 
+n
+)
+The factor
+(
+P
+/
+A
+,
+i
+%,
+n
+)
+is known as the
+present–worth annuity factor 
+(or) 
+uniform series present–worth factor
+
+Compounding and Discounting Factors
+Present–worth annuity factor
+7
+
+Compounding and Discounting Factors
+The inverse of the above, has the standard notationof
+A
+= 
+P
+(
+A
+/
+P
+, 
+i
+%, 
+n
+)
+The
+factor
+(
+A
+/
+P
+,
+i
+%
+,
+n
+)
+is
+known
+as
+the
+8
+The
+factor
+(
+A
+/
+P
+,
+i
+%
+,
+n
+)
+is
+known
+as
+the
+Capital recovery factor 
+The factor
+(
+A
+/
+F
+,
+i
+%,
+n
+)
+is called the
+Sinking fund factor
+
+Compounding and Discounting Factors
+Capital recovery factor
+9
+
+Compounding and Discounting Factors
+Sinking fund factor
+10
+
+Compounding and Discounting Factors
+Future worth annuity factor
+11
+
+Perpetuity
+A
+perpetuity
+is an annuity in which the periodic payments
+continue indefinitely.This type of annuity is of particular interest to engineers,
+for
+12
+in some cases they may desire to determine a total cost fora piece of equipment or other asset under conditions whichpermit  the  asset  to  be  replaced  perpetually  withoutconsidering inflation or deflation.
+
+Perpetuity –
+example
+Consider  the  example  in  which  the  originalcost  of  a  certain  piece  of  equipment  is$12,000.
+13
+The useful-life period is 10 years.The scrap value at the end of the useful life is$2000.
+
+Perpetuity –
+example
+The engineer reasons that this piece of equipment,or its replacement, will be in use for an indefinitelylong
+period
+of
+time,
+and
+it
+will
+be
+necessary
+to
+14
+long
+period
+of
+time,
+and
+it
+will
+be
+necessary
+to
+supply $10,000 every 10 years in order to replacethe equipment.
+
+Perpetuity –
+example
+He therefore wishes to provide a fund of sufficientsize so that it will earn enough interest to pay for theperiodic
+replacement
+.
+15
+periodic
+replacement
+.
+If the discrete annual interest rate is 6 percent, thisfund would need to be $12,650.
+
+Perpetuity –
+example
+At 6 percent interest compounded annually, the fundwould amount to ($12,650)(1 + 0.06)
+10
+= $22,650 after
+10 years.
+16
+Thus,  at the end  of  10  years,  the equipment can  bereplaced  for  $10,000  and  $12,650  will  remain  in  thefund.
+
+Perpetuity –
+example
+This cycle could now be repeated indefinitely.If
+the
+equipment
+is
+to
+perpetuate
+itself,
+the
+17
+If
+the
+equipment
+is
+to
+perpetuate
+itself,
+the
+theoretical amount of total capital necessary at thestart  would  be  $12,000  for  the  equipment  plus$12,650 for the replacement fund.
+
+Capitalized Cost
+The total capital determined in this manner iscalled the
+capitalized cost
+.
+18
+Engineers use capitalized costs principally forcomparing alternative choices.
+
+Capitalized Cost
+The
+capitalized  cost
+(
+C
+K
+)  is  related  with  the
+initial investment cost (
+C
+I
+) as:
+(
+C
+K
+– C
+I
+)(1+
+i
+)
+n
+= 
+C
+K
+– C
+S
+19
+K
+I
+K
+S
+wherei
+= interest rate
+n
+= service life of the asset in years
+C
+S
+= salvage value of the asset
+
+Capitalized Cost
+The amount
+(
+C
+K
+– C
+I
+)
+is invested in a bank account at an
+interest rate of
+i
+per year, would generate
+C
+K
+– C
+S
+at the end
+of
+n
+years.
+(
+C
+K
+– C
+I
+)(1+
+i
+)
+n
+= 
+C
+K
+– C
+S
+By
+algebraic
+reduction,
+the
+above
+equation
+can
+be
+20
+By
+algebraic
+reduction,
+the
+above
+equation
+can
+be
+re-written as
+Note that,
+C
+I
+– C
+S
+=
+C
+R
+, is the cost of
+replacement
+.
+
+Salvage and scrap values
+Salvage value
+is the net amount of money obtainable from the sale of used
+property over and above any charges involved in removal and sale.If a property is capable of further service, its
+salvage value
+may be high.
+The term
+salvage value
+implies that the asset can give some type of further
+service
+and
+is
+worth
+more
+than
+merely
+its
+scrap
+or
+junk
+value
+.
+21
+service
+and
+is
+worth
+more
+than
+merely
+its
+scrap
+or
+junk
+value
+.
+If  the  property  cannot  be  disposed  of  as  a  useful  unit,  it  can  ofte
+n  be
+dismantled  and  sold  as
+junk
+to  be  used  again  as  a  manufacturing  raw
+material.The profit obtainable from this type of disposal is known as the
+scrap
+, or
+junk
+,
+value
+.
+
+Inflation
+The
+buying power
+of money changes with time.
+A
+decline
+in
+buying power
+is experienced as a general
+increase in the prices and is called
+inflation
+.
+Borrowing
+becomes
+more
+attractive
+if
+inflation
+is
+22
+Borrowing
+becomes
+more
+attractive
+if
+inflation
+is
+expected  since  the  debt  will  be  paid  with  the  lessvaluable cash of the future.Interest rate should be higher than the inflation rate.Only then, there is a real earning for the lender.
+
+Inflation
+Inflation
+is  the  increase  in  the  amount  of  money
+necessary to purchase the same amount of a productor service over time.It  occurs  because  the
+value  of  the  currency  has
+decreased
+,
+so
+it
+takes
+more
+money
+to
+obtain
+the
+same
+23
+decreased
+,
+so
+it
+takes
+more
+money
+to
+obtain
+the
+same
+amount of goods or services.Associated with inflation is an increase in the
+money
+supply
+,  i.e.,  the  government  prints  more  currency
+(rupees), while the supply of goods does not increase.
+
+Inflation
+Future amount = Constant value (1 + 
+f
+)
+n
+where,
+24
+f
+= inflation rate (fraction)
+n
+= number of years
+
+Inflation
+The real interest rate
+r
+, corresponding to
+a nominal interest rate of
+i
+, and inflation
+rate of
+f
+are related as
+25
+As an approximation, we can consider
+
+References
+Compounding and Discounting Factors
+1.
+Peters, M. S., K. D. Timmerhaus, R. E. West, Plant Design an
+d Economics for Chemical
+Engineers, 5
+th
+Edition, McGraw-Hill Education (India) Provate Limited, N
+ew Delhi,
+2011.
+2.
+Towler, G., R. Sinnott, Chemical Engineering Design – Pri
+nciples, Practice, Economics
+of Plant and Process Design, Butterworth-Heinemann, Burli
+ngton, 2008.
+26
+3.
+M  Subbu,  S.  Siddarth,  GATEway  to  Chemical  Engineering  (Vo
+lume  –  5),  Rishal
+Publications, 2018.
+4.
+Simpson , R., S. K. Sastry, Chemical and Bioprocess Engine
+ering, Springer, New York,
+2013.
+5.
+James R. Couper, Process Engineering Economics, Marcel D
+ekker, Inc., New York,
+2003.  
+                ---  
+            
+        ```
+        **Response Received from API:**
+        ```
+        # CHC303 Process Design and Economics: Process Economics Study Guide
+
+## 1. Concise Bullet-Point Summary:
+
+* **Compounding:**  Calculating future value (F) from present value (P) using interest rate (i) and time periods (n).  Formula: F = P(F/P, i%, n)
+* **Discounting:** Calculating present value (P) from future value (F) using interest rate (i) and time periods (n). Formula: P = F(P/F, i%, n)
+* **Future-Worth Factor (F/P):** Used to find the future value of a single present amount.
+* **Present-Worth Factor (P/F):** Used to find the present value of a single future amount.
+* **Present-Worth Annuity Factor (P/A):** Used to find the present value of a uniform series of payments (annuity). Formula: P = A(P/A, i%, n)
+* **Capital Recovery Factor (A/P):** Used to find the equivalent uniform annual cost of a present amount. Formula: A = P(A/P, i%, n)
+* **Sinking Fund Factor (A/F):** Used to find the equivalent uniform annual payment to accumulate a future amount.
+* **Future-Worth Annuity Factor (F/A):** Used to find the future value of a uniform series of payments (annuity).
+* **Perpetuity:** An annuity with payments continuing indefinitely.  Useful for calculating capitalized cost.
+* **Capitalized Cost (CK):** The total capital required to perpetually maintain an asset, considering initial investment, replacement costs, and interest.
+* **Salvage Value:** The value of an asset at the end of its useful life.
+* **Inflation:** The decrease in the purchasing power of money over time; affects interest rates and cost calculations.
+
+
+## 2. Prioritized 3-Hour Study Plan:
+
+**Hour 1:  Fundamental Concepts (60 minutes)**
+
+* **(15 min):** Review compounding and discounting definitions and formulas.  Focus on understanding the notation (X/Y, i%, n).
+* **(15 min):** Practice calculating future and present values using the provided formulas and simple examples.
+* **(15 min):** Understand the meaning and application of Future-Worth, Present-Worth, and Annuity factors.  Work through example problems from the textbook or lecture slides.
+* **(15 min):** Thoroughly understand the concept of **Perpetuity**.
+
+**Hour 2: Advanced Applications & Examples (60 minutes)**
+
+* **(20 min):** Focus on understanding Capital Recovery Factor and Sinking Fund Factor.  Solve example problems involving these factors.
+* **(20 min):**  Deep dive into **Capitalized Cost** calculations. Work through the formula and example problems, paying close attention to salvage value.
+* **(20 min):**  Study the differences between salvage value and scrap value. 
+
+**Hour 3: Inflation & Review (60 minutes)**
+
+* **(20 min):** Understand the impact of **inflation** on cost calculations and how it relates to real vs. nominal interest rates.
+* **(20 min):** Review all concepts and formulas.  Try to solve problems without looking at the notes.
+* **(20 min):** Practice solving the multiple-choice questions below and review any weak areas.
+
+
+## 3. Multiple-Choice Questions:
+
+**1.  What does the notation (P/A, 8%, 10) represent?**
+    a) Future worth factor
+    b) Present worth factor of a single payment
+    c) **Present worth annuity factor**
+    d) Sinking fund factor
+
+**2.  Which factor is used to determine the equivalent uniform annual cost of a present investment?**
+    a) Future-worth factor
+    b) Present-worth annuity factor
+    c) **Capital recovery factor**
+    d) Sinking fund factor
+
+
+**3. A perpetuity is:**
+    a) A loan with a fixed interest rate.
+    b) **An annuity with payments continuing indefinitely.**
+    c) A type of bond.
+    d) A method of calculating inflation.
+
+
+**4.  What is capitalized cost?**
+    a) The initial cost of an asset.
+    b) The cost of replacing an asset after its useful life.
+    c) The total cost of borrowing money.
+    d) **The total cost of owning and maintaining an asset perpetually.**
+
+
+**5.  Which of the following best describes salvage value?**
+    a) The cost of disposing of an asset.
+    b) The scrap value of an asset.
+    c) **The resale value of an asset at the end of its useful life.**
+    d) The initial cost of an asset.
+
+
+**Answer Key:** 1.c, 2.c, 3.b, 4.d, 5.c
+
+        ```
+        
+
+    
+        ## Agent Interaction on 2025-09-14T04:39:54.721Z
+        ---
+        **Model:** gemini-1.5-flash-latest
+        **User's Custom Prompt:** 
+        **Full Prompt Sent to API:**
+        ```
+        
+                Summarize the following lecture notes into a maximum of 10 bullet points.  
+                - Focus only on the most important concepts.  
+                - Each point must be on a new line.  
+                - Make formatting clear, structured, and easy to read in UI.  
+
+                NOTES:  
+                ---  
+                
+
+Course: CHC303 Process Design and Economics
+Module: Process Economics
+5
+th
+Semester 
+BTech
+(Chemical 
+Engg
+.)
+Compounding and Discounting 
+Factors
+Instructor: Dr. D. Krishna Sandilya
+5
+th
+Semester 
+BTech
+(Chemical 
+Engg
+.)
+IIT (ISM), Dhanbad
+Monsoon Semester (2025 – 2026)
+1
+Slides courtesy: www.msubbu.in
+
+Compounding and Discounting Factors
+The standard notation in the general format:
+(
+X
+/
+Y
+, 
+i
+%, 
+n
+)
+X
+represents what you want to find
+Y
+represents what is given
+2
+e.g.,
+(
+F
+/
+P
+,
+6
+%,
+20
+) represents the factor that is used
+to calculate the future amount
+F
+accumulated in 20
+periods if the interest rate is 6% per period, for thegiven
+P
+.
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+3
+notation
+format,
+as
+F
+= 
+P
+(
+F
+/
+P
+, 
+i
+%, 
+n
+)
+The factor
+(
+F
+/
+P
+,
+i
+%,
+n
+)
+is known as the
+future–worth factor 
+(or) 
+single payment future–worth factor
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+4
+notation
+format,
+as
+P
+= 
+F
+(
+P
+/
+F
+, 
+i
+%, 
+n
+)
+The factor
+(
+P
+/
+F
+,
+i
+%,
+n
+)
+is known as the
+present–worth factor 
+(or) 
+single payment present–worth factor
+
+Compounding and Discounting Factors
+Present
+–
+worth factor:
+Future–worth factor:
+5
+Present
+–
+worth factor:
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+6
+notation
+format,
+as
+P
+= 
+A
+(
+P
+/
+A
+, 
+i
+%, 
+n
+)
+The factor
+(
+P
+/
+A
+,
+i
+%,
+n
+)
+is known as the
+present–worth annuity factor 
+(or) 
+uniform series present–worth factor
+
+Compounding and Discounting Factors
+Present–worth annuity factor
+7
+
+Compounding and Discounting Factors
+The inverse of the above, has the standard notationof
+A
+= 
+P
+(
+A
+/
+P
+, 
+i
+%, 
+n
+)
+The
+factor
+(
+A
+/
+P
+,
+i
+%
+,
+n
+)
+is
+known
+as
+the
+8
+The
+factor
+(
+A
+/
+P
+,
+i
+%
+,
+n
+)
+is
+known
+as
+the
+Capital recovery factor 
+The factor
+(
+A
+/
+F
+,
+i
+%,
+n
+)
+is called the
+Sinking fund factor
+
+Compounding and Discounting Factors
+Capital recovery factor
+9
+
+Compounding and Discounting Factors
+Sinking fund factor
+10
+
+Compounding and Discounting Factors
+Future worth annuity factor
+11
+
+Perpetuity
+A
+perpetuity
+is an annuity in which the periodic payments
+continue indefinitely.This type of annuity is of particular interest to engineers,
+for
+12
+in some cases they may desire to determine a total cost fora piece of equipment or other asset under conditions whichpermit  the  asset  to  be  replaced  perpetually  withoutconsidering inflation or deflation.
+
+Perpetuity –
+example
+Consider  the  example  in  which  the  originalcost  of  a  certain  piece  of  equipment  is$12,000.
+13
+The useful-life period is 10 years.The scrap value at the end of the useful life is$2000.
+
+Perpetuity –
+example
+The engineer reasons that this piece of equipment,or its replacement, will be in use for an indefinitelylong
+period
+of
+time,
+and
+it
+will
+be
+necessary
+to
+14
+long
+period
+of
+time,
+and
+it
+will
+be
+necessary
+to
+supply $10,000 every 10 years in order to replacethe equipment.
+
+Perpetuity –
+example
+He therefore wishes to provide a fund of sufficientsize so that it will earn enough interest to pay for theperiodic
+replacement
+.
+15
+periodic
+replacement
+.
+If the discrete annual interest rate is 6 percent, thisfund would need to be $12,650.
+
+Perpetuity –
+example
+At 6 percent interest compounded annually, the fundwould amount to ($12,650)(1 + 0.06)
+10
+= $22,650 after
+10 years.
+16
+Thus,  at the end  of  10  years,  the equipment can  bereplaced  for  $10,000  and  $12,650  will  remain  in  thefund.
+
+Perpetuity –
+example
+This cycle could now be repeated indefinitely.If
+the
+equipment
+is
+to
+perpetuate
+itself,
+the
+17
+If
+the
+equipment
+is
+to
+perpetuate
+itself,
+the
+theoretical amount of total capital necessary at thestart  would  be  $12,000  for  the  equipment  plus$12,650 for the replacement fund.
+
+Capitalized Cost
+The total capital determined in this manner iscalled the
+capitalized cost
+.
+18
+Engineers use capitalized costs principally forcomparing alternative choices.
+
+Capitalized Cost
+The
+capitalized  cost
+(
+C
+K
+)  is  related  with  the
+initial investment cost (
+C
+I
+) as:
+(
+C
+K
+– C
+I
+)(1+
+i
+)
+n
+= 
+C
+K
+– C
+S
+19
+K
+I
+K
+S
+wherei
+= interest rate
+n
+= service life of the asset in years
+C
+S
+= salvage value of the asset
+
+Capitalized Cost
+The amount
+(
+C
+K
+– C
+I
+)
+is invested in a bank account at an
+interest rate of
+i
+per year, would generate
+C
+K
+– C
+S
+at the end
+of
+n
+years.
+(
+C
+K
+– C
+I
+)(1+
+i
+)
+n
+= 
+C
+K
+– C
+S
+By
+algebraic
+reduction,
+the
+above
+equation
+can
+be
+20
+By
+algebraic
+reduction,
+the
+above
+equation
+can
+be
+re-written as
+Note that,
+C
+I
+– C
+S
+=
+C
+R
+, is the cost of
+replacement
+.
+
+Salvage and scrap values
+Salvage value
+is the net amount of money obtainable from the sale of used
+property over and above any charges involved in removal and sale.If a property is capable of further service, its
+salvage value
+may be high.
+The term
+salvage value
+implies that the asset can give some type of further
+service
+and
+is
+worth
+more
+than
+merely
+its
+scrap
+or
+junk
+value
+.
+21
+service
+and
+is
+worth
+more
+than
+merely
+its
+scrap
+or
+junk
+value
+.
+If  the  property  cannot  be  disposed  of  as  a  useful  unit,  it  can  ofte
+n  be
+dismantled  and  sold  as
+junk
+to  be  used  again  as  a  manufacturing  raw
+material.The profit obtainable from this type of disposal is known as the
+scrap
+, or
+junk
+,
+value
+.
+
+Inflation
+The
+buying power
+of money changes with time.
+A
+decline
+in
+buying power
+is experienced as a general
+increase in the prices and is called
+inflation
+.
+Borrowing
+becomes
+more
+attractive
+if
+inflation
+is
+22
+Borrowing
+becomes
+more
+attractive
+if
+inflation
+is
+expected  since  the  debt  will  be  paid  with  the  lessvaluable cash of the future.Interest rate should be higher than the inflation rate.Only then, there is a real earning for the lender.
+
+Inflation
+Inflation
+is  the  increase  in  the  amount  of  money
+necessary to purchase the same amount of a productor service over time.It  occurs  because  the
+value  of  the  currency  has
+decreased
+,
+so
+it
+takes
+more
+money
+to
+obtain
+the
+same
+23
+decreased
+,
+so
+it
+takes
+more
+money
+to
+obtain
+the
+same
+amount of goods or services.Associated with inflation is an increase in the
+money
+supply
+,  i.e.,  the  government  prints  more  currency
+(rupees), while the supply of goods does not increase.
+
+Inflation
+Future amount = Constant value (1 + 
+f
+)
+n
+where,
+24
+f
+= inflation rate (fraction)
+n
+= number of years
+
+Inflation
+The real interest rate
+r
+, corresponding to
+a nominal interest rate of
+i
+, and inflation
+rate of
+f
+are related as
+25
+As an approximation, we can consider
+
+References
+Compounding and Discounting Factors
+1.
+Peters, M. S., K. D. Timmerhaus, R. E. West, Plant Design an
+d Economics for Chemical
+Engineers, 5
+th
+Edition, McGraw-Hill Education (India) Provate Limited, N
+ew Delhi,
+2011.
+2.
+Towler, G., R. Sinnott, Chemical Engineering Design – Pri
+nciples, Practice, Economics
+of Plant and Process Design, Butterworth-Heinemann, Burli
+ngton, 2008.
+26
+3.
+M  Subbu,  S.  Siddarth,  GATEway  to  Chemical  Engineering  (Vo
+lume  –  5),  Rishal
+Publications, 2018.
+4.
+Simpson , R., S. K. Sastry, Chemical and Bioprocess Engine
+ering, Springer, New York,
+2013.
+5.
+James R. Couper, Process Engineering Economics, Marcel D
+ekker, Inc., New York,
+2003.  
+                ---  
+             
+        ```
+        **Response Received from API:**
+        ```
+        * **Compounding and Discounting Factors:**  These factors are used to calculate future and present values of money, considering interest rates and time periods.  Standard notations (e.g., (F/P, i%, n)) represent these calculations.
+
+* **Future Worth Factor (F/P):** Calculates the future value (F) of a present amount (P) given an interest rate (i) and number of periods (n).
+
+* **Present Worth Factor (P/F):** Calculates the present value (P) of a future amount (F) given interest rate and number of periods.
+
+* **Present Worth Annuity Factor (P/A):**  Calculates the present value (P) of a series of uniform payments (A) over a given time period.
+
+* **Capital Recovery Factor (A/P):**  Calculates the uniform annual payment (A) required to recover a present amount (P) over a given time period.
+
+* **Sinking Fund Factor (A/F):** Calculates the uniform annual payment (A) needed to accumulate a future amount (F) over a given time period.
+
+* **Perpetuity:**  An annuity with payments continuing indefinitely; useful for calculating costs of perpetually replaceable assets.
+
+* **Capitalized Cost:** The total capital investment required for an asset considering initial cost, replacement costs, and interest over its indefinite lifespan.
+
+* **Salvage and Scrap Values:** Salvage value is the resale value of an asset; scrap value is its value as raw material after dismantling.
+
+* **Inflation:**  The decrease in the purchasing power of money over time, affecting interest rates and economic calculations.  Real interest rates should account for inflation.
+
+        ```
+        
+
+    
+        ## Agent Interaction on 2025-09-14T04:40:27.450Z
+        ---
+        **Model:** gemini-1.5-flash-latest
+        **User's Custom Prompt:** 
+        **Full Prompt Sent to API:**
+        ```
+        
+                Generate detailed study notes from the following text.  
+                - Organize with clear **sections and headings**.  
+                - Add short explanations for each major concept.  
+                - Use bullet points for clarity.  
+                - Make formatting structured and neat for UI readability.  
+
+                NOTES:  
+                ---  
+                
+
+Course: CHC303 Process Design and Economics
+Module: Process Economics
+5
+th
+Semester 
+BTech
+(Chemical 
+Engg
+.)
+Compounding and Discounting 
+Factors
+Instructor: Dr. D. Krishna Sandilya
+5
+th
+Semester 
+BTech
+(Chemical 
+Engg
+.)
+IIT (ISM), Dhanbad
+Monsoon Semester (2025 – 2026)
+1
+Slides courtesy: www.msubbu.in
+
+Compounding and Discounting Factors
+The standard notation in the general format:
+(
+X
+/
+Y
+, 
+i
+%, 
+n
+)
+X
+represents what you want to find
+Y
+represents what is given
+2
+e.g.,
+(
+F
+/
+P
+,
+6
+%,
+20
+) represents the factor that is used
+to calculate the future amount
+F
+accumulated in 20
+periods if the interest rate is 6% per period, for thegiven
+P
+.
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+3
+notation
+format,
+as
+F
+= 
+P
+(
+F
+/
+P
+, 
+i
+%, 
+n
+)
+The factor
+(
+F
+/
+P
+,
+i
+%,
+n
+)
+is known as the
+future–worth factor 
+(or) 
+single payment future–worth factor
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+4
+notation
+format,
+as
+P
+= 
+F
+(
+P
+/
+F
+, 
+i
+%, 
+n
+)
+The factor
+(
+P
+/
+F
+,
+i
+%,
+n
+)
+is known as the
+present–worth factor 
+(or) 
+single payment present–worth factor
+
+Compounding and Discounting Factors
+Present
+–
+worth factor:
+Future–worth factor:
+5
+Present
+–
+worth factor:
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+6
+notation
+format,
+as
+P
+= 
+A
+(
+P
+/
+A
+, 
+i
+%, 
+n
+)
+The factor
+(
+P
+/
+A
+,
+i
+%,
+n
+)
+is known as the
+present–worth annuity factor 
+(or) 
+uniform series present–worth factor
+
+Compounding and Discounting Factors
+Present–worth annuity factor
+7
+
+Compounding and Discounting Factors
+The inverse of the above, has the standard notationof
+A
+= 
+P
+(
+A
+/
+P
+, 
+i
+%, 
+n
+)
+The
+factor
+(
+A
+/
+P
+,
+i
+%
+,
+n
+)
+is
+known
+as
+the
+8
+The
+factor
+(
+A
+/
+P
+,
+i
+%
+,
+n
+)
+is
+known
+as
+the
+Capital recovery factor 
+The factor
+(
+A
+/
+F
+,
+i
+%,
+n
+)
+is called the
+Sinking fund factor
+
+Compounding and Discounting Factors
+Capital recovery factor
+9
+
+Compounding and Discounting Factors
+Sinking fund factor
+10
+
+Compounding and Discounting Factors
+Future worth annuity factor
+11
+
+Perpetuity
+A
+perpetuity
+is an annuity in which the periodic payments
+continue indefinitely.This type of annuity is of particular interest to engineers,
+for
+12
+in some cases they may desire to determine a total cost fora piece of equipment or other asset under conditions whichpermit  the  asset  to  be  replaced  perpetually  withoutconsidering inflation or deflation.
+
+Perpetuity –
+example
+Consider  the  example  in  which  the  originalcost  of  a  certain  piece  of  equipment  is$12,000.
+13
+The useful-life period is 10 years.The scrap value at the end of the useful life is$2000.
+
+Perpetuity –
+example
+The engineer reasons that this piece of equipment,or its replacement, will be in use for an indefinitelylong
+period
+of
+time,
+and
+it
+will
+be
+necessary
+to
+14
+long
+period
+of
+time,
+and
+it
+will
+be
+necessary
+to
+supply $10,000 every 10 years in order to replacethe equipment.
+
+Perpetuity –
+example
+He therefore wishes to provide a fund of sufficientsize so that it will earn enough interest to pay for theperiodic
+replacement
+.
+15
+periodic
+replacement
+.
+If the discrete annual interest rate is 6 percent, thisfund would need to be $12,650.
+
+Perpetuity –
+example
+At 6 percent interest compounded annually, the fundwould amount to ($12,650)(1 + 0.06)
+10
+= $22,650 after
+10 years.
+16
+Thus,  at the end  of  10  years,  the equipment can  bereplaced  for  $10,000  and  $12,650  will  remain  in  thefund.
+
+Perpetuity –
+example
+This cycle could now be repeated indefinitely.If
+the
+equipment
+is
+to
+perpetuate
+itself,
+the
+17
+If
+the
+equipment
+is
+to
+perpetuate
+itself,
+the
+theoretical amount of total capital necessary at thestart  would  be  $12,000  for  the  equipment  plus$12,650 for the replacement fund.
+
+Capitalized Cost
+The total capital determined in this manner iscalled the
+capitalized cost
+.
+18
+Engineers use capitalized costs principally forcomparing alternative choices.
+
+Capitalized Cost
+The
+capitalized  cost
+(
+C
+K
+)  is  related  with  the
+initial investment cost (
+C
+I
+) as:
+(
+C
+K
+– C
+I
+)(1+
+i
+)
+n
+= 
+C
+K
+– C
+S
+19
+K
+I
+K
+S
+wherei
+= interest rate
+n
+= service life of the asset in years
+C
+S
+= salvage value of the asset
+
+Capitalized Cost
+The amount
+(
+C
+K
+– C
+I
+)
+is invested in a bank account at an
+interest rate of
+i
+per year, would generate
+C
+K
+– C
+S
+at the end
+of
+n
+years.
+(
+C
+K
+– C
+I
+)(1+
+i
+)
+n
+= 
+C
+K
+– C
+S
+By
+algebraic
+reduction,
+the
+above
+equation
+can
+be
+20
+By
+algebraic
+reduction,
+the
+above
+equation
+can
+be
+re-written as
+Note that,
+C
+I
+– C
+S
+=
+C
+R
+, is the cost of
+replacement
+.
+
+Salvage and scrap values
+Salvage value
+is the net amount of money obtainable from the sale of used
+property over and above any charges involved in removal and sale.If a property is capable of further service, its
+salvage value
+may be high.
+The term
+salvage value
+implies that the asset can give some type of further
+service
+and
+is
+worth
+more
+than
+merely
+its
+scrap
+or
+junk
+value
+.
+21
+service
+and
+is
+worth
+more
+than
+merely
+its
+scrap
+or
+junk
+value
+.
+If  the  property  cannot  be  disposed  of  as  a  useful  unit,  it  can  ofte
+n  be
+dismantled  and  sold  as
+junk
+to  be  used  again  as  a  manufacturing  raw
+material.The profit obtainable from this type of disposal is known as the
+scrap
+, or
+junk
+,
+value
+.
+
+Inflation
+The
+buying power
+of money changes with time.
+A
+decline
+in
+buying power
+is experienced as a general
+increase in the prices and is called
+inflation
+.
+Borrowing
+becomes
+more
+attractive
+if
+inflation
+is
+22
+Borrowing
+becomes
+more
+attractive
+if
+inflation
+is
+expected  since  the  debt  will  be  paid  with  the  lessvaluable cash of the future.Interest rate should be higher than the inflation rate.Only then, there is a real earning for the lender.
+
+Inflation
+Inflation
+is  the  increase  in  the  amount  of  money
+necessary to purchase the same amount of a productor service over time.It  occurs  because  the
+value  of  the  currency  has
+decreased
+,
+so
+it
+takes
+more
+money
+to
+obtain
+the
+same
+23
+decreased
+,
+so
+it
+takes
+more
+money
+to
+obtain
+the
+same
+amount of goods or services.Associated with inflation is an increase in the
+money
+supply
+,  i.e.,  the  government  prints  more  currency
+(rupees), while the supply of goods does not increase.
+
+Inflation
+Future amount = Constant value (1 + 
+f
+)
+n
+where,
+24
+f
+= inflation rate (fraction)
+n
+= number of years
+
+Inflation
+The real interest rate
+r
+, corresponding to
+a nominal interest rate of
+i
+, and inflation
+rate of
+f
+are related as
+25
+As an approximation, we can consider
+
+References
+Compounding and Discounting Factors
+1.
+Peters, M. S., K. D. Timmerhaus, R. E. West, Plant Design an
+d Economics for Chemical
+Engineers, 5
+th
+Edition, McGraw-Hill Education (India) Provate Limited, N
+ew Delhi,
+2011.
+2.
+Towler, G., R. Sinnott, Chemical Engineering Design – Pri
+nciples, Practice, Economics
+of Plant and Process Design, Butterworth-Heinemann, Burli
+ngton, 2008.
+26
+3.
+M  Subbu,  S.  Siddarth,  GATEway  to  Chemical  Engineering  (Vo
+lume  –  5),  Rishal
+Publications, 2018.
+4.
+Simpson , R., S. K. Sastry, Chemical and Bioprocess Engine
+ering, Springer, New York,
+2013.
+5.
+James R. Couper, Process Engineering Economics, Marcel D
+ekker, Inc., New York,
+2003.  
+                ---  
+            
+        ```
+        **Response Received from API:**
+        ```
+        # CHC303 Process Design and Economics: Process Economics - Compounding and Discounting
+
+**Module:** Process Economics
+**Semester:** 5th Semester BTech (Chemical Engg.)
+**Instructor:** Dr. D. Krishna Sandilya
+**Institution:** IIT (ISM), Dhanbad
+**Semester:** Monsoon Semester (2025-2026)
+
+
+## I. Compounding and Discounting Factors
+
+**A. Standard Notation:**
+
+*   The general format is (X/Y, i%, n), where:
+    *   X represents the unknown value to be calculated.
+    *   Y represents the known value.
+    *   i represents the interest rate per period (as a percentage).
+    *   n represents the number of periods.
+
+**B.  Future Worth Factor (F/P):**
+
+*   Calculates the future value (F) of a present value (P) after n periods at an interest rate of i%.
+*   Formula: F = P(F/P, i%, n)
+*   (F/P, i%, n) is the future worth factor or single payment future worth factor.  This factor is obtained from compound interest tables or calculations.
+
+**C. Present Worth Factor (P/F):**
+
+*   Calculates the present value (P) of a future value (F) discounted over n periods at an interest rate of i%.
+*   Formula: P = F(P/F, i%, n)
+*   (P/F, i%, n) is the present worth factor or single payment present worth factor. This factor is the inverse of the future worth factor.
+
+**D. Present Worth Annuity Factor (P/A):**
+
+*   Calculates the present value (P) of a uniform series of payments (A) over n periods at an interest rate of i%.  An annuity is a series of equal payments made at regular intervals.
+*   Formula: P = A(P/A, i%, n)
+*   (P/A, i%, n) is the present worth annuity factor or uniform series present worth factor.
+
+**E. Capital Recovery Factor (A/P):**
+
+*   Calculates the equivalent uniform annual payment (A) required to recover the initial investment (P) over n periods at an interest rate of i%.  This is the inverse of the present worth annuity factor.
+*   Formula: A = P(A/P, i%, n)
+*   (A/P, i%, n) is the capital recovery factor.
+
+**F. Sinking Fund Factor (A/F):**
+
+*   Calculates the equivalent uniform annual payment (A) required to accumulate a future sum (F) after n periods at an interest rate of i%.
+*   The formula is not explicitly shown, but it is understood to be the factor used to calculate A given F.
+
+**G. Future Worth Annuity Factor (F/A):**
+
+*   Calculates the future value (F) of a uniform series of payments (A) after n periods at an interest rate of i%.  The formula is not explicitly shown but is implied.
+
+
+## II. Perpetuity
+
+*   A perpetuity is an annuity with payments continuing indefinitely.
+*   Useful for evaluating costs of perpetually replaceable assets (without considering inflation/deflation).
+*   Example:  Calculating the fund needed to perpetually replace a piece of equipment with a given cost and lifespan.  The capitalized cost considers both initial investment and the perpetual replacement fund.
+
+## III. Capitalized Cost (CK)
+
+*   The total capital required to perpetually own and replace an asset.
+*   This includes the initial investment cost (CI) and the present worth of all future replacement costs.
+*   Relationship with initial investment (CI) and salvage value (CS): (CK – CI)(1+i)^n = CK – CS
+*   Simplified:  CK = (CI – CS)/i  + CI (where CR = CI - CS represents the cost of replacement)
+
+
+## IV. Salvage and Scrap Values
+
+*   **Salvage Value:** The net amount received from selling a used asset; implies the asset has remaining useful life.
+*   **Scrap Value:** The amount received from selling an asset as junk or raw material; implies the asset has no further service life.
+
+
+## V. Inflation
+
+*   The decrease in the purchasing power of money over time, leading to a general increase in prices.
+*   Affects the real interest rate, as borrowing becomes more attractive if inflation is expected.
+*   The real interest rate should be higher than the inflation rate to provide a real return for lenders.
+*   Future amount considering inflation: Future amount = Constant value (1 + f)^n  where 'f' is the inflation rate and 'n' is the number of years.
+*   Relationship between real interest rate (r), nominal interest rate (i), and inflation rate (f):  r ≈ i – f (approximation)
+
+
+## VI. References
+
+The provided references list textbooks commonly used in chemical engineering process design and economics courses.  These books cover the topics discussed in more detail.
+
+        ```
+        
+
+    
+        ## Agent Interaction on 2025-09-14T04:47:50.947Z
+        ---
+        **Model:** gemini-1.5-flash-latest
+        **User's Custom Prompt:** 
+        **Full Prompt Sent to API:**
+        ```
+        
+                From the following notes, create a complete study guide with:  
+
+                1. **A concise bullet-point summary** (max 12 points).  
+                2. **A prioritized 3-hour study plan**, broken into time blocks.  
+                3. **At least 5 multiple-choice questions with answers**.  
+
+                Formatting rules:  
+                - Use clear headings and subheadings.  
+                - Keep all points on new lines (no long paragraphs).  
+                - Bold important terms for emphasis.  
+                - Maintain spacing for readability in UI.  
+
+                NOTES:  
+                ---  
+                
+
+Course: CHC303 Process Design and Economics
+Module: Process Economics
+5
+th
+Semester 
+BTech
+(Chemical 
+Engg
+.)
+Compounding and Discounting 
+Factors
+Instructor: Dr. D. Krishna Sandilya
+5
+th
+Semester 
+BTech
+(Chemical 
+Engg
+.)
+IIT (ISM), Dhanbad
+Monsoon Semester (2025 – 2026)
+1
+Slides courtesy: www.msubbu.in
+
+Compounding and Discounting Factors
+The standard notation in the general format:
+(
+X
+/
+Y
+, 
+i
+%, 
+n
+)
+X
+represents what you want to find
+Y
+represents what is given
+2
+e.g.,
+(
+F
+/
+P
+,
+6
+%,
+20
+) represents the factor that is used
+to calculate the future amount
+F
+accumulated in 20
+periods if the interest rate is 6% per period, for thegiven
+P
+.
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+3
+notation
+format,
+as
+F
+= 
+P
+(
+F
+/
+P
+, 
+i
+%, 
+n
+)
+The factor
+(
+F
+/
+P
+,
+i
+%,
+n
+)
+is known as the
+future–worth factor 
+(or) 
+single payment future–worth factor
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+4
+notation
+format,
+as
+P
+= 
+F
+(
+P
+/
+F
+, 
+i
+%, 
+n
+)
+The factor
+(
+P
+/
+F
+,
+i
+%,
+n
+)
+is known as the
+present–worth factor 
+(or) 
+single payment present–worth factor
+
+Compounding and Discounting Factors
+Present
+–
+worth factor:
+Future–worth factor:
+5
+Present
+–
+worth factor:
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+6
+notation
+format,
+as
+P
+= 
+A
+(
+P
+/
+A
+, 
+i
+%, 
+n
+)
+The factor
+(
+P
+/
+A
+,
+i
+%,
+n
+)
+is known as the
+present–worth annuity factor 
+(or) 
+uniform series present–worth factor
+
+Compounding and Discounting Factors
+Present–worth annuity factor
+7
+
+Compounding and Discounting Factors
+The inverse of the above, has the standard notationof
+A
+= 
+P
+(
+A
+/
+P
+, 
+i
+%, 
+n
+)
+The
+factor
+(
+A
+/
+P
+,
+i
+%
+,
+n
+)
+is
+known
+as
+the
+8
+The
+factor
+(
+A
+/
+P
+,
+i
+%
+,
+n
+)
+is
+known
+as
+the
+Capital recovery factor 
+The factor
+(
+A
+/
+F
+,
+i
+%,
+n
+)
+is called the
+Sinking fund factor
+
+Compounding and Discounting Factors
+Capital recovery factor
+9
+
+Compounding and Discounting Factors
+Sinking fund factor
+10
+
+Compounding and Discounting Factors
+Future worth annuity factor
+11
+
+Perpetuity
+A
+perpetuity
+is an annuity in which the periodic payments
+continue indefinitely.This type of annuity is of particular interest to engineers,
+for
+12
+in some cases they may desire to determine a total cost fora piece of equipment or other asset under conditions whichpermit  the  asset  to  be  replaced  perpetually  withoutconsidering inflation or deflation.
+
+Perpetuity –
+example
+Consider  the  example  in  which  the  originalcost  of  a  certain  piece  of  equipment  is$12,000.
+13
+The useful-life period is 10 years.The scrap value at the end of the useful life is$2000.
+
+Perpetuity –
+example
+The engineer reasons that this piece of equipment,or its replacement, will be in use for an indefinitelylong
+period
+of
+time,
+and
+it
+will
+be
+necessary
+to
+14
+long
+period
+of
+time,
+and
+it
+will
+be
+necessary
+to
+supply $10,000 every 10 years in order to replacethe equipment.
+
+Perpetuity –
+example
+He therefore wishes to provide a fund of sufficientsize so that it will earn enough interest to pay for theperiodic
+replacement
+.
+15
+periodic
+replacement
+.
+If the discrete annual interest rate is 6 percent, thisfund would need to be $12,650.
+
+Perpetuity –
+example
+At 6 percent interest compounded annually, the fundwould amount to ($12,650)(1 + 0.06)
+10
+= $22,650 after
+10 years.
+16
+Thus,  at the end  of  10  years,  the equipment can  bereplaced  for  $10,000  and  $12,650  will  remain  in  thefund.
+
+Perpetuity –
+example
+This cycle could now be repeated indefinitely.If
+the
+equipment
+is
+to
+perpetuate
+itself,
+the
+17
+If
+the
+equipment
+is
+to
+perpetuate
+itself,
+the
+theoretical amount of total capital necessary at thestart  would  be  $12,000  for  the  equipment  plus$12,650 for the replacement fund.
+
+Capitalized Cost
+The total capital determined in this manner iscalled the
+capitalized cost
+.
+18
+Engineers use capitalized costs principally forcomparing alternative choices.
+
+Capitalized Cost
+The
+capitalized  cost
+(
+C
+K
+)  is  related  with  the
+initial investment cost (
+C
+I
+) as:
+(
+C
+K
+– C
+I
+)(1+
+i
+)
+n
+= 
+C
+K
+– C
+S
+19
+K
+I
+K
+S
+wherei
+= interest rate
+n
+= service life of the asset in years
+C
+S
+= salvage value of the asset
+
+Capitalized Cost
+The amount
+(
+C
+K
+– C
+I
+)
+is invested in a bank account at an
+interest rate of
+i
+per year, would generate
+C
+K
+– C
+S
+at the end
+of
+n
+years.
+(
+C
+K
+– C
+I
+)(1+
+i
+)
+n
+= 
+C
+K
+– C
+S
+By
+algebraic
+reduction,
+the
+above
+equation
+can
+be
+20
+By
+algebraic
+reduction,
+the
+above
+equation
+can
+be
+re-written as
+Note that,
+C
+I
+– C
+S
+=
+C
+R
+, is the cost of
+replacement
+.
+
+Salvage and scrap values
+Salvage value
+is the net amount of money obtainable from the sale of used
+property over and above any charges involved in removal and sale.If a property is capable of further service, its
+salvage value
+may be high.
+The term
+salvage value
+implies that the asset can give some type of further
+service
+and
+is
+worth
+more
+than
+merely
+its
+scrap
+or
+junk
+value
+.
+21
+service
+and
+is
+worth
+more
+than
+merely
+its
+scrap
+or
+junk
+value
+.
+If  the  property  cannot  be  disposed  of  as  a  useful  unit,  it  can  ofte
+n  be
+dismantled  and  sold  as
+junk
+to  be  used  again  as  a  manufacturing  raw
+material.The profit obtainable from this type of disposal is known as the
+scrap
+, or
+junk
+,
+value
+.
+
+Inflation
+The
+buying power
+of money changes with time.
+A
+decline
+in
+buying power
+is experienced as a general
+increase in the prices and is called
+inflation
+.
+Borrowing
+becomes
+more
+attractive
+if
+inflation
+is
+22
+Borrowing
+becomes
+more
+attractive
+if
+inflation
+is
+expected  since  the  debt  will  be  paid  with  the  lessvaluable cash of the future.Interest rate should be higher than the inflation rate.Only then, there is a real earning for the lender.
+
+Inflation
+Inflation
+is  the  increase  in  the  amount  of  money
+necessary to purchase the same amount of a productor service over time.It  occurs  because  the
+value  of  the  currency  has
+decreased
+,
+so
+it
+takes
+more
+money
+to
+obtain
+the
+same
+23
+decreased
+,
+so
+it
+takes
+more
+money
+to
+obtain
+the
+same
+amount of goods or services.Associated with inflation is an increase in the
+money
+supply
+,  i.e.,  the  government  prints  more  currency
+(rupees), while the supply of goods does not increase.
+
+Inflation
+Future amount = Constant value (1 + 
+f
+)
+n
+where,
+24
+f
+= inflation rate (fraction)
+n
+= number of years
+
+Inflation
+The real interest rate
+r
+, corresponding to
+a nominal interest rate of
+i
+, and inflation
+rate of
+f
+are related as
+25
+As an approximation, we can consider
+
+References
+Compounding and Discounting Factors
+1.
+Peters, M. S., K. D. Timmerhaus, R. E. West, Plant Design an
+d Economics for Chemical
+Engineers, 5
+th
+Edition, McGraw-Hill Education (India) Provate Limited, N
+ew Delhi,
+2011.
+2.
+Towler, G., R. Sinnott, Chemical Engineering Design – Pri
+nciples, Practice, Economics
+of Plant and Process Design, Butterworth-Heinemann, Burli
+ngton, 2008.
+26
+3.
+M  Subbu,  S.  Siddarth,  GATEway  to  Chemical  Engineering  (Vo
+lume  –  5),  Rishal
+Publications, 2018.
+4.
+Simpson , R., S. K. Sastry, Chemical and Bioprocess Engine
+ering, Springer, New York,
+2013.
+5.
+James R. Couper, Process Engineering Economics, Marcel D
+ekker, Inc., New York,
+2003.  
+                ---  
+            
+        ```
+        **Response Received from API:**
+        ```
+        # CHC303 Process Design and Economics: Process Economics Study Guide
+
+## 1. Concise Bullet-Point Summary
+
+* **Compounding:** Calculating future value (F) from present value (P) using interest rate (i) and number of periods (n).  Uses **future-worth factor (F/P, i%, n)**.
+* **Discounting:** Calculating present value (P) from future value (F) using interest rate (i) and number of periods (n). Uses **present-worth factor (P/F, i%, n)**.
+* **Present-Worth Annuity Factor (P/A, i%, n):**  Calculates present value from a series of equal payments (annuity).
+* **Capital Recovery Factor (A/P, i%, n):** Calculates annual equivalent payment from present value.
+* **Sinking Fund Factor (A/F, i%, n):** Calculates annual payment needed to accumulate a future sum.
+* **Future-Worth Annuity Factor (F/A, i%, n):** Calculates future value from a series of equal payments.
+* **Perpetuity:** An annuity with payments continuing indefinitely; useful for calculating capitalized cost.
+* **Capitalized Cost (CK):** Total capital required to perpetually replace an asset; considers initial investment, salvage value, and interest.
+* **Salvage Value:** Value of an asset at the end of its useful life.
+* **Scrap Value:** Value of an asset when disposed of as junk material.
+* **Inflation:** Decrease in the buying power of money over time; affects interest rate calculations.
+* **Real Interest Rate:** Nominal interest rate adjusted for inflation.
+
+
+## 2. Prioritized 3-Hour Study Plan
+
+**Hour 1:  Fundamental Concepts (60 minutes)**
+
+* (15 min) Review compounding and discounting definitions and formulas. Practice calculating future and present values using simple examples.
+* (15 min) Understand the different factors: Future-worth factor, present-worth factor, present-worth annuity factor.  Work through example problems for each.
+* (30 min) Grasp the concept of perpetuity and capitalized cost. Solve problems relating to calculating capitalized cost given initial investment, salvage value, and interest rate.
+
+**Hour 2: Advanced Concepts & Problem Solving (60 minutes)**
+
+* (20 min) Focus on capital recovery and sinking fund factors; solve practice problems involving these factors.
+* (20 min) Deep dive into the relationship between nominal and real interest rates, considering inflation's impact. Work on problems involving inflation adjustments.
+* (20 min) Review different types of factors and their applications based on problem context. Practice choosing the right factor for different scenarios.
+
+**Hour 3: Practice & Review (60 minutes)**
+
+* (30 min) Solve a diverse set of problems encompassing all concepts (compounding, discounting, annuities, perpetuity, capitalized cost, and inflation).
+* (30 min) Review the key formulas and definitions. Identify areas where you need further clarification and revisit those sections.
+
+
+## 3. Multiple-Choice Questions
+
+**1.  What factor is used to calculate the future value (F) from a present value (P) with a given interest rate (i) and number of periods (n)?**
+    a) Present-worth factor
+    b) **Future-worth factor**
+    c) Present-worth annuity factor
+    d) Capital recovery factor
+
+**2. An annuity is:**
+    a) A single payment received at the end of a period.
+    b) A single payment made at the beginning of a period.
+    c) **A series of equal payments made at regular intervals.**
+    d) None of the above.
+
+
+**3. Which factor is used to determine the annual equivalent payment from a given present value?**
+    a) Sinking fund factor
+    b) **Capital recovery factor**
+    c) Future-worth annuity factor
+    d) Present-worth annuity factor
+
+
+**4.  Capitalized cost is primarily used for:**
+    a) Determining the salvage value of an asset
+    b) Calculating the scrap value of an asset
+    c) **Comparing alternative investment choices**
+    d) Predicting inflation rates
+
+
+**5.  The real interest rate considers:**
+    a) Only the nominal interest rate.
+    b) Only the inflation rate.
+    c) **Both the nominal interest rate and the inflation rate.**
+    d) Neither the nominal interest rate nor the inflation rate.
+
+
+        ```
+        
+
+    
+        ## Agent Interaction on 2025-09-14T04:48:14.414Z
+        ---
+        **Model:** gemini-1.5-flash-latest
+        **User's Custom Prompt:** 
+        **Full Prompt Sent to API:**
+        ```
+        
+                Generate detailed study notes from the following text.  
+                - Organize with clear **sections and headings**.  
+                - Add short explanations for each major concept.  
+                - Use bullet points for clarity.  
+                - Make formatting structured and neat for UI readability.  
+
+                NOTES:  
+                ---  
+                
+
+Course: CHC303 Process Design and Economics
+Module: Process Economics
+5
+th
+Semester 
+BTech
+(Chemical 
+Engg
+.)
+Compounding and Discounting 
+Factors
+Instructor: Dr. D. Krishna Sandilya
+5
+th
+Semester 
+BTech
+(Chemical 
+Engg
+.)
+IIT (ISM), Dhanbad
+Monsoon Semester (2025 – 2026)
+1
+Slides courtesy: www.msubbu.in
+
+Compounding and Discounting Factors
+The standard notation in the general format:
+(
+X
+/
+Y
+, 
+i
+%, 
+n
+)
+X
+represents what you want to find
+Y
+represents what is given
+2
+e.g.,
+(
+F
+/
+P
+,
+6
+%,
+20
+) represents the factor that is used
+to calculate the future amount
+F
+accumulated in 20
+periods if the interest rate is 6% per period, for thegiven
+P
+.
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+3
+notation
+format,
+as
+F
+= 
+P
+(
+F
+/
+P
+, 
+i
+%, 
+n
+)
+The factor
+(
+F
+/
+P
+,
+i
+%,
+n
+)
+is known as the
+future–worth factor 
+(or) 
+single payment future–worth factor
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+4
+notation
+format,
+as
+P
+= 
+F
+(
+P
+/
+F
+, 
+i
+%, 
+n
+)
+The factor
+(
+P
+/
+F
+,
+i
+%,
+n
+)
+is known as the
+present–worth factor 
+(or) 
+single payment present–worth factor
+
+Compounding and Discounting Factors
+Present
+–
+worth factor:
+Future–worth factor:
+5
+Present
+–
+worth factor:
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+6
+notation
+format,
+as
+P
+= 
+A
+(
+P
+/
+A
+, 
+i
+%, 
+n
+)
+The factor
+(
+P
+/
+A
+,
+i
+%,
+n
+)
+is known as the
+present–worth annuity factor 
+(or) 
+uniform series present–worth factor
+
+Compounding and Discounting Factors
+Present–worth annuity factor
+7
+
+Compounding and Discounting Factors
+The inverse of the above, has the standard notationof
+A
+= 
+P
+(
+A
+/
+P
+, 
+i
+%, 
+n
+)
+The
+factor
+(
+A
+/
+P
+,
+i
+%
+,
+n
+)
+is
+known
+as
+the
+8
+The
+factor
+(
+A
+/
+P
+,
+i
+%
+,
+n
+)
+is
+known
+as
+the
+Capital recovery factor 
+The factor
+(
+A
+/
+F
+,
+i
+%,
+n
+)
+is called the
+Sinking fund factor
+
+Compounding and Discounting Factors
+Capital recovery factor
+9
+
+Compounding and Discounting Factors
+Sinking fund factor
+10
+
+Compounding and Discounting Factors
+Future worth annuity factor
+11
+
+Perpetuity
+A
+perpetuity
+is an annuity in which the periodic payments
+continue indefinitely.This type of annuity is of particular interest to engineers,
+for
+12
+in some cases they may desire to determine a total cost fora piece of equipment or other asset under conditions whichpermit  the  asset  to  be  replaced  perpetually  withoutconsidering inflation or deflation.
+
+Perpetuity –
+example
+Consider  the  example  in  which  the  originalcost  of  a  certain  piece  of  equipment  is$12,000.
+13
+The useful-life period is 10 years.The scrap value at the end of the useful life is$2000.
+
+Perpetuity –
+example
+The engineer reasons that this piece of equipment,or its replacement, will be in use for an indefinitelylong
+period
+of
+time,
+and
+it
+will
+be
+necessary
+to
+14
+long
+period
+of
+time,
+and
+it
+will
+be
+necessary
+to
+supply $10,000 every 10 years in order to replacethe equipment.
+
+Perpetuity –
+example
+He therefore wishes to provide a fund of sufficientsize so that it will earn enough interest to pay for theperiodic
+replacement
+.
+15
+periodic
+replacement
+.
+If the discrete annual interest rate is 6 percent, thisfund would need to be $12,650.
+
+Perpetuity –
+example
+At 6 percent interest compounded annually, the fundwould amount to ($12,650)(1 + 0.06)
+10
+= $22,650 after
+10 years.
+16
+Thus,  at the end  of  10  years,  the equipment can  bereplaced  for  $10,000  and  $12,650  will  remain  in  thefund.
+
+Perpetuity –
+example
+This cycle could now be repeated indefinitely.If
+the
+equipment
+is
+to
+perpetuate
+itself,
+the
+17
+If
+the
+equipment
+is
+to
+perpetuate
+itself,
+the
+theoretical amount of total capital necessary at thestart  would  be  $12,000  for  the  equipment  plus$12,650 for the replacement fund.
+
+Capitalized Cost
+The total capital determined in this manner iscalled the
+capitalized cost
+.
+18
+Engineers use capitalized costs principally forcomparing alternative choices.
+
+Capitalized Cost
+The
+capitalized  cost
+(
+C
+K
+)  is  related  with  the
+initial investment cost (
+C
+I
+) as:
+(
+C
+K
+– C
+I
+)(1+
+i
+)
+n
+= 
+C
+K
+– C
+S
+19
+K
+I
+K
+S
+wherei
+= interest rate
+n
+= service life of the asset in years
+C
+S
+= salvage value of the asset
+
+Capitalized Cost
+The amount
+(
+C
+K
+– C
+I
+)
+is invested in a bank account at an
+interest rate of
+i
+per year, would generate
+C
+K
+– C
+S
+at the end
+of
+n
+years.
+(
+C
+K
+– C
+I
+)(1+
+i
+)
+n
+= 
+C
+K
+– C
+S
+By
+algebraic
+reduction,
+the
+above
+equation
+can
+be
+20
+By
+algebraic
+reduction,
+the
+above
+equation
+can
+be
+re-written as
+Note that,
+C
+I
+– C
+S
+=
+C
+R
+, is the cost of
+replacement
+.
+
+Salvage and scrap values
+Salvage value
+is the net amount of money obtainable from the sale of used
+property over and above any charges involved in removal and sale.If a property is capable of further service, its
+salvage value
+may be high.
+The term
+salvage value
+implies that the asset can give some type of further
+service
+and
+is
+worth
+more
+than
+merely
+its
+scrap
+or
+junk
+value
+.
+21
+service
+and
+is
+worth
+more
+than
+merely
+its
+scrap
+or
+junk
+value
+.
+If  the  property  cannot  be  disposed  of  as  a  useful  unit,  it  can  ofte
+n  be
+dismantled  and  sold  as
+junk
+to  be  used  again  as  a  manufacturing  raw
+material.The profit obtainable from this type of disposal is known as the
+scrap
+, or
+junk
+,
+value
+.
+
+Inflation
+The
+buying power
+of money changes with time.
+A
+decline
+in
+buying power
+is experienced as a general
+increase in the prices and is called
+inflation
+.
+Borrowing
+becomes
+more
+attractive
+if
+inflation
+is
+22
+Borrowing
+becomes
+more
+attractive
+if
+inflation
+is
+expected  since  the  debt  will  be  paid  with  the  lessvaluable cash of the future.Interest rate should be higher than the inflation rate.Only then, there is a real earning for the lender.
+
+Inflation
+Inflation
+is  the  increase  in  the  amount  of  money
+necessary to purchase the same amount of a productor service over time.It  occurs  because  the
+value  of  the  currency  has
+decreased
+,
+so
+it
+takes
+more
+money
+to
+obtain
+the
+same
+23
+decreased
+,
+so
+it
+takes
+more
+money
+to
+obtain
+the
+same
+amount of goods or services.Associated with inflation is an increase in the
+money
+supply
+,  i.e.,  the  government  prints  more  currency
+(rupees), while the supply of goods does not increase.
+
+Inflation
+Future amount = Constant value (1 + 
+f
+)
+n
+where,
+24
+f
+= inflation rate (fraction)
+n
+= number of years
+
+Inflation
+The real interest rate
+r
+, corresponding to
+a nominal interest rate of
+i
+, and inflation
+rate of
+f
+are related as
+25
+As an approximation, we can consider
+
+References
+Compounding and Discounting Factors
+1.
+Peters, M. S., K. D. Timmerhaus, R. E. West, Plant Design an
+d Economics for Chemical
+Engineers, 5
+th
+Edition, McGraw-Hill Education (India) Provate Limited, N
+ew Delhi,
+2011.
+2.
+Towler, G., R. Sinnott, Chemical Engineering Design – Pri
+nciples, Practice, Economics
+of Plant and Process Design, Butterworth-Heinemann, Burli
+ngton, 2008.
+26
+3.
+M  Subbu,  S.  Siddarth,  GATEway  to  Chemical  Engineering  (Vo
+lume  –  5),  Rishal
+Publications, 2018.
+4.
+Simpson , R., S. K. Sastry, Chemical and Bioprocess Engine
+ering, Springer, New York,
+2013.
+5.
+James R. Couper, Process Engineering Economics, Marcel D
+ekker, Inc., New York,
+2003.  
+                ---  
+            
+        ```
+        **Response Received from API:**
+        ```
+        # CHC303 Process Design and Economics: Process Economics - Compounding and Discounting Factors
+
+**Module:** Process Economics
+**Semester:** 5th Semester BTech (Chemical Engg.)
+**Instructor:** Dr. D. Krishna Sandilya
+**Institution:** IIT (ISM), Dhanbad
+**Semester:** Monsoon Semester (2025-2026)
+
+
+## I. Compounding and Discounting Factors
+
+**A. Standard Notation:**
+
+*   The general format for representing compounding and discounting factors is (X/Y, i%, n).
+*   `X` represents the unknown variable you want to find.
+*   `Y` represents the known variable.
+*   `i` represents the interest rate per period (expressed as a percentage).
+*   `n` represents the number of periods.
+
+**B. Key Factors:**
+
+*   **(F/P, i%, n): Future Worth Factor (Single Payment Future Worth Factor)**
+    *   This factor calculates the future amount (F) accumulated after *n* periods from a present amount (P) at an interest rate of *i*.
+    *   Formula:  F = P(F/P, i%, n)
+
+*   **(P/F, i%, n): Present Worth Factor (Single Payment Present Worth Factor)**
+    *   This factor calculates the present worth (P) of a future amount (F) at an interest rate of *i* over *n* periods.
+    *   Formula: P = F(P/F, i%, n)
+
+*   **(P/A, i%, n): Present Worth Annuity Factor (Uniform Series Present Worth Factor)**
+    *   This factor calculates the present worth (P) of a uniform series of payments (A) made over *n* periods at an interest rate of *i*.
+    *   Formula: P = A(P/A, i%, n)
+
+*   **(A/P, i%, n): Capital Recovery Factor**
+    *   The inverse of the Present Worth Annuity Factor.  It calculates the equivalent uniform annual payment (A) required to recover a present amount (P) over *n* periods at an interest rate of *i*.
+    *   Formula: A = P(A/P, i%, n)
+
+*   **(A/F, i%, n): Sinking Fund Factor**
+    *   This factor calculates the uniform annual payment (A) needed to accumulate a future amount (F) after *n* periods at an interest rate of *i*.
+
+
+## II. Perpetuity
+
+*   **Definition:** A perpetuity is an annuity where periodic payments continue indefinitely.
+*   **Engineering Relevance:** Useful for determining the total cost of assets that are replaced perpetually without considering inflation/deflation.
+
+**Example:**  Equipment costing $12,000 with a 10-year lifespan and $2,000 scrap value needs replacement every 10 years at a cost of $10,000.  A fund needs to be established to cover these replacements.  At 6% interest, the required fund size can be calculated.
+
+
+## III. Capitalized Cost (CK)
+
+*   **Definition:** The total capital required to perpetually maintain an asset, considering initial investment, replacement costs, and interest.
+*   **Calculation:**  The formula relates the capitalized cost (CK) to the initial investment cost (CI), salvage value (CS), interest rate (i), and service life (n).
+    *   (CK – CI)(1 + i)^n = CK – CS
+    *   This simplifies to a formula where the replacement cost (CR = CI – CS) is used.
+
+
+## IV. Salvage and Scrap Values
+
+*   **Salvage Value:** The net amount obtained from selling used property after deducting removal and sale costs. Implies the asset has further service potential.
+*   **Scrap Value:** The profit obtained from selling an asset as junk or raw material if it cannot be used further.
+
+
+## V. Inflation
+
+*   **Definition:** A general increase in prices, decreasing the buying power of money over time.  It's linked to an increase in the money supply.
+*   **Effect on Interest Rates:** Interest rates should be higher than the inflation rate to ensure real earnings for the lender. Borrowing is more attractive during inflation as the debt is repaid with less valuable future cash.
+*   **Calculating Future Amount with Inflation:**
+    *   Future Amount = Constant Value (1 + f)^n
+    *   where 'f' is the inflation rate and 'n' is the number of years.
+
+* **Real Interest Rate:** The real interest rate (r) considers the effect of inflation on the nominal interest rate (i). It can be approximated as r ≈ i - f.
+
+
+## VI. References
+
+The provided notes cite several textbooks as references for further study on process economics, compounding, and discounting.  These are valuable resources for expanding understanding of the concepts discussed.
+
+        ```
+        
+
+    
+        ## Agent Interaction on 2025-09-14T04:57:43.169Z
+        ---
+        **Model:** gemini-1.5-flash-latest
+        **User's Custom Prompt:** 
+        **Full Prompt Sent to API:**
+        ```
+        
+                From the following notes, create a complete study guide with:  
+
+                1. **A concise bullet-point summary** (max 12 points).  
+                2. **A prioritized 3-hour study plan**, broken into time blocks.  
+                3. **At least 5 multiple-choice questions with answers**.  
+
+                Formatting rules:  
+                - Use clear headings and subheadings.  
+                - Keep all points on new lines (no long paragraphs).  
+                - Bold important terms for emphasis.  
+                - Maintain spacing for readability in UI.  
+
+                NOTES:  
+                ---  
+                
+
+Course: CHC303 Process Design and Economics
+Module: Process Economics
+5
+th
+Semester 
+BTech
+(Chemical 
+Engg
+.)
+Compounding and Discounting 
+Factors
+Instructor: Dr. D. Krishna Sandilya
+5
+th
+Semester 
+BTech
+(Chemical 
+Engg
+.)
+IIT (ISM), Dhanbad
+Monsoon Semester (2025 – 2026)
+1
+Slides courtesy: www.msubbu.in
+
+Compounding and Discounting Factors
+The standard notation in the general format:
+(
+X
+/
+Y
+, 
+i
+%, 
+n
+)
+X
+represents what you want to find
+Y
+represents what is given
+2
+e.g.,
+(
+F
+/
+P
+,
+6
+%,
+20
+) represents the factor that is used
+to calculate the future amount
+F
+accumulated in 20
+periods if the interest rate is 6% per period, for thegiven
+P
+.
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+3
+notation
+format,
+as
+F
+= 
+P
+(
+F
+/
+P
+, 
+i
+%, 
+n
+)
+The factor
+(
+F
+/
+P
+,
+i
+%,
+n
+)
+is known as the
+future–worth factor 
+(or) 
+single payment future–worth factor
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+4
+notation
+format,
+as
+P
+= 
+F
+(
+P
+/
+F
+, 
+i
+%, 
+n
+)
+The factor
+(
+P
+/
+F
+,
+i
+%,
+n
+)
+is known as the
+present–worth factor 
+(or) 
+single payment present–worth factor
+
+Compounding and Discounting Factors
+Present
+–
+worth factor:
+Future–worth factor:
+5
+Present
+–
+worth factor:
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+6
+notation
+format,
+as
+P
+= 
+A
+(
+P
+/
+A
+, 
+i
+%, 
+n
+)
+The factor
+(
+P
+/
+A
+,
+i
+%,
+n
+)
+is known as the
+present–worth annuity factor 
+(or) 
+uniform series present–worth factor
+
+Compounding and Discounting Factors
+Present–worth annuity factor
+7
+
+Compounding and Discounting Factors
+The inverse of the above, has the standard notationof
+A
+= 
+P
+(
+A
+/
+P
+, 
+i
+%, 
+n
+)
+The
+factor
+(
+A
+/
+P
+,
+i
+%
+,
+n
+)
+is
+known
+as
+the
+8
+The
+factor
+(
+A
+/
+P
+,
+i
+%
+,
+n
+)
+is
+known
+as
+the
+Capital recovery factor 
+The factor
+(
+A
+/
+F
+,
+i
+%,
+n
+)
+is called the
+Sinking fund factor
+
+Compounding and Discounting Factors
+Capital recovery factor
+9
+
+Compounding and Discounting Factors
+Sinking fund factor
+10
+
+Compounding and Discounting Factors
+Future worth annuity factor
+11
+
+Perpetuity
+A
+perpetuity
+is an annuity in which the periodic payments
+continue indefinitely.This type of annuity is of particular interest to engineers,
+for
+12
+in some cases they may desire to determine a total cost fora piece of equipment or other asset under conditions whichpermit  the  asset  to  be  replaced  perpetually  withoutconsidering inflation or deflation.
+
+Perpetuity –
+example
+Consider  the  example  in  which  the  originalcost  of  a  certain  piece  of  equipment  is$12,000.
+13
+The useful-life period is 10 years.The scrap value at the end of the useful life is$2000.
+
+Perpetuity –
+example
+The engineer reasons that this piece of equipment,or its replacement, will be in use for an indefinitelylong
+period
+of
+time,
+and
+it
+will
+be
+necessary
+to
+14
+long
+period
+of
+time,
+and
+it
+will
+be
+necessary
+to
+supply $10,000 every 10 years in order to replacethe equipment.
+
+Perpetuity –
+example
+He therefore wishes to provide a fund of sufficientsize so that it will earn enough interest to pay for theperiodic
+replacement
+.
+15
+periodic
+replacement
+.
+If the discrete annual interest rate is 6 percent, thisfund would need to be $12,650.
+
+Perpetuity –
+example
+At 6 percent interest compounded annually, the fundwould amount to ($12,650)(1 + 0.06)
+10
+= $22,650 after
+10 years.
+16
+Thus,  at the end  of  10  years,  the equipment can  bereplaced  for  $10,000  and  $12,650  will  remain  in  thefund.
+
+Perpetuity –
+example
+This cycle could now be repeated indefinitely.If
+the
+equipment
+is
+to
+perpetuate
+itself,
+the
+17
+If
+the
+equipment
+is
+to
+perpetuate
+itself,
+the
+theoretical amount of total capital necessary at thestart  would  be  $12,000  for  the  equipment  plus$12,650 for the replacement fund.
+
+Capitalized Cost
+The total capital determined in this manner iscalled the
+capitalized cost
+.
+18
+Engineers use capitalized costs principally forcomparing alternative choices.
+
+Capitalized Cost
+The
+capitalized  cost
+(
+C
+K
+)  is  related  with  the
+initial investment cost (
+C
+I
+) as:
+(
+C
+K
+– C
+I
+)(1+
+i
+)
+n
+= 
+C
+K
+– C
+S
+19
+K
+I
+K
+S
+wherei
+= interest rate
+n
+= service life of the asset in years
+C
+S
+= salvage value of the asset
+
+Capitalized Cost
+The amount
+(
+C
+K
+– C
+I
+)
+is invested in a bank account at an
+interest rate of
+i
+per year, would generate
+C
+K
+– C
+S
+at the end
+of
+n
+years.
+(
+C
+K
+– C
+I
+)(1+
+i
+)
+n
+= 
+C
+K
+– C
+S
+By
+algebraic
+reduction,
+the
+above
+equation
+can
+be
+20
+By
+algebraic
+reduction,
+the
+above
+equation
+can
+be
+re-written as
+Note that,
+C
+I
+– C
+S
+=
+C
+R
+, is the cost of
+replacement
+.
+
+Salvage and scrap values
+Salvage value
+is the net amount of money obtainable from the sale of used
+property over and above any charges involved in removal and sale.If a property is capable of further service, its
+salvage value
+may be high.
+The term
+salvage value
+implies that the asset can give some type of further
+service
+and
+is
+worth
+more
+than
+merely
+its
+scrap
+or
+junk
+value
+.
+21
+service
+and
+is
+worth
+more
+than
+merely
+its
+scrap
+or
+junk
+value
+.
+If  the  property  cannot  be  disposed  of  as  a  useful  unit,  it  can  ofte
+n  be
+dismantled  and  sold  as
+junk
+to  be  used  again  as  a  manufacturing  raw
+material.The profit obtainable from this type of disposal is known as the
+scrap
+, or
+junk
+,
+value
+.
+
+Inflation
+The
+buying power
+of money changes with time.
+A
+decline
+in
+buying power
+is experienced as a general
+increase in the prices and is called
+inflation
+.
+Borrowing
+becomes
+more
+attractive
+if
+inflation
+is
+22
+Borrowing
+becomes
+more
+attractive
+if
+inflation
+is
+expected  since  the  debt  will  be  paid  with  the  lessvaluable cash of the future.Interest rate should be higher than the inflation rate.Only then, there is a real earning for the lender.
+
+Inflation
+Inflation
+is  the  increase  in  the  amount  of  money
+necessary to purchase the same amount of a productor service over time.It  occurs  because  the
+value  of  the  currency  has
+decreased
+,
+so
+it
+takes
+more
+money
+to
+obtain
+the
+same
+23
+decreased
+,
+so
+it
+takes
+more
+money
+to
+obtain
+the
+same
+amount of goods or services.Associated with inflation is an increase in the
+money
+supply
+,  i.e.,  the  government  prints  more  currency
+(rupees), while the supply of goods does not increase.
+
+Inflation
+Future amount = Constant value (1 + 
+f
+)
+n
+where,
+24
+f
+= inflation rate (fraction)
+n
+= number of years
+
+Inflation
+The real interest rate
+r
+, corresponding to
+a nominal interest rate of
+i
+, and inflation
+rate of
+f
+are related as
+25
+As an approximation, we can consider
+
+References
+Compounding and Discounting Factors
+1.
+Peters, M. S., K. D. Timmerhaus, R. E. West, Plant Design an
+d Economics for Chemical
+Engineers, 5
+th
+Edition, McGraw-Hill Education (India) Provate Limited, N
+ew Delhi,
+2011.
+2.
+Towler, G., R. Sinnott, Chemical Engineering Design – Pri
+nciples, Practice, Economics
+of Plant and Process Design, Butterworth-Heinemann, Burli
+ngton, 2008.
+26
+3.
+M  Subbu,  S.  Siddarth,  GATEway  to  Chemical  Engineering  (Vo
+lume  –  5),  Rishal
+Publications, 2018.
+4.
+Simpson , R., S. K. Sastry, Chemical and Bioprocess Engine
+ering, Springer, New York,
+2013.
+5.
+James R. Couper, Process Engineering Economics, Marcel D
+ekker, Inc., New York,
+2003.  
+                ---  
+            
+        ```
+        **Response Received from API:**
+        ```
+        # CHC303 Process Design and Economics: Process Economics Study Guide
+
+## 1. Concise Bullet-Point Summary
+
+* **Compounding:**  Calculates future value (F) from present value (P) using interest rate (i) and number of periods (n).  Uses **future-worth factor (F/P, i%, n)**.
+* **Discounting:** Calculates present value (P) from future value (F) using interest rate (i) and number of periods (n). Uses **present-worth factor (P/F, i%, n)**.
+* **Present-worth Annuity Factor (P/A, i%, n):** Determines present value of a series of equal payments (annuity).
+* **Capital Recovery Factor (A/P, i%, n):** Calculates the equivalent uniform annual payment for a given present value.
+* **Sinking Fund Factor (A/F, i%, n):**  Calculates the uniform annual payment required to accumulate a specific future sum.
+* **Future Worth Annuity Factor (F/A, i%, n):** Calculates the future value of a series of equal payments.
+* **Perpetuity:** An annuity with payments continuing indefinitely; useful for calculating **capitalized cost**.
+* **Capitalized Cost (CK):** Total capital required to perpetually maintain an asset, considering initial investment, replacement costs, and interest.
+* **Salvage Value:** Value of an asset at the end of its useful life.
+* **Scrap Value:** Value of an asset when disposed of as junk.
+* **Inflation:**  Decrease in the buying power of money over time; affects interest rates and future value calculations.  Use **(1+f)^n** to account for inflation.
+* **Real Interest Rate:** Nominal interest rate adjusted for inflation.
+
+## 2. Prioritized 3-Hour Study Plan
+
+**Hour 1: Core Concepts (60 minutes)**
+
+* **(15 minutes):** Review the definitions and formulas for compounding and discounting (F/P, P/F). Work through example problems.
+* **(15 minutes):** Understand and practice using the present-worth annuity factor (P/A) and capital recovery factor (A/P).  Solve problems involving annuities.
+* **(15 minutes):** Learn the sinking fund factor (A/F) and future-worth annuity factor (F/A). Practice calculations.
+* **(15 minutes):**  Define and understand perpetuity and its application in calculating capitalized cost.
+
+
+**Hour 2: Applications and Problem Solving (60 minutes)**
+
+* **(20 minutes):** Work through example problems involving capitalized cost calculations, incorporating salvage and scrap values.
+* **(20 minutes):**  Solve more complex problems that combine different factors (e.g., calculating the present worth of an asset with periodic replacements).
+* **(20 minutes):**  Focus on problems involving inflation and real interest rates. Practice incorporating inflation into calculations.
+
+
+**Hour 3: Review and Practice Questions (60 minutes)**
+
+* **(30 minutes):** Review all key concepts and formulas.  Identify areas needing further clarification.
+* **(30 minutes):**  Complete the multiple-choice questions below and review your answers.
+
+
+## 3. Multiple-Choice Questions
+
+**1.  Which factor is used to calculate the future worth of a single present amount?**
+    a) Present-worth factor
+    b) **Future-worth factor**
+    c) Present-worth annuity factor
+    d) Capital recovery factor
+
+**2.  What does the notation (P/A, 8%, 10) represent?**
+    a) Future worth of an annuity
+    b) **Present worth of an annuity**
+    c) Capital recovery factor
+    d) Sinking fund factor
+
+**3. An annuity is defined as:**
+    a) A single payment made at the beginning of a period.
+    b) A single payment made at the end of a period.
+    c) **A series of equal payments made at regular intervals.**
+    d) An infinite series of decreasing payments.
+
+**4. Capitalized cost is most useful for:**
+    a) Determining the scrap value of an asset.
+    b) Calculating the annual cost of an annuity.
+    c) **Comparing the economic viability of different projects with long lifespans.**
+    d) Predicting inflation rates.
+
+**5.  How does inflation affect the interest rate needed to ensure a positive return for a lender?**
+    a) It lowers the required interest rate.
+    b) **It increases the required interest rate.**
+    c) It has no effect on the required interest rate.
+    d) It makes borrowing less attractive.
+
+
+
+        ```
+        
+
+    
+        ## Agent Interaction on 2025-09-14T04:58:11.224Z
+        ---
+        **Model:** gemini-1.5-flash-latest
+        **User's Custom Prompt:** 
+        **Full Prompt Sent to API:**
+        ```
+        
+                Summarize the following lecture notes into a maximum of 10 bullet points.  
+                - Focus only on the most important concepts.  
+                - Each point must be on a new line.  
+                - Make formatting clear, structured, and easy to read in UI.  
+
+                NOTES:  
+                ---  
+                
+
+Course: CHC303 Process Design and Economics
+Module: Process Economics
+5
+th
+Semester 
+BTech
+(Chemical 
+Engg
+.)
+Compounding and Discounting 
+Factors
+Instructor: Dr. D. Krishna Sandilya
+5
+th
+Semester 
+BTech
+(Chemical 
+Engg
+.)
+IIT (ISM), Dhanbad
+Monsoon Semester (2025 – 2026)
+1
+Slides courtesy: www.msubbu.in
+
+Compounding and Discounting Factors
+The standard notation in the general format:
+(
+X
+/
+Y
+, 
+i
+%, 
+n
+)
+X
+represents what you want to find
+Y
+represents what is given
+2
+e.g.,
+(
+F
+/
+P
+,
+6
+%,
+20
+) represents the factor that is used
+to calculate the future amount
+F
+accumulated in 20
+periods if the interest rate is 6% per period, for thegiven
+P
+.
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+3
+notation
+format,
+as
+F
+= 
+P
+(
+F
+/
+P
+, 
+i
+%, 
+n
+)
+The factor
+(
+F
+/
+P
+,
+i
+%,
+n
+)
+is known as the
+future–worth factor 
+(or) 
+single payment future–worth factor
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+4
+notation
+format,
+as
+P
+= 
+F
+(
+P
+/
+F
+, 
+i
+%, 
+n
+)
+The factor
+(
+P
+/
+F
+,
+i
+%,
+n
+)
+is known as the
+present–worth factor 
+(or) 
+single payment present–worth factor
+
+Compounding and Discounting Factors
+Present
+–
+worth factor:
+Future–worth factor:
+5
+Present
+–
+worth factor:
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+6
+notation
+format,
+as
+P
+= 
+A
+(
+P
+/
+A
+, 
+i
+%, 
+n
+)
+The factor
+(
+P
+/
+A
+,
+i
+%,
+n
+)
+is known as the
+present–worth annuity factor 
+(or) 
+uniform series present–worth factor
+
+Compounding and Discounting Factors
+Present–worth annuity factor
+7
+
+Compounding and Discounting Factors
+The inverse of the above, has the standard notationof
+A
+= 
+P
+(
+A
+/
+P
+, 
+i
+%, 
+n
+)
+The
+factor
+(
+A
+/
+P
+,
+i
+%
+,
+n
+)
+is
+known
+as
+the
+8
+The
+factor
+(
+A
+/
+P
+,
+i
+%
+,
+n
+)
+is
+known
+as
+the
+Capital recovery factor 
+The factor
+(
+A
+/
+F
+,
+i
+%,
+n
+)
+is called the
+Sinking fund factor
+
+Compounding and Discounting Factors
+Capital recovery factor
+9
+
+Compounding and Discounting Factors
+Sinking fund factor
+10
+
+Compounding and Discounting Factors
+Future worth annuity factor
+11
+
+Perpetuity
+A
+perpetuity
+is an annuity in which the periodic payments
+continue indefinitely.This type of annuity is of particular interest to engineers,
+for
+12
+in some cases they may desire to determine a total cost fora piece of equipment or other asset under conditions whichpermit  the  asset  to  be  replaced  perpetually  withoutconsidering inflation or deflation.
+
+Perpetuity –
+example
+Consider  the  example  in  which  the  originalcost  of  a  certain  piece  of  equipment  is$12,000.
+13
+The useful-life period is 10 years.The scrap value at the end of the useful life is$2000.
+
+Perpetuity –
+example
+The engineer reasons that this piece of equipment,or its replacement, will be in use for an indefinitelylong
+period
+of
+time,
+and
+it
+will
+be
+necessary
+to
+14
+long
+period
+of
+time,
+and
+it
+will
+be
+necessary
+to
+supply $10,000 every 10 years in order to replacethe equipment.
+
+Perpetuity –
+example
+He therefore wishes to provide a fund of sufficientsize so that it will earn enough interest to pay for theperiodic
+replacement
+.
+15
+periodic
+replacement
+.
+If the discrete annual interest rate is 6 percent, thisfund would need to be $12,650.
+
+Perpetuity –
+example
+At 6 percent interest compounded annually, the fundwould amount to ($12,650)(1 + 0.06)
+10
+= $22,650 after
+10 years.
+16
+Thus,  at the end  of  10  years,  the equipment can  bereplaced  for  $10,000  and  $12,650  will  remain  in  thefund.
+
+Perpetuity –
+example
+This cycle could now be repeated indefinitely.If
+the
+equipment
+is
+to
+perpetuate
+itself,
+the
+17
+If
+the
+equipment
+is
+to
+perpetuate
+itself,
+the
+theoretical amount of total capital necessary at thestart  would  be  $12,000  for  the  equipment  plus$12,650 for the replacement fund.
+
+Capitalized Cost
+The total capital determined in this manner iscalled the
+capitalized cost
+.
+18
+Engineers use capitalized costs principally forcomparing alternative choices.
+
+Capitalized Cost
+The
+capitalized  cost
+(
+C
+K
+)  is  related  with  the
+initial investment cost (
+C
+I
+) as:
+(
+C
+K
+– C
+I
+)(1+
+i
+)
+n
+= 
+C
+K
+– C
+S
+19
+K
+I
+K
+S
+wherei
+= interest rate
+n
+= service life of the asset in years
+C
+S
+= salvage value of the asset
+
+Capitalized Cost
+The amount
+(
+C
+K
+– C
+I
+)
+is invested in a bank account at an
+interest rate of
+i
+per year, would generate
+C
+K
+– C
+S
+at the end
+of
+n
+years.
+(
+C
+K
+– C
+I
+)(1+
+i
+)
+n
+= 
+C
+K
+– C
+S
+By
+algebraic
+reduction,
+the
+above
+equation
+can
+be
+20
+By
+algebraic
+reduction,
+the
+above
+equation
+can
+be
+re-written as
+Note that,
+C
+I
+– C
+S
+=
+C
+R
+, is the cost of
+replacement
+.
+
+Salvage and scrap values
+Salvage value
+is the net amount of money obtainable from the sale of used
+property over and above any charges involved in removal and sale.If a property is capable of further service, its
+salvage value
+may be high.
+The term
+salvage value
+implies that the asset can give some type of further
+service
+and
+is
+worth
+more
+than
+merely
+its
+scrap
+or
+junk
+value
+.
+21
+service
+and
+is
+worth
+more
+than
+merely
+its
+scrap
+or
+junk
+value
+.
+If  the  property  cannot  be  disposed  of  as  a  useful  unit,  it  can  ofte
+n  be
+dismantled  and  sold  as
+junk
+to  be  used  again  as  a  manufacturing  raw
+material.The profit obtainable from this type of disposal is known as the
+scrap
+, or
+junk
+,
+value
+.
+
+Inflation
+The
+buying power
+of money changes with time.
+A
+decline
+in
+buying power
+is experienced as a general
+increase in the prices and is called
+inflation
+.
+Borrowing
+becomes
+more
+attractive
+if
+inflation
+is
+22
+Borrowing
+becomes
+more
+attractive
+if
+inflation
+is
+expected  since  the  debt  will  be  paid  with  the  lessvaluable cash of the future.Interest rate should be higher than the inflation rate.Only then, there is a real earning for the lender.
+
+Inflation
+Inflation
+is  the  increase  in  the  amount  of  money
+necessary to purchase the same amount of a productor service over time.It  occurs  because  the
+value  of  the  currency  has
+decreased
+,
+so
+it
+takes
+more
+money
+to
+obtain
+the
+same
+23
+decreased
+,
+so
+it
+takes
+more
+money
+to
+obtain
+the
+same
+amount of goods or services.Associated with inflation is an increase in the
+money
+supply
+,  i.e.,  the  government  prints  more  currency
+(rupees), while the supply of goods does not increase.
+
+Inflation
+Future amount = Constant value (1 + 
+f
+)
+n
+where,
+24
+f
+= inflation rate (fraction)
+n
+= number of years
+
+Inflation
+The real interest rate
+r
+, corresponding to
+a nominal interest rate of
+i
+, and inflation
+rate of
+f
+are related as
+25
+As an approximation, we can consider
+
+References
+Compounding and Discounting Factors
+1.
+Peters, M. S., K. D. Timmerhaus, R. E. West, Plant Design an
+d Economics for Chemical
+Engineers, 5
+th
+Edition, McGraw-Hill Education (India) Provate Limited, N
+ew Delhi,
+2011.
+2.
+Towler, G., R. Sinnott, Chemical Engineering Design – Pri
+nciples, Practice, Economics
+of Plant and Process Design, Butterworth-Heinemann, Burli
+ngton, 2008.
+26
+3.
+M  Subbu,  S.  Siddarth,  GATEway  to  Chemical  Engineering  (Vo
+lume  –  5),  Rishal
+Publications, 2018.
+4.
+Simpson , R., S. K. Sastry, Chemical and Bioprocess Engine
+ering, Springer, New York,
+2013.
+5.
+James R. Couper, Process Engineering Economics, Marcel D
+ekker, Inc., New York,
+2003.  
+                ---  
+             
+        ```
+        **Response Received from API:**
+        ```
+        * **Compounding and Discounting Factors:**  These factors are used to calculate future and present values of money considering interest rates over time.  Notation (X/Y, i%, n) represents the calculation.
+
+* **Future Worth Factor (F/P):** Calculates the future value (F) from a present value (P) given interest rate (i) and number of periods (n).
+
+* **Present Worth Factor (P/F):** Calculates the present value (P) from a future value (F) given interest rate and number of periods.
+
+* **Present Worth Annuity Factor (P/A):** Calculates the present value of a series of equal payments (annuity).
+
+* **Capital Recovery Factor (A/P):** Calculates the annual equivalent cost of a present sum.
+
+* **Sinking Fund Factor (A/F):** Calculates the uniform annual amount needed to accumulate a future sum.
+
+* **Perpetuity:**  An annuity with payments continuing indefinitely; useful for calculating costs of perpetually replacing assets.
+
+* **Capitalized Cost:** The total capital required to purchase and perpetually maintain an asset.
+
+* **Inflation:** The decrease in purchasing power of money over time; impacts interest rates and future worth calculations.  The real interest rate must exceed the inflation rate.
+
+* **Salvage and Scrap Value:**  Distinction between the value of an asset for further service (salvage) and the value of its constituent materials (scrap).
+
+        ```
+        
+
+    
+        ## Agent Interaction on 2025-09-14T05:06:57.935Z
+        ---
+        **Model:** gemini-1.5-flash-latest
+        **User's Custom Prompt:** 
+        **Full Prompt Sent to API:**
+        ```
+        
+                From the following notes, create a complete study guide with:  
+
+                1. **A concise bullet-point summary** (max 12 points).  
+                2. **A prioritized 3-hour study plan**, broken into time blocks.  
+                3. **At least 5 multiple-choice questions with answers**.  
+
+                Formatting rules:  
+                - Use clear headings and subheadings.  
+                - Keep all points on new lines (no long paragraphs).  
+                - Bold important terms for emphasis.  
+                - Maintain spacing for readability in UI.  
+
+                NOTES:  
+                ---  
+                
+
+Course: CHC303 Process Design and Economics
+Module: Process Economics
+5
+th
+Semester 
+BTech
+(Chemical 
+Engg
+.)
+Compounding and Discounting 
+Factors
+Instructor: Dr. D. Krishna Sandilya
+5
+th
+Semester 
+BTech
+(Chemical 
+Engg
+.)
+IIT (ISM), Dhanbad
+Monsoon Semester (2025 – 2026)
+1
+Slides courtesy: www.msubbu.in
+
+Compounding and Discounting Factors
+The standard notation in the general format:
+(
+X
+/
+Y
+, 
+i
+%, 
+n
+)
+X
+represents what you want to find
+Y
+represents what is given
+2
+e.g.,
+(
+F
+/
+P
+,
+6
+%,
+20
+) represents the factor that is used
+to calculate the future amount
+F
+accumulated in 20
+periods if the interest rate is 6% per period, for thegiven
+P
+.
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+3
+notation
+format,
+as
+F
+= 
+P
+(
+F
+/
+P
+, 
+i
+%, 
+n
+)
+The factor
+(
+F
+/
+P
+,
+i
+%,
+n
+)
+is known as the
+future–worth factor 
+(or) 
+single payment future–worth factor
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+4
+notation
+format,
+as
+P
+= 
+F
+(
+P
+/
+F
+, 
+i
+%, 
+n
+)
+The factor
+(
+P
+/
+F
+,
+i
+%,
+n
+)
+is known as the
+present–worth factor 
+(or) 
+single payment present–worth factor
+
+Compounding and Discounting Factors
+Present
+–
+worth factor:
+Future–worth factor:
+5
+Present
+–
+worth factor:
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+6
+notation
+format,
+as
+P
+= 
+A
+(
+P
+/
+A
+, 
+i
+%, 
+n
+)
+The factor
+(
+P
+/
+A
+,
+i
+%,
+n
+)
+is known as the
+present–worth annuity factor 
+(or) 
+uniform series present–worth factor
+
+Compounding and Discounting Factors
+Present–worth annuity factor
+7
+
+Compounding and Discounting Factors
+The inverse of the above, has the standard notationof
+A
+= 
+P
+(
+A
+/
+P
+, 
+i
+%, 
+n
+)
+The
+factor
+(
+A
+/
+P
+,
+i
+%
+,
+n
+)
+is
+known
+as
+the
+8
+The
+factor
+(
+A
+/
+P
+,
+i
+%
+,
+n
+)
+is
+known
+as
+the
+Capital recovery factor 
+The factor
+(
+A
+/
+F
+,
+i
+%,
+n
+)
+is called the
+Sinking fund factor
+
+Compounding and Discounting Factors
+Capital recovery factor
+9
+
+Compounding and Discounting Factors
+Sinking fund factor
+10
+
+Compounding and Discounting Factors
+Future worth annuity factor
+11
+
+Perpetuity
+A
+perpetuity
+is an annuity in which the periodic payments
+continue indefinitely.This type of annuity is of particular interest to engineers,
+for
+12
+in some cases they may desire to determine a total cost fora piece of equipment or other asset under conditions whichpermit  the  asset  to  be  replaced  perpetually  withoutconsidering inflation or deflation.
+
+Perpetuity –
+example
+Consider  the  example  in  which  the  originalcost  of  a  certain  piece  of  equipment  is$12,000.
+13
+The useful-life period is 10 years.The scrap value at the end of the useful life is$2000.
+
+Perpetuity –
+example
+The engineer reasons that this piece of equipment,or its replacement, will be in use for an indefinitelylong
+period
+of
+time,
+and
+it
+will
+be
+necessary
+to
+14
+long
+period
+of
+time,
+and
+it
+will
+be
+necessary
+to
+supply $10,000 every 10 years in order to replacethe equipment.
+
+Perpetuity –
+example
+He therefore wishes to provide a fund of sufficientsize so that it will earn enough interest to pay for theperiodic
+replacement
+.
+15
+periodic
+replacement
+.
+If the discrete annual interest rate is 6 percent, thisfund would need to be $12,650.
+
+Perpetuity –
+example
+At 6 percent interest compounded annually, the fundwould amount to ($12,650)(1 + 0.06)
+10
+= $22,650 after
+10 years.
+16
+Thus,  at the end  of  10  years,  the equipment can  bereplaced  for  $10,000  and  $12,650  will  remain  in  thefund.
+
+Perpetuity –
+example
+This cycle could now be repeated indefinitely.If
+the
+equipment
+is
+to
+perpetuate
+itself,
+the
+17
+If
+the
+equipment
+is
+to
+perpetuate
+itself,
+the
+theoretical amount of total capital necessary at thestart  would  be  $12,000  for  the  equipment  plus$12,650 for the replacement fund.
+
+Capitalized Cost
+The total capital determined in this manner iscalled the
+capitalized cost
+.
+18
+Engineers use capitalized costs principally forcomparing alternative choices.
+
+Capitalized Cost
+The
+capitalized  cost
+(
+C
+K
+)  is  related  with  the
+initial investment cost (
+C
+I
+) as:
+(
+C
+K
+– C
+I
+)(1+
+i
+)
+n
+= 
+C
+K
+– C
+S
+19
+K
+I
+K
+S
+wherei
+= interest rate
+n
+= service life of the asset in years
+C
+S
+= salvage value of the asset
+
+Capitalized Cost
+The amount
+(
+C
+K
+– C
+I
+)
+is invested in a bank account at an
+interest rate of
+i
+per year, would generate
+C
+K
+– C
+S
+at the end
+of
+n
+years.
+(
+C
+K
+– C
+I
+)(1+
+i
+)
+n
+= 
+C
+K
+– C
+S
+By
+algebraic
+reduction,
+the
+above
+equation
+can
+be
+20
+By
+algebraic
+reduction,
+the
+above
+equation
+can
+be
+re-written as
+Note that,
+C
+I
+– C
+S
+=
+C
+R
+, is the cost of
+replacement
+.
+
+Salvage and scrap values
+Salvage value
+is the net amount of money obtainable from the sale of used
+property over and above any charges involved in removal and sale.If a property is capable of further service, its
+salvage value
+may be high.
+The term
+salvage value
+implies that the asset can give some type of further
+service
+and
+is
+worth
+more
+than
+merely
+its
+scrap
+or
+junk
+value
+.
+21
+service
+and
+is
+worth
+more
+than
+merely
+its
+scrap
+or
+junk
+value
+.
+If  the  property  cannot  be  disposed  of  as  a  useful  unit,  it  can  ofte
+n  be
+dismantled  and  sold  as
+junk
+to  be  used  again  as  a  manufacturing  raw
+material.The profit obtainable from this type of disposal is known as the
+scrap
+, or
+junk
+,
+value
+.
+
+Inflation
+The
+buying power
+of money changes with time.
+A
+decline
+in
+buying power
+is experienced as a general
+increase in the prices and is called
+inflation
+.
+Borrowing
+becomes
+more
+attractive
+if
+inflation
+is
+22
+Borrowing
+becomes
+more
+attractive
+if
+inflation
+is
+expected  since  the  debt  will  be  paid  with  the  lessvaluable cash of the future.Interest rate should be higher than the inflation rate.Only then, there is a real earning for the lender.
+
+Inflation
+Inflation
+is  the  increase  in  the  amount  of  money
+necessary to purchase the same amount of a productor service over time.It  occurs  because  the
+value  of  the  currency  has
+decreased
+,
+so
+it
+takes
+more
+money
+to
+obtain
+the
+same
+23
+decreased
+,
+so
+it
+takes
+more
+money
+to
+obtain
+the
+same
+amount of goods or services.Associated with inflation is an increase in the
+money
+supply
+,  i.e.,  the  government  prints  more  currency
+(rupees), while the supply of goods does not increase.
+
+Inflation
+Future amount = Constant value (1 + 
+f
+)
+n
+where,
+24
+f
+= inflation rate (fraction)
+n
+= number of years
+
+Inflation
+The real interest rate
+r
+, corresponding to
+a nominal interest rate of
+i
+, and inflation
+rate of
+f
+are related as
+25
+As an approximation, we can consider
+
+References
+Compounding and Discounting Factors
+1.
+Peters, M. S., K. D. Timmerhaus, R. E. West, Plant Design an
+d Economics for Chemical
+Engineers, 5
+th
+Edition, McGraw-Hill Education (India) Provate Limited, N
+ew Delhi,
+2011.
+2.
+Towler, G., R. Sinnott, Chemical Engineering Design – Pri
+nciples, Practice, Economics
+of Plant and Process Design, Butterworth-Heinemann, Burli
+ngton, 2008.
+26
+3.
+M  Subbu,  S.  Siddarth,  GATEway  to  Chemical  Engineering  (Vo
+lume  –  5),  Rishal
+Publications, 2018.
+4.
+Simpson , R., S. K. Sastry, Chemical and Bioprocess Engine
+ering, Springer, New York,
+2013.
+5.
+James R. Couper, Process Engineering Economics, Marcel D
+ekker, Inc., New York,
+2003.  
+                ---  
+            
+        ```
+        **Response Received from API:**
+        ```
+        # CHC303 Process Design and Economics: Process Economics Study Guide
+
+## 1. Concise Bullet-Point Summary:
+
+* **Compounding:** Calculating future worth (F) from present worth (P) using interest rate (i) and number of periods (n).  Formula: F = P(F/P, i%, n)
+* **Discounting:** Calculating present worth (P) from future worth (F) using interest rate (i) and number of periods (n). Formula: P = F(P/F, i%, n)
+* **Future Worth Factor (F/P):** Converts present worth to future worth.
+* **Present Worth Factor (P/F):** Converts future worth to present worth.
+* **Present Worth Annuity Factor (P/A):** Calculates present worth from a uniform series of payments (annuity). Formula: P = A(P/A, i%, n)
+* **Capital Recovery Factor (A/P):** Calculates the uniform annual payment required to recover the initial investment. Formula: A = P(A/P, i%, n)
+* **Sinking Fund Factor (A/F):** Calculates the uniform annual payment required to accumulate a future sum.
+* **Perpetuity:** An annuity with payments continuing indefinitely; useful for calculating capitalized cost.
+* **Capitalized Cost (CK):** The total capital required to perpetually maintain an asset, considering initial cost, replacement costs, and interest.
+* **Salvage Value:** Value of an asset at the end of its useful life.
+* **Scrap Value:** Value of an asset when disposed of as junk.
+* **Inflation:** Decrease in the buying power of money over time; affects interest rates and cost calculations.
+
+## 2. Prioritized 3-Hour Study Plan:
+
+**Hour 1:  Fundamentals of Compounding and Discounting (60 minutes)**
+
+* (15 min) Review definitions of **compounding** and **discounting**.  Understand the standard notation (X/Y, i%, n).
+* (15 min) Practice calculating future worth using the **future worth factor**. Solve 3-5 example problems.
+* (15 min) Practice calculating present worth using the **present worth factor**. Solve 3-5 example problems.
+* (15 min)  Master the difference between single payment and annuity factors.
+
+
+**Hour 2: Annuity Factors and Capitalized Cost (60 minutes)**
+
+* (20 min) Understand and practice using the **present worth annuity factor (P/A)** and **capital recovery factor (A/P)**.  Solve problems.
+* (20 min) Learn about the **sinking fund factor (A/F)**. Solve example problems.
+* (20 min) Focus on **Perpetuity** and its application in engineering economics. Work through the example in the notes.
+
+
+**Hour 3: Capitalized Cost, Salvage/Scrap Value, and Inflation (60 minutes)**
+
+* (20 min) Deep dive into the concept of **capitalized cost (CK)**. Understand the formula and its relationship with initial investment, salvage value, and replacement cost. Solve problems.
+* (15 min) Differentiate between **salvage value** and **scrap value**.
+* (25 min) Study the effect of **inflation** on economic calculations and the relationship between real and nominal interest rates.
+
+
+## 3. Multiple-Choice Questions:
+
+1.  What does the notation (P/A, 8%, 10) represent?
+    a) Future worth factor  
+    b) **Present worth annuity factor** 
+    c) Capital recovery factor
+    d) Sinking fund factor
+
+2.  Which factor converts a future value to a present value?
+    a) Future worth factor
+    b) **Present worth factor**
+    c) Capital recovery factor
+    d) Sinking fund factor
+
+3.  What is the capitalized cost?
+    a) Initial investment cost only.
+    b) The cost of the asset over its entire life considering interest only.
+    c) The cost of an asset for perpetuity, considering replacement costs and interest.
+    d) The yearly cost of maintaining an asset.
+    **Answer: c)**
+
+4.  An annuity is:
+    a) A single payment at a specific time.
+    b) **A series of equal payments made at regular intervals.**
+    c) The value of an asset at the end of its useful life.
+    d) The interest rate adjusted for inflation.
+
+5.  How does inflation affect the interest rate?
+    a) Inflation lowers the interest rate.
+    b) **Inflation typically causes the nominal interest rate to increase.**
+    c) Inflation has no effect on the interest rate.
+    d) Inflation causes interest rates to be unpredictable.
+
+
+        ```
+        
+
+    
+        ## Agent Interaction on 2025-09-14T05:07:21.728Z
+        ---
+        **Model:** gemini-1.5-flash-latest
+        **User's Custom Prompt:** 
+        **Full Prompt Sent to API:**
+        ```
+        
+                Summarize the following lecture notes into a maximum of 10 bullet points.  
+                - Focus only on the most important concepts.  
+                - Each point must be on a new line.  
+                - Make formatting clear, structured, and easy to read in UI.  
+
+                NOTES:  
+                ---  
+                
+
+Course: CHC303 Process Design and Economics
+Module: Process Economics
+5
+th
+Semester 
+BTech
+(Chemical 
+Engg
+.)
+Compounding and Discounting 
+Factors
+Instructor: Dr. D. Krishna Sandilya
+5
+th
+Semester 
+BTech
+(Chemical 
+Engg
+.)
+IIT (ISM), Dhanbad
+Monsoon Semester (2025 – 2026)
+1
+Slides courtesy: www.msubbu.in
+
+Compounding and Discounting Factors
+The standard notation in the general format:
+(
+X
+/
+Y
+, 
+i
+%, 
+n
+)
+X
+represents what you want to find
+Y
+represents what is given
+2
+e.g.,
+(
+F
+/
+P
+,
+6
+%,
+20
+) represents the factor that is used
+to calculate the future amount
+F
+accumulated in 20
+periods if the interest rate is 6% per period, for thegiven
+P
+.
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+3
+notation
+format,
+as
+F
+= 
+P
+(
+F
+/
+P
+, 
+i
+%, 
+n
+)
+The factor
+(
+F
+/
+P
+,
+i
+%,
+n
+)
+is known as the
+future–worth factor 
+(or) 
+single payment future–worth factor
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+4
+notation
+format,
+as
+P
+= 
+F
+(
+P
+/
+F
+, 
+i
+%, 
+n
+)
+The factor
+(
+P
+/
+F
+,
+i
+%,
+n
+)
+is known as the
+present–worth factor 
+(or) 
+single payment present–worth factor
+
+Compounding and Discounting Factors
+Present
+–
+worth factor:
+Future–worth factor:
+5
+Present
+–
+worth factor:
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+6
+notation
+format,
+as
+P
+= 
+A
+(
+P
+/
+A
+, 
+i
+%, 
+n
+)
+The factor
+(
+P
+/
+A
+,
+i
+%,
+n
+)
+is known as the
+present–worth annuity factor 
+(or) 
+uniform series present–worth factor
+
+Compounding and Discounting Factors
+Present–worth annuity factor
+7
+
+Compounding and Discounting Factors
+The inverse of the above, has the standard notationof
+A
+= 
+P
+(
+A
+/
+P
+, 
+i
+%, 
+n
+)
+The
+factor
+(
+A
+/
+P
+,
+i
+%
+,
+n
+)
+is
+known
+as
+the
+8
+The
+factor
+(
+A
+/
+P
+,
+i
+%
+,
+n
+)
+is
+known
+as
+the
+Capital recovery factor 
+The factor
+(
+A
+/
+F
+,
+i
+%,
+n
+)
+is called the
+Sinking fund factor
+
+Compounding and Discounting Factors
+Capital recovery factor
+9
+
+Compounding and Discounting Factors
+Sinking fund factor
+10
+
+Compounding and Discounting Factors
+Future worth annuity factor
+11
+
+Perpetuity
+A
+perpetuity
+is an annuity in which the periodic payments
+continue indefinitely.This type of annuity is of particular interest to engineers,
+for
+12
+in some cases they may desire to determine a total cost fora piece of equipment or other asset under conditions whichpermit  the  asset  to  be  replaced  perpetually  withoutconsidering inflation or deflation.
+
+Perpetuity –
+example
+Consider  the  example  in  which  the  originalcost  of  a  certain  piece  of  equipment  is$12,000.
+13
+The useful-life period is 10 years.The scrap value at the end of the useful life is$2000.
+
+Perpetuity –
+example
+The engineer reasons that this piece of equipment,or its replacement, will be in use for an indefinitelylong
+period
+of
+time,
+and
+it
+will
+be
+necessary
+to
+14
+long
+period
+of
+time,
+and
+it
+will
+be
+necessary
+to
+supply $10,000 every 10 years in order to replacethe equipment.
+
+Perpetuity –
+example
+He therefore wishes to provide a fund of sufficientsize so that it will earn enough interest to pay for theperiodic
+replacement
+.
+15
+periodic
+replacement
+.
+If the discrete annual interest rate is 6 percent, thisfund would need to be $12,650.
+
+Perpetuity –
+example
+At 6 percent interest compounded annually, the fundwould amount to ($12,650)(1 + 0.06)
+10
+= $22,650 after
+10 years.
+16
+Thus,  at the end  of  10  years,  the equipment can  bereplaced  for  $10,000  and  $12,650  will  remain  in  thefund.
+
+Perpetuity –
+example
+This cycle could now be repeated indefinitely.If
+the
+equipment
+is
+to
+perpetuate
+itself,
+the
+17
+If
+the
+equipment
+is
+to
+perpetuate
+itself,
+the
+theoretical amount of total capital necessary at thestart  would  be  $12,000  for  the  equipment  plus$12,650 for the replacement fund.
+
+Capitalized Cost
+The total capital determined in this manner iscalled the
+capitalized cost
+.
+18
+Engineers use capitalized costs principally forcomparing alternative choices.
+
+Capitalized Cost
+The
+capitalized  cost
+(
+C
+K
+)  is  related  with  the
+initial investment cost (
+C
+I
+) as:
+(
+C
+K
+– C
+I
+)(1+
+i
+)
+n
+= 
+C
+K
+– C
+S
+19
+K
+I
+K
+S
+wherei
+= interest rate
+n
+= service life of the asset in years
+C
+S
+= salvage value of the asset
+
+Capitalized Cost
+The amount
+(
+C
+K
+– C
+I
+)
+is invested in a bank account at an
+interest rate of
+i
+per year, would generate
+C
+K
+– C
+S
+at the end
+of
+n
+years.
+(
+C
+K
+– C
+I
+)(1+
+i
+)
+n
+= 
+C
+K
+– C
+S
+By
+algebraic
+reduction,
+the
+above
+equation
+can
+be
+20
+By
+algebraic
+reduction,
+the
+above
+equation
+can
+be
+re-written as
+Note that,
+C
+I
+– C
+S
+=
+C
+R
+, is the cost of
+replacement
+.
+
+Salvage and scrap values
+Salvage value
+is the net amount of money obtainable from the sale of used
+property over and above any charges involved in removal and sale.If a property is capable of further service, its
+salvage value
+may be high.
+The term
+salvage value
+implies that the asset can give some type of further
+service
+and
+is
+worth
+more
+than
+merely
+its
+scrap
+or
+junk
+value
+.
+21
+service
+and
+is
+worth
+more
+than
+merely
+its
+scrap
+or
+junk
+value
+.
+If  the  property  cannot  be  disposed  of  as  a  useful  unit,  it  can  ofte
+n  be
+dismantled  and  sold  as
+junk
+to  be  used  again  as  a  manufacturing  raw
+material.The profit obtainable from this type of disposal is known as the
+scrap
+, or
+junk
+,
+value
+.
+
+Inflation
+The
+buying power
+of money changes with time.
+A
+decline
+in
+buying power
+is experienced as a general
+increase in the prices and is called
+inflation
+.
+Borrowing
+becomes
+more
+attractive
+if
+inflation
+is
+22
+Borrowing
+becomes
+more
+attractive
+if
+inflation
+is
+expected  since  the  debt  will  be  paid  with  the  lessvaluable cash of the future.Interest rate should be higher than the inflation rate.Only then, there is a real earning for the lender.
+
+Inflation
+Inflation
+is  the  increase  in  the  amount  of  money
+necessary to purchase the same amount of a productor service over time.It  occurs  because  the
+value  of  the  currency  has
+decreased
+,
+so
+it
+takes
+more
+money
+to
+obtain
+the
+same
+23
+decreased
+,
+so
+it
+takes
+more
+money
+to
+obtain
+the
+same
+amount of goods or services.Associated with inflation is an increase in the
+money
+supply
+,  i.e.,  the  government  prints  more  currency
+(rupees), while the supply of goods does not increase.
+
+Inflation
+Future amount = Constant value (1 + 
+f
+)
+n
+where,
+24
+f
+= inflation rate (fraction)
+n
+= number of years
+
+Inflation
+The real interest rate
+r
+, corresponding to
+a nominal interest rate of
+i
+, and inflation
+rate of
+f
+are related as
+25
+As an approximation, we can consider
+
+References
+Compounding and Discounting Factors
+1.
+Peters, M. S., K. D. Timmerhaus, R. E. West, Plant Design an
+d Economics for Chemical
+Engineers, 5
+th
+Edition, McGraw-Hill Education (India) Provate Limited, N
+ew Delhi,
+2011.
+2.
+Towler, G., R. Sinnott, Chemical Engineering Design – Pri
+nciples, Practice, Economics
+of Plant and Process Design, Butterworth-Heinemann, Burli
+ngton, 2008.
+26
+3.
+M  Subbu,  S.  Siddarth,  GATEway  to  Chemical  Engineering  (Vo
+lume  –  5),  Rishal
+Publications, 2018.
+4.
+Simpson , R., S. K. Sastry, Chemical and Bioprocess Engine
+ering, Springer, New York,
+2013.
+5.
+James R. Couper, Process Engineering Economics, Marcel D
+ekker, Inc., New York,
+2003.  
+                ---  
+             
+        ```
+        **Response Received from API:**
+        ```
+        * **Compounding and Discounting Factors:**  These factors are used to calculate future and present values of money, considering interest rates and time periods.  Standard notations (e.g., (F/P, i%, n)) represent these calculations.
+
+* **Future Worth Factor (F/P):** Calculates the future value (F) of a present sum (P) given an interest rate (i) and number of periods (n).
+
+* **Present Worth Factor (P/F):** Calculates the present value (P) of a future sum (F) given an interest rate (i) and number of periods (n).
+
+* **Present Worth Annuity Factor (P/A):**  Calculates the present value (P) of a series of equal payments (A) over a specified time period.
+
+* **Capital Recovery Factor (A/P):** Calculates the annual equivalent payment (A) required to recover a present investment (P).
+
+* **Sinking Fund Factor (A/F):** Calculates the uniform annual payment (A) needed to accumulate a future sum (F).
+
+* **Perpetuity:** An annuity with payments continuing indefinitely; useful for calculating costs of perpetually replaced assets.
+
+* **Capitalized Cost:** The total capital required to perpetually maintain an asset, considering initial investment, replacement costs, and interest.
+
+* **Salvage and Scrap Values:**  Salvage value is the resale value of a used asset; scrap value is the value of the asset as raw material.
+
+* **Inflation:**  The decrease in the purchasing power of money over time; influences interest rates and future value calculations.  Real interest rates need to account for inflation.
+
+        ```
+        
+
+    
+        ## Agent Interaction on 2025-09-14T05:15:14.735Z
+        ---
+        **Model:** gemini-1.5-flash-latest
+        **User's Custom Prompt:** 
+        **Full Prompt Sent to API:**
+        ```
+        
+                From the following notes, create a complete study guide with:  
+
+                1. **A concise bullet-point summary** (max 12 points).  
+                2. **A prioritized 3-hour study plan**, broken into time blocks.  
+                3. **At least 5 multiple-choice questions with answers**.  
+
+                Formatting rules:  
+                - Use clear headings and subheadings.  
+                - Keep all points on new lines (no long paragraphs).  
+                - Bold important terms for emphasis.  
+                - Maintain spacing for readability in UI.  
+
+                NOTES:  
+                ---  
+                
+
+Course: CHC303 Process Design and Economics
+Module: Process Economics
+5
+th
+Semester 
+BTech
+(Chemical 
+Engg
+.)
+Compounding and Discounting 
+Factors
+Instructor: Dr. D. Krishna Sandilya
+5
+th
+Semester 
+BTech
+(Chemical 
+Engg
+.)
+IIT (ISM), Dhanbad
+Monsoon Semester (2025 – 2026)
+1
+Slides courtesy: www.msubbu.in
+
+Compounding and Discounting Factors
+The standard notation in the general format:
+(
+X
+/
+Y
+, 
+i
+%, 
+n
+)
+X
+represents what you want to find
+Y
+represents what is given
+2
+e.g.,
+(
+F
+/
+P
+,
+6
+%,
+20
+) represents the factor that is used
+to calculate the future amount
+F
+accumulated in 20
+periods if the interest rate is 6% per period, for thegiven
+P
+.
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+3
+notation
+format,
+as
+F
+= 
+P
+(
+F
+/
+P
+, 
+i
+%, 
+n
+)
+The factor
+(
+F
+/
+P
+,
+i
+%,
+n
+)
+is known as the
+future–worth factor 
+(or) 
+single payment future–worth factor
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+4
+notation
+format,
+as
+P
+= 
+F
+(
+P
+/
+F
+, 
+i
+%, 
+n
+)
+The factor
+(
+P
+/
+F
+,
+i
+%,
+n
+)
+is known as the
+present–worth factor 
+(or) 
+single payment present–worth factor
+
+Compounding and Discounting Factors
+Present
+–
+worth factor:
+Future–worth factor:
+5
+Present
+–
+worth factor:
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+6
+notation
+format,
+as
+P
+= 
+A
+(
+P
+/
+A
+, 
+i
+%, 
+n
+)
+The factor
+(
+P
+/
+A
+,
+i
+%,
+n
+)
+is known as the
+present–worth annuity factor 
+(or) 
+uniform series present–worth factor
+
+Compounding and Discounting Factors
+Present–worth annuity factor
+7
+
+Compounding and Discounting Factors
+The inverse of the above, has the standard notationof
+A
+= 
+P
+(
+A
+/
+P
+, 
+i
+%, 
+n
+)
+The
+factor
+(
+A
+/
+P
+,
+i
+%
+,
+n
+)
+is
+known
+as
+the
+8
+The
+factor
+(
+A
+/
+P
+,
+i
+%
+,
+n
+)
+is
+known
+as
+the
+Capital recovery factor 
+The factor
+(
+A
+/
+F
+,
+i
+%,
+n
+)
+is called the
+Sinking fund factor
+
+Compounding and Discounting Factors
+Capital recovery factor
+9
+
+Compounding and Discounting Factors
+Sinking fund factor
+10
+
+Compounding and Discounting Factors
+Future worth annuity factor
+11
+
+Perpetuity
+A
+perpetuity
+is an annuity in which the periodic payments
+continue indefinitely.This type of annuity is of particular interest to engineers,
+for
+12
+in some cases they may desire to determine a total cost fora piece of equipment or other asset under conditions whichpermit  the  asset  to  be  replaced  perpetually  withoutconsidering inflation or deflation.
+
+Perpetuity –
+example
+Consider  the  example  in  which  the  originalcost  of  a  certain  piece  of  equipment  is$12,000.
+13
+The useful-life period is 10 years.The scrap value at the end of the useful life is$2000.
+
+Perpetuity –
+example
+The engineer reasons that this piece of equipment,or its replacement, will be in use for an indefinitelylong
+period
+of
+time,
+and
+it
+will
+be
+necessary
+to
+14
+long
+period
+of
+time,
+and
+it
+will
+be
+necessary
+to
+supply $10,000 every 10 years in order to replacethe equipment.
+
+Perpetuity –
+example
+He therefore wishes to provide a fund of sufficientsize so that it will earn enough interest to pay for theperiodic
+replacement
+.
+15
+periodic
+replacement
+.
+If the discrete annual interest rate is 6 percent, thisfund would need to be $12,650.
+
+Perpetuity –
+example
+At 6 percent interest compounded annually, the fundwould amount to ($12,650)(1 + 0.06)
+10
+= $22,650 after
+10 years.
+16
+Thus,  at the end  of  10  years,  the equipment can  bereplaced  for  $10,000  and  $12,650  will  remain  in  thefund.
+
+Perpetuity –
+example
+This cycle could now be repeated indefinitely.If
+the
+equipment
+is
+to
+perpetuate
+itself,
+the
+17
+If
+the
+equipment
+is
+to
+perpetuate
+itself,
+the
+theoretical amount of total capital necessary at thestart  would  be  $12,000  for  the  equipment  plus$12,650 for the replacement fund.
+
+Capitalized Cost
+The total capital determined in this manner iscalled the
+capitalized cost
+.
+18
+Engineers use capitalized costs principally forcomparing alternative choices.
+
+Capitalized Cost
+The
+capitalized  cost
+(
+C
+K
+)  is  related  with  the
+initial investment cost (
+C
+I
+) as:
+(
+C
+K
+– C
+I
+)(1+
+i
+)
+n
+= 
+C
+K
+– C
+S
+19
+K
+I
+K
+S
+wherei
+= interest rate
+n
+= service life of the asset in years
+C
+S
+= salvage value of the asset
+
+Capitalized Cost
+The amount
+(
+C
+K
+– C
+I
+)
+is invested in a bank account at an
+interest rate of
+i
+per year, would generate
+C
+K
+– C
+S
+at the end
+of
+n
+years.
+(
+C
+K
+– C
+I
+)(1+
+i
+)
+n
+= 
+C
+K
+– C
+S
+By
+algebraic
+reduction,
+the
+above
+equation
+can
+be
+20
+By
+algebraic
+reduction,
+the
+above
+equation
+can
+be
+re-written as
+Note that,
+C
+I
+– C
+S
+=
+C
+R
+, is the cost of
+replacement
+.
+
+Salvage and scrap values
+Salvage value
+is the net amount of money obtainable from the sale of used
+property over and above any charges involved in removal and sale.If a property is capable of further service, its
+salvage value
+may be high.
+The term
+salvage value
+implies that the asset can give some type of further
+service
+and
+is
+worth
+more
+than
+merely
+its
+scrap
+or
+junk
+value
+.
+21
+service
+and
+is
+worth
+more
+than
+merely
+its
+scrap
+or
+junk
+value
+.
+If  the  property  cannot  be  disposed  of  as  a  useful  unit,  it  can  ofte
+n  be
+dismantled  and  sold  as
+junk
+to  be  used  again  as  a  manufacturing  raw
+material.The profit obtainable from this type of disposal is known as the
+scrap
+, or
+junk
+,
+value
+.
+
+Inflation
+The
+buying power
+of money changes with time.
+A
+decline
+in
+buying power
+is experienced as a general
+increase in the prices and is called
+inflation
+.
+Borrowing
+becomes
+more
+attractive
+if
+inflation
+is
+22
+Borrowing
+becomes
+more
+attractive
+if
+inflation
+is
+expected  since  the  debt  will  be  paid  with  the  lessvaluable cash of the future.Interest rate should be higher than the inflation rate.Only then, there is a real earning for the lender.
+
+Inflation
+Inflation
+is  the  increase  in  the  amount  of  money
+necessary to purchase the same amount of a productor service over time.It  occurs  because  the
+value  of  the  currency  has
+decreased
+,
+so
+it
+takes
+more
+money
+to
+obtain
+the
+same
+23
+decreased
+,
+so
+it
+takes
+more
+money
+to
+obtain
+the
+same
+amount of goods or services.Associated with inflation is an increase in the
+money
+supply
+,  i.e.,  the  government  prints  more  currency
+(rupees), while the supply of goods does not increase.
+
+Inflation
+Future amount = Constant value (1 + 
+f
+)
+n
+where,
+24
+f
+= inflation rate (fraction)
+n
+= number of years
+
+Inflation
+The real interest rate
+r
+, corresponding to
+a nominal interest rate of
+i
+, and inflation
+rate of
+f
+are related as
+25
+As an approximation, we can consider
+
+References
+Compounding and Discounting Factors
+1.
+Peters, M. S., K. D. Timmerhaus, R. E. West, Plant Design an
+d Economics for Chemical
+Engineers, 5
+th
+Edition, McGraw-Hill Education (India) Provate Limited, N
+ew Delhi,
+2011.
+2.
+Towler, G., R. Sinnott, Chemical Engineering Design – Pri
+nciples, Practice, Economics
+of Plant and Process Design, Butterworth-Heinemann, Burli
+ngton, 2008.
+26
+3.
+M  Subbu,  S.  Siddarth,  GATEway  to  Chemical  Engineering  (Vo
+lume  –  5),  Rishal
+Publications, 2018.
+4.
+Simpson , R., S. K. Sastry, Chemical and Bioprocess Engine
+ering, Springer, New York,
+2013.
+5.
+James R. Couper, Process Engineering Economics, Marcel D
+ekker, Inc., New York,
+2003.  
+                ---  
+            
+        ```
+        **Response Received from API:**
+        ```
+        # CHC303 Process Design and Economics: Process Economics Study Guide
+
+## 1. Concise Bullet-Point Summary:
+
+* **Compounding:** Determining the **future worth (F)** of a present amount (P) given an interest rate (i) and time period (n).  Uses **future-worth factor (F/P)**.
+* **Discounting:** Determining the **present worth (P)** of a future amount (F) given i and n. Uses **present-worth factor (P/F)**.
+* **Present Worth Annuity Factor (P/A):** Calculates the present worth of a series of equal payments (annuity, A).
+* **Capital Recovery Factor (A/P):** Calculates the uniform annual payment (A) required to recover a present investment (P).
+* **Sinking Fund Factor (A/F):** Calculates the uniform annual payment (A) required to accumulate a future amount (F).
+* **Future Worth Annuity Factor (F/A):** Calculates the future worth of a series of equal payments (A).
+* **Perpetuity:** An annuity with payments continuing indefinitely; useful for calculating **capitalized cost**.
+* **Capitalized Cost (CK):** The total capital required for an asset considering initial investment, replacements, and interest.
+* **Salvage Value:** The value of an asset at the end of its useful life, if it can be further used.
+* **Scrap Value:** The value of an asset at the end of its useful life, if it cannot be used any more.
+* **Inflation:**  A general increase in prices reducing the buying power of money; it impacts interest rates and economic calculations.
+* **Real Interest Rate:**  The nominal interest rate adjusted for inflation.
+
+
+## 2. Prioritized 3-Hour Study Plan:
+
+**Hour 1:  Fundamental Concepts (60 minutes)**
+
+* (15 min) Review the definitions of compounding and discounting, their formulas and the standard notation (X/Y, i%, n).
+* (15 min) Master the interpretations and applications of Future-Worth and Present-Worth factors (F/P and P/F).
+* (30 min) Understand Present Worth Annuity Factor (P/A), Capital Recovery Factor (A/P), and Sinking Fund Factor (A/F).  Practice simple calculation examples.
+
+**Hour 2: Advanced Concepts & Applications (60 minutes)**
+
+* (20 min) Focus on Future Worth Annuity Factor (F/A) and the concept of Perpetuity. Work through examples involving periodic payments.
+* (20 min) Thoroughly understand the concept of Capitalized Cost (CK) and its calculation.  Solve problems involving salvage/scrap values.
+* (20 min)  Deep dive into the impact of **inflation** on economic analysis.  Practice calculating real interest rates.
+
+
+**Hour 3: Problem Solving & Review (60 minutes)**
+
+* (45 min) Solve a variety of problems encompassing all the concepts learned.  Focus on application, rather than just formula memorization.
+* (15 min) Review your notes and identify any remaining weak areas.  Refer to the textbook or supplementary materials for clarification.
+
+
+## 3. Multiple-Choice Questions:
+
+**1. What does (P/A, 8%, 10) represent?**
+a) Future worth factor
+b) Present worth factor
+c) Present worth annuity factor  **Correct Answer**
+d) Sinking fund factor
+
+**2.  An annuity is:**
+a) A single lump sum payment.
+b) A series of equal payments over a period of time. **Correct Answer**
+c) The interest earned on an investment.
+d) The salvage value of an asset.
+
+
+**3.  Capitalized cost is primarily used for:**
+a) Determining the initial investment of a project.
+b) Comparing alternative investment options. **Correct Answer**
+c) Calculating depreciation.
+d) Determining the scrap value of an asset.
+
+
+**4. Which factor is used to determine the equal annual payment needed to repay a loan?**
+a) (F/P, i%, n)
+b) (P/F, i%, n)
+c) (A/P, i%, n) **Correct Answer**
+d) (A/F, i%, n)
+
+
+**5.  What is the relationship between the nominal interest rate (i), real interest rate (r), and inflation rate (f)?**
+a) i = r + f (approximately) **Correct Answer**
+b) i = r - f
+c) i = r * f
+d) i = r / f
+
+
+
+        ```
+        
+
+    
+        ## Agent Interaction on 2025-09-14T05:15:49.620Z
+        ---
+        **Model:** gemini-1.5-flash-latest
+        **User's Custom Prompt:** 
+        **Full Prompt Sent to API:**
+        ```
+        
+                Summarize the following lecture notes into a maximum of 10 bullet points.  
+                - Focus only on the most important concepts.  
+                - Each point must be on a new line.  
+                - Make formatting clear, structured, and easy to read in UI.  
+
+                NOTES:  
+                ---  
+                
+
+Course: CHC303 Process Design and Economics
+Module: Process Economics
+5
+th
+Semester 
+BTech
+(Chemical 
+Engg
+.)
+Compounding and Discounting 
+Factors
+Instructor: Dr. D. Krishna Sandilya
+5
+th
+Semester 
+BTech
+(Chemical 
+Engg
+.)
+IIT (ISM), Dhanbad
+Monsoon Semester (2025 – 2026)
+1
+Slides courtesy: www.msubbu.in
+
+Compounding and Discounting Factors
+The standard notation in the general format:
+(
+X
+/
+Y
+, 
+i
+%, 
+n
+)
+X
+represents what you want to find
+Y
+represents what is given
+2
+e.g.,
+(
+F
+/
+P
+,
+6
+%,
+20
+) represents the factor that is used
+to calculate the future amount
+F
+accumulated in 20
+periods if the interest rate is 6% per period, for thegiven
+P
+.
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+3
+notation
+format,
+as
+F
+= 
+P
+(
+F
+/
+P
+, 
+i
+%, 
+n
+)
+The factor
+(
+F
+/
+P
+,
+i
+%,
+n
+)
+is known as the
+future–worth factor 
+(or) 
+single payment future–worth factor
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+4
+notation
+format,
+as
+P
+= 
+F
+(
+P
+/
+F
+, 
+i
+%, 
+n
+)
+The factor
+(
+P
+/
+F
+,
+i
+%,
+n
+)
+is known as the
+present–worth factor 
+(or) 
+single payment present–worth factor
+
+Compounding and Discounting Factors
+Present
+–
+worth factor:
+Future–worth factor:
+5
+Present
+–
+worth factor:
+
+Compounding and Discounting Factors
+The  above  formula  can  be  written  in  standardnotation
+format,
+as
+6
+notation
+format,
+as
+P
+= 
+A
+(
+P
+/
+A
+, 
+i
+%, 
+n
+)
+The factor
+(
+P
+/
+A
+,
+i
+%,
+n
+)
+is known as the
+present–worth annuity factor 
+(or) 
+uniform series present–worth factor
+
+Compounding and Discounting Factors
+Present–worth annuity factor
+7
+
+Compounding and Discounting Factors
+The inverse of the above, has the standard notationof
+A
+= 
+P
+(
+A
+/
+P
+, 
+i
+%, 
+n
+)
+The
+factor
+(
+A
+/
+P
+,
+i
+%
+,
+n
+)
+is
+known
+as
+the
+8
+The
+factor
+(
+A
+/
+P
+,
+i
+%
+,
+n
+)
+is
+known
+as
+the
+Capital recovery factor 
+The factor
+(
+A
+/
+F
+,
+i
+%,
+n
+)
+is called the
+Sinking fund factor
+
+Compounding and Discounting Factors
+Capital recovery factor
+9
+
+Compounding and Discounting Factors
+Sinking fund factor
+10
+
+Compounding and Discounting Factors
+Future worth annuity factor
+11
+
+Perpetuity
+A
+perpetuity
+is an annuity in which the periodic payments
+continue indefinitely.This type of annuity is of particular interest to engineers,
+for
+12
+in some cases they may desire to determine a total cost fora piece of equipment or other asset under conditions whichpermit  the  asset  to  be  replaced  perpetually  withoutconsidering inflation or deflation.
+
+Perpetuity –
+example
+Consider  the  example  in  which  the  originalcost  of  a  certain  piece  of  equipment  is$12,000.
+13
+The useful-life period is 10 years.The scrap value at the end of the useful life is$2000.
+
+Perpetuity –
+example
+The engineer reasons that this piece of equipment,or its replacement, will be in use for an indefinitelylong
+period
+of
+time,
+and
+it
+will
+be
+necessary
+to
+14
+long
+period
+of
+time,
+and
+it
+will
+be
+necessary
+to
+supply $10,000 every 10 years in order to replacethe equipment.
+
+Perpetuity –
+example
+He therefore wishes to provide a fund of sufficientsize so that it will earn enough interest to pay for theperiodic
+replacement
+.
+15
+periodic
+replacement
+.
+If the discrete annual interest rate is 6 percent, thisfund would need to be $12,650.
+
+Perpetuity –
+example
+At 6 percent interest compounded annually, the fundwould amount to ($12,650)(1 + 0.06)
+10
+= $22,650 after
+10 years.
+16
+Thus,  at the end  of  10  years,  the equipment can  bereplaced  for  $10,000  and  $12,650  will  remain  in  thefund.
+
+Perpetuity –
+example
+This cycle could now be repeated indefinitely.If
+the
+equipment
+is
+to
+perpetuate
+itself,
+the
+17
+If
+the
+equipment
+is
+to
+perpetuate
+itself,
+the
+theoretical amount of total capital necessary at thestart  would  be  $12,000  for  the  equipment  plus$12,650 for the replacement fund.
+
+Capitalized Cost
+The total capital determined in this manner iscalled the
+capitalized cost
+.
+18
+Engineers use capitalized costs principally forcomparing alternative choices.
+
+Capitalized Cost
+The
+capitalized  cost
+(
+C
+K
+)  is  related  with  the
+initial investment cost (
+C
+I
+) as:
+(
+C
+K
+– C
+I
+)(1+
+i
+)
+n
+= 
+C
+K
+– C
+S
+19
+K
+I
+K
+S
+wherei
+= interest rate
+n
+= service life of the asset in years
+C
+S
+= salvage value of the asset
+
+Capitalized Cost
+The amount
+(
+C
+K
+– C
+I
+)
+is invested in a bank account at an
+interest rate of
+i
+per year, would generate
+C
+K
+– C
+S
+at the end
+of
+n
+years.
+(
+C
+K
+– C
+I
+)(1+
+i
+)
+n
+= 
+C
+K
+– C
+S
+By
+algebraic
+reduction,
+the
+above
+equation
+can
+be
+20
+By
+algebraic
+reduction,
+the
+above
+equation
+can
+be
+re-written as
+Note that,
+C
+I
+– C
+S
+=
+C
+R
+, is the cost of
+replacement
+.
+
+Salvage and scrap values
+Salvage value
+is the net amount of money obtainable from the sale of used
+property over and above any charges involved in removal and sale.If a property is capable of further service, its
+salvage value
+may be high.
+The term
+salvage value
+implies that the asset can give some type of further
+service
+and
+is
+worth
+more
+than
+merely
+its
+scrap
+or
+junk
+value
+.
+21
+service
+and
+is
+worth
+more
+than
+merely
+its
+scrap
+or
+junk
+value
+.
+If  the  property  cannot  be  disposed  of  as  a  useful  unit,  it  can  ofte
+n  be
+dismantled  and  sold  as
+junk
+to  be  used  again  as  a  manufacturing  raw
+material.The profit obtainable from this type of disposal is known as the
+scrap
+, or
+junk
+,
+value
+.
+
+Inflation
+The
+buying power
+of money changes with time.
+A
+decline
+in
+buying power
+is experienced as a general
+increase in the prices and is called
+inflation
+.
+Borrowing
+becomes
+more
+attractive
+if
+inflation
+is
+22
+Borrowing
+becomes
+more
+attractive
+if
+inflation
+is
+expected  since  the  debt  will  be  paid  with  the  lessvaluable cash of the future.Interest rate should be higher than the inflation rate.Only then, there is a real earning for the lender.
+
+Inflation
+Inflation
+is  the  increase  in  the  amount  of  money
+necessary to purchase the same amount of a productor service over time.It  occurs  because  the
+value  of  the  currency  has
+decreased
+,
+so
+it
+takes
+more
+money
+to
+obtain
+the
+same
+23
+decreased
+,
+so
+it
+takes
+more
+money
+to
+obtain
+the
+same
+amount of goods or services.Associated with inflation is an increase in the
+money
+supply
+,  i.e.,  the  government  prints  more  currency
+(rupees), while the supply of goods does not increase.
+
+Inflation
+Future amount = Constant value (1 + 
+f
+)
+n
+where,
+24
+f
+= inflation rate (fraction)
+n
+= number of years
+
+Inflation
+The real interest rate
+r
+, corresponding to
+a nominal interest rate of
+i
+, and inflation
+rate of
+f
+are related as
+25
+As an approximation, we can consider
+
+References
+Compounding and Discounting Factors
+1.
+Peters, M. S., K. D. Timmerhaus, R. E. West, Plant Design an
+d Economics for Chemical
+Engineers, 5
+th
+Edition, McGraw-Hill Education (India) Provate Limited, N
+ew Delhi,
+2011.
+2.
+Towler, G., R. Sinnott, Chemical Engineering Design – Pri
+nciples, Practice, Economics
+of Plant and Process Design, Butterworth-Heinemann, Burli
+ngton, 2008.
+26
+3.
+M  Subbu,  S.  Siddarth,  GATEway  to  Chemical  Engineering  (Vo
+lume  –  5),  Rishal
+Publications, 2018.
+4.
+Simpson , R., S. K. Sastry, Chemical and Bioprocess Engine
+ering, Springer, New York,
+2013.
+5.
+James R. Couper, Process Engineering Economics, Marcel D
+ekker, Inc., New York,
+2003.  
+                ---  
+             
+        ```
+        **Response Received from API:**
+        ```
+        * **Compounding and Discounting Factors:**  These factors are used to calculate future and present values of money considering interest rates over time.  They are expressed using standard notations like (F/P, i%, n).
+
+* **Future Worth Factor (F/P):** Calculates the future value (F) of a present amount (P) given an interest rate (i) and number of periods (n).
+
+* **Present Worth Factor (P/F):** Calculates the present value (P) of a future amount (F) given an interest rate (i) and number of periods (n).
+
+* **Present Worth Annuity Factor (P/A):**  Calculates the present worth of a series of equal payments (annuity).
+
+* **Capital Recovery Factor (A/P):** Calculates the uniform annual payment required to recover the initial investment (P) over a period (n) at a given interest rate (i).
+
+* **Sinking Fund Factor (A/F):** Calculates the uniform annual payment needed to accumulate a specific future amount (F) over a period (n) at a given interest rate (i).
+
+* **Perpetuity:**  An annuity with payments continuing indefinitely, relevant for calculating the long-term cost of assets that are repeatedly replaced.
+
+* **Capitalized Cost:** The total capital required to perpetually maintain an asset, considering initial investment, replacement costs, and interest.
+
+* **Inflation:** The decrease in the purchasing power of money over time; impacts the real interest rate and should be accounted for in financial calculations.
+
+* **Real Interest Rate:**  The nominal interest rate adjusted for inflation, representing the true return on investment.
+
+        ```
+        
+
+    
