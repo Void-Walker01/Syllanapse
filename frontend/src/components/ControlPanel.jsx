@@ -59,7 +59,7 @@ const ControlPanel = ({
         >
           <option value="all">📘 Full Study Guide</option>
           <option value="summary">📝 Summary Only</option>
-          <option value="detailed">📖 Detailed Plan</option>
+          <option value="detailed">📖 Detailed Walk</option>
           <option value="quiz">❓ Quiz Mode</option>
         </select>
       </div>
