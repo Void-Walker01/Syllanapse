@@ -26,7 +26,7 @@ This project is a submission for the Software Engineer Intern Task at **I'm Besi
 
 ### **🎬 Demo Video**
 
-A short, 2-minute demonstration of the application in action can be found here:
+A short, 3-minute demonstration of the application in action can be found here:
 
 [🎬 Watch the Demo Video](https://youtu.be/tO-CytkZRYs)
 
