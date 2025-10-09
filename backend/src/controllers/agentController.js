@@ -45,7 +45,13 @@ const generateStudyGuide = asyncHandle(async (req, res) => {
     }
 
     const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash-latest" });
+    let model;
+    try {
+        model = genAI.getGenerativeModel({ model: "models/gemini-2.5-pro" });
+    } catch (err) {
+        console.warn("Pro model not accessible, falling back to Flash:", err.message);
+        model = genAI.getGenerativeModel({ model: "models/gemini-2.5-flash" });
+    }
 
     let prompt = "";
 
