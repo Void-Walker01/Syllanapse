@@ -1,6 +1,6 @@
 # 🚀 Syllanapse AI: Your Personal Academic Assistant
 
-Syllanapse AI is an intelligent agent designed to automate the student workflow, transforming dense lecture notes into actionable and personalized study materials.
+Syllanapse AI is an intelligent agent designed to automate the student workflow , transforming dense lecture notes into actionable and personalized study materials.
 
 ---
 
